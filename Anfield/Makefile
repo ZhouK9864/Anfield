@@ -1,0 +1,69 @@
+TOPNAME = Balotelli 
+NXDC_FILES = constr/top.nxdc
+INC_PATH ?=
+
+VERILATOR = verilator
+VERILATOR_CFLAGS += -MMD --build -cc --trace --exe \
+				-O3 --x-assign fast --x-initial fast --noassert
+
+BUILD_DIR = ./build
+OBJ_DIR = $(BUILD_DIR)/obj_dir
+BIN = $(BUILD_DIR)/$(TOPNAME)
+
+default: $(BIN)
+
+$(shell mkdir -p $(BUILD_DIR))
+
+# constraint file
+SRC_AUTO_BIND = $(abspath $(BUILD_DIR)/auto_bind.cpp)
+$(SRC_AUTO_BIND): $(NXDC_FILES)
+	python $(NVBOARD_HOME)/scripts/auto_pin_bind.py $^ $@
+
+# project source
+VSRCS = $(shell find $(abspath ./vsrc/Balotelli) -name "*.v")
+CSRCS = $(shell find $(abspath ./csrc) -name "*.c" -or -name "*.cc" -or -name "*.cpp")
+CSRCS += $(SRC_AUTO_BIND)
+
+# rules for NVBoard
+include $(NVBOARD_HOME)/scripts/nvboard.mk
+
+# rules for verilator
+INCFLAGS = $(addprefix -I, $(INC_PATH))
+CFLAGS += $(INCFLAGS) -DTOP_NAME="\"V$(TOPNAME)\""
+LDFLAGS += -lSDL2 -lSDL2_image
+
+$(BIN): $(VSRCS) $(CSRCS) $(NVBOARD_ARCHIVE)
+	@rm -rf $(OBJ_DIR)
+	$(VERILATOR) $(VERILATOR_CFLAGS) \
+		-top $(TOPNAME) $^ \
+		$(addprefix -CFLAGS , $(CFLAGS)) $(addprefix -LDFLAGS , $(LDFLAGS)) \
+		--Mdir $(OBJ_DIR) --exe -o $(abspath $(BIN))
+
+run: $(BIN)
+	@$^
+
+clean:
+	rm -rf $(BUILD_DIR)
+
+all:
+	@echo "Write this Makefile by your self."
+
+cppsrc=./csrc/*.cpp
+verilogsrc=./vsrc/*.v
+
+verilator_sim=verilator -Wall --cc --exe --build --trace $(cppsrc) $(verilogsrc)
+
+sim:
+	$(call git_commit, "sim RTL") # DO NOT REMOVE THIS LINE!!!
+	$(BIN)
+	   @$^
+	@echo "Write this Makefile by your self."
+
+
+clean_dir:
+	rm -rf ./obj_dir
+
+
+.PHONY: clean run
+
+include $(NPC_HOME)/../Makefile
