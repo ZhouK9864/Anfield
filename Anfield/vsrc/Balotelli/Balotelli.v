@@ -25,8 +25,8 @@ module Balotelli (
   wire Rs2ReadEnable_IdOut;
   wire [`RegFileAddr] RdAddr_IdOut;
   wire RdWriteEnable_IdOut;
-  wire [`DataBus] Rs1ReadData_IdOut;
-  wire [`DataBus] Rs2ReadData_IdOut;
+  // wire [`DataBus] Rs1ReadData_IdOut;
+  // wire [`DataBus] Rs2ReadData_IdOut;
   wire [`DataBus] Imm_IdOut;
   wire [6:0] OpCode_IdOut;
   wire [2:0] Funct3_IdOut;
@@ -56,6 +56,10 @@ module Balotelli (
   wire [`RegFileAddr] RdAddr_MemOut;
   wire RdWriteEnable_MemOut;
 
+  //Fwu out
+  wire [`DataBus] Rs1ReadDataFwuOut;
+  wire [`DataBus] Rs2ReadDataFwuOut;
+
   Pc Balotelli_Pc (
     .Clk(Clk),
     .Rst(Rst),
@@ -74,8 +78,8 @@ module Balotelli (
   Id Balotelli_Id (
     .InstAddrIn(InstAddr_IdIn),
     .InstIn(Inst_IdIn),
-    .Rs1ReadDataIn(Rs1ReadData_RegFileOut),
-    .Rs2ReadDataIn(Rs2ReadData_RegFileOut),
+    //.Rs1ReadDataIn(Rs1ReadData_RegFileOut),
+    //.Rs2ReadDataIn(Rs2ReadData_RegFileOut),
     .InstAddrOut(InstAddr_IdOut),
     .Rs1AddrOut(Rs1Addr_IdOut),
     .Rs1ReadEnable(Rs1ReadEnable_IdOut),
@@ -83,8 +87,8 @@ module Balotelli (
     .Rs2ReadEnable(Rs2ReadEnable_IdOut),
     .RdAddrOut(RdAddr_IdOut),
     .RdWriteEnable(RdWriteEnable_IdOut),
-    .Rs1ReadDataOut(Rs1ReadData_IdOut),
-    .Rs2ReadDataOut(Rs2ReadData_IdOut),
+    //.Rs1ReadDataOut(Rs1ReadData_IdOut),
+    //.Rs2ReadDataOut(Rs2ReadData_IdOut),
     .Imm(Imm_IdOut),
     .OpCode(OpCode_IdOut),
     .Funct3(Funct3_IdOut),
@@ -111,8 +115,8 @@ module Balotelli (
     .InstAddrIn(InstAddr_IdOut),
     .RdAddrIn(RdAddr_IdOut),
     .RdWriteEnableIn(RdWriteEnable_IdOut),
-    .Rs1ReadDataIn(Rs1ReadData_IdOut),
-    .Rs2ReadDataIn(Rs2ReadData_IdOut),
+    .Rs1ReadDataIn(Rs1ReadDataFwuOut),
+    .Rs2ReadDataIn(Rs2ReadDataFwuOut),
     .ImmIn(Imm_IdOut),
     .OpCodeIn(OpCode_IdOut),
     .Funct3In(Funct3_IdOut),
@@ -172,6 +176,23 @@ module Balotelli (
     .RdWriteDataOut(RdWriteData_RegFileIn),
     .RdAddrOut(RdAddr_RegFileIn),
     .RdWriteEnableOut(RdWriteEnable_RegFileIn)
+  );
+
+  Fwu Balotelli_Fwu (
+    .RdWriteDataEx2MemIn(RdWriteData_MemIn),
+    .RdAddrEx2MemIn(RdAddr_MemIn),
+    .RdWriteEnableEx2MemIn(RdWriteEnable_MemIn),
+    .RdWriteDataMem2WbIn(RdWriteData_RegFileIn),
+    .RdAddrMem2WbIn(RdAddr_RegFileIn),
+    .RdWriteEnableMem2WbIn(RdWriteEnable_RegFileIn),
+    .Rs1ReadDataRegFileIn(Rs1ReadData_RegFileOut),
+    .Rs2ReadDataRegFileIn(Rs2ReadData_RegFileOut),
+    .Rs1AddrRegFileIn(Rs1Addr_IdOut),
+    .Rs1ReadEnableRegFileIn(Rs1ReadEnable_IdOut),
+    .Rs2AddrRegFileIn(Rs2Addr_IdOut),
+    .Rs2ReadEnableRegFileIn(Rs2ReadEnable_IdOut),
+    .Rs1ReadDataFwuOut(Rs1ReadDataFwuOut),
+    .Rs2ReadDataFwuOut(Rs2ReadDataFwuOut)
   );
 
 endmodule

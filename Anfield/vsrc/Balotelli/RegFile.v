@@ -24,7 +24,8 @@ module RegFile (
   always @(posedge Clk or negedge Rst) begin
     if(!Rst) begin
       for (integer i = 1; i < `RegNum; i = i + 1) begin
-        rf[i] <= `RegZero;
+        /* verilator lint_off WIDTH */
+        rf[i] <= i;
       end
     end else if (RdWriteEnable) rf[RdWriteAddr] <= RdWriteData;
   end
