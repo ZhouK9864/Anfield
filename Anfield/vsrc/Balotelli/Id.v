@@ -2,8 +2,8 @@
 module Id (
   input [`AddrBus] InstAddrIn,
   input [`InstBus] InstIn,
-  //input [`DataBus] Rs1ReadDataIn,
-  //input [`DataBus] Rs2ReadDataIn,
+  input [`DataBus] Rs1ReadDataIn,
+  input [`DataBus] Rs2ReadDataIn,
   output [`AddrBus] InstAddrOut,
   output reg [`RegFileAddr] Rs1AddrOut,
   output reg Rs1ReadEnable,
@@ -11,8 +11,8 @@ module Id (
   output reg Rs2ReadEnable,
   output reg [`RegFileAddr] RdAddrOut,
   output reg RdWriteEnable,
-  //output [`DataBus] Rs1ReadDataOut,
-  //output [`DataBus] Rs2ReadDataOut,
+  output [`DataBus] Rs1ReadDataOut,
+  output [`DataBus] Rs2ReadDataOut,
   output reg [`DataBus] Imm,
   output [6:0] OpCode,
   output [2:0] Funct3,
@@ -32,11 +32,11 @@ module Id (
   //U-Type译码
   wire [19:0] Imm_U_Type = InstIn[31:12];
   //J-Type译码
-  wire [19:0] Imm_J_Type = {InstIn[31], InstIn[19:12], InstIn[20], InstIn[30:21]};
+  wire [20:1] Imm_J_Type = {InstIn[31], InstIn[19:12], InstIn[20], InstIn[30:21]};
 
   assign InstAddrOut = InstAddrIn;
-  //assign Rs1ReadDataOut = Rs1ReadDataIn;
-  //assign Rs2ReadDataOut = Rs2ReadDataIn;
+  assign Rs1ReadDataOut = Rs1ReadDataIn;
+  assign Rs2ReadDataOut = Rs2ReadDataIn;
 
   //Warning!!!部分扩展指令集也做了译码实现，但是不一定正确！！！
   MuxKeyWithDefault #(15, 7, 1) Id_Rs1ReadEnable (Rs1ReadEnable, OpCode, 1'b0, {
@@ -157,7 +157,7 @@ module Id (
   MuxKeyWithDefault #(15, 7, 64) Id_Imm (Imm, OpCode, 64'b0, {
     7'b0110111, {{44{Imm_U_Type[19]}}, Imm_U_Type},
     7'b0010111, {{44{Imm_U_Type[19]}}, Imm_U_Type},
-    7'b1101111, {{44{Imm_J_Type[19]}}, Imm_J_Type},
+    7'b1101111, {{43{Imm_J_Type[20]}}, Imm_J_Type, {1'b0}},
     7'b1100111, {{52{Imm_I_Type[11]}}, Imm_I_Type},
     7'b1100011, {{52{Imm_B_Type[11]}}, Imm_B_Type},
     7'b0000011, {{52{Imm_I_Type[11]}}, Imm_I_Type},

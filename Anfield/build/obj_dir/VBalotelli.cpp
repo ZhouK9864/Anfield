@@ -4,6 +4,7 @@
 #include "VBalotelli.h"
 #include "VBalotelli__Syms.h"
 #include "verilated_vcd_c.h"
+#include "verilated_dpi.h"
 
 //============================================================
 // Constructors

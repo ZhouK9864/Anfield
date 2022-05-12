@@ -3,12 +3,14 @@ module If2Id (
   input Rst,
   input [`AddrBus] InstAddrIn,
   input [`InstBus] InstIn,
+  //Jump
+  input HoldFlagFromCtrl,
   output [`AddrBus] InstAddrOut,
   output [`InstBus] InstOut
 );
 
-  Reg #(`AddrRegWidth, `PcInit) InstAddr_reg (Clk, Rst, InstAddrIn, InstAddrOut, 1'b1);
+  RegWithEn #(`AddrRegWidth, `PcInit) InstAddr_reg (Clk, Rst, InstAddrIn, HoldFlagFromCtrl, InstAddrOut, 1'b1);
 
-  Reg #(`InstRegWidth, `InstRegInit) Inst_reg (Clk, Rst, InstIn, InstOut, 1'b1);
+  RegWithEn #(`InstRegWidth, `InstRegInit) Inst_reg (Clk, Rst, InstIn, HoldFlagFromCtrl, InstOut, 1'b1);
 
 endmodule

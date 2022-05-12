@@ -9,6 +9,7 @@
 #define VERILATED_VBALOTELLI_H_  // guard
 
 #include "verilated_heavy.h"
+#include "svdpi.h"
 
 class VBalotelli__Syms;
 class VBalotelli___024root;

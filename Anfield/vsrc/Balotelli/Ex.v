@@ -11,7 +11,11 @@ module Ex (
   input [6:0] Funct7In,
   output reg [`DataBus] RdWriteDataOut,
   output [`RegFileAddr] RdAddrOut,
-  output RdWriteEnableOut
+  output RdWriteEnableOut,
+  //Jump
+  // output HoldFlagToCtrl,            
+  output JumpFlagToCtrl,                // 是否跳转标志
+  output [`AddrBus] JumpAddrToCtrl      // 跳转目的地址
 );
 
   assign RdAddrOut = RdAddrIn;
@@ -31,9 +35,14 @@ module Ex (
     wire [`DataBus] Funct3_RV64_R_Type_ZeroOut;
     //Funct7为7'b0100000
     wire [`DataBus] Funct3_RV64_R_Type_OneOut;
-  
+
+  //DPI-C
+  parameter RaiseException_Ebreak = 2'b01;
+  parameter RaiseException_Ecall = 2'b10;
+  wire [1:0] RaiseException;
 
   //ALU
+    !!!!!!!!!!!!!!!!!!!!!!!have bug
     //ADDI
     wire [`DataBus] ImmAddRs1ReadData = ImmIn + Rs1ReadDataIn;
     //ADD
@@ -99,19 +108,52 @@ module Ex (
         3'b000, {{32{Rs1ReadDataSubRs2ReadData[31]}}, Rs1ReadDataSubRs2ReadData[31:0]}
       });
 
-   
-
   //Output
-  MuxKeyWithDefault #(4, 7, 64) OpOcde_RdWriteDataOut (RdWriteDataOut, OpCodeIn, 64'b0, {
+  MuxKeyWithDefault #(6, 7, 64) OpOcde_RdWriteDataOut (RdWriteDataOut, OpCodeIn, 64'b0, {
     //RV32I
     7'b0010011, Funct3_RV32_I_TypeOut,
     7'b0110011, Funct7_RV32_R_TypeOut,
-    7'b0010111, ((InstAddrIn + ImmIn) << 12),
-
+    7'b0010111, (InstAddrIn + (ImmIn << 12)),  //Auipc
+    7'b1101111, (InstAddrIn + 4),              //Jar
     //RV64I
     7'b0011011, Funct3_RV64_I_TypeOut,
     7'b0111011, Funct7_RV64_R_TypeOut
-
   });
+
+  //DPI-C
+  //Ebreak or Ecall
+  MuxKeyWithDefault #(2, 12, 2) Funct_Environment (RaiseException, ImmIn[11:0], 2'b0, {
+    //Ebreak
+    12'b000000000001, RaiseException_Ebreak,
+    //Ecall
+    12'b000000000000, RaiseException_Ecall
+  });
+
+  import "DPI-C" function void SystemBreak (input int Ebreak);
+
+  always @( * ) begin
+    if(OpCodeIn == 7'b1110011 && RaiseException == RaiseException_Ebreak) 
+      SystemBreak(1);
+    else
+      SystemBreak(0);
+  end           
+  //Ebrack or Ecall
+
+  //Jump
+  MuxKeyWithDefault #(1, 7, 1) JumpFlag (JumpFlagToCtrl, OpCodeIn, 1'b0, {
+    //Jar
+    7'b1101111, 1'b1
+  });
+
+  //have not use
+  // MuxKeyWithDefault #(1, 7, 1) HoldFlag (HoldFlagToCtrl, OpCodeIn, 1'b0, {
+  //   //Jar
+  //   7'b1101111, 1'b1
+  // });
   
+  MuxKeyWithDefault #(1, 7, 64) JumpAddr (JumpAddrToCtrl, OpCodeIn, 64'b0, {
+    //Jar
+    7'b1101111, (InstAddrIn + ImmIn)
+  });
+
 endmodule

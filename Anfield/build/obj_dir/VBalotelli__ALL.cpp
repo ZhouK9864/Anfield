@@ -2,6 +2,7 @@
 #define VL_INCLUDE_OPT include
 #include "VBalotelli.cpp"
 #include "VBalotelli___024root.cpp"
+#include "VBalotelli__Dpi.cpp"
 #include "VBalotelli__Trace.cpp"
 #include "VBalotelli___024root__Slow.cpp"
 #include "VBalotelli__Syms.cpp"

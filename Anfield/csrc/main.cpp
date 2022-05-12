@@ -3,14 +3,22 @@
 #include <fstream>
 #include "verilated_vcd_c.h"
 #include "stdio.h"
+#include "VBalotelli__Dpi.h"
+#include "svdpi.h"
 #include "nvboard.h"
 #include "stdlib.h"
 #define N 10000
 
 VBalotelli *top;
 VerilatedVcdC *tfp;
+int EbreakFlag;
 uint64_t InstList[N];
 void nvboard_bind_all_pins(VBalotelli *top);
+void SystemBreak(int Ebreak);
+void SystemBreak(int Ebreak) {
+	if(Ebreak == 1) EbreakFlag = 1;
+	else EbreakFlag = 0;
+}
 
 static void single_cycle() {
 	top->Clk = 0; top->eval();
@@ -27,7 +35,7 @@ static void mem_open() {
 	FILE *fp;
 	if((fp = fopen("./code.mem", "r")) != NULL) {
 	  printf("程序指令读取开始。。。\n");
-	  for(int i = 0; i < 5; i++) {
+	  for(int i = 0; i < 14; i++) {
 	   printf("取第 %d 条指令\n", i);
 	   if(fscanf(fp, "%lx", &InstList[i]));
 	  }
@@ -53,7 +61,7 @@ int main( int argc, char **argv ){
 	top->trace(tfp, 99);
 	tfp->open("Vtest.vcd");
 	mem_open();
-	while(!Verilated::gotFinish() && i > 0){
+	while(!Verilated::gotFinish() && !EbreakFlag){
 	       	single_cycle();
 		nvboard_update();
 		if(i > 190) { top->Rst = 0; }
