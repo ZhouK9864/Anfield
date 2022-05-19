@@ -12,7 +12,7 @@
 VBalotelli *top;
 VerilatedVcdC *tfp;
 int EbreakFlag;
-uint64_t InstList[N];
+long long InstList[N];
 void nvboard_bind_all_pins(VBalotelli *top);
 void SystemBreak(int Ebreak);
 void SystemBreak(int Ebreak) {
@@ -35,17 +35,34 @@ static void mem_open() {
 	FILE *fp;
 	if((fp = fopen("./code.mem", "r")) != NULL) {
 	  printf("程序指令读取开始。。。\n");
-	  for(int i = 0; i < 14; i++) {
-	   printf("取第 %d 条指令\n", i);
-	   if(fscanf(fp, "%lx", &InstList[i]));
+	  for(int i = 0; i < N; i++) {
+	   if(fscanf(fp, "%llx", &InstList[i]));
 	  }
 	  fclose(fp);
+	  printf("程序指令读取结束。。。\n");
 	}
 }
 
-static uint64_t pmem_read(uint64_t PcOut) {
+static long int pmem_read(long int PcOut) {
 	int InstAddr = (PcOut - 2147483648) / 4;
 	return InstList[InstAddr];
+}
+
+static long int pmem_load(long int Raddr) {
+	if(Raddr - 2147483648 < 0) {
+	  return 0;
+	} else {
+      	  printf("%d\n", Raddr);
+	  int InstAddr = (Raddr - 2147483648) / 4;
+	  printf("inst addr is : %d\n", InstAddr);
+	  return InstList[InstAddr];
+	}
+}
+
+static void pmem_store(long int Waddr, long int Wdata) {
+	if(Waddr - 2147483646 > 0) {
+ 	  InstList[(Waddr - 2147483646) / 4] = Wdata;
+	}
 }
 
 vluint64_t main_time = 0;
@@ -67,6 +84,9 @@ int main( int argc, char **argv ){
 		if(i > 190) { top->Rst = 0; }
 	        else { top->Rst = 1; }
 		top->InstIn = pmem_read(top->PcOut);
+		printf("load addr is : %d\n", top->RaddrOut);
+		top->MemDataIn = pmem_load(top->RaddrOut);
+		pmem_store(top->WaddrOut, top->MemDataOut);	
 		top->eval();
 		tfp->dump(main_time);
 		main_time++;

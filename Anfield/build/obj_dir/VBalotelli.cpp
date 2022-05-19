@@ -14,7 +14,13 @@ VBalotelli::VBalotelli(VerilatedContext* _vcontextp__, const char* _vcname__)
     , Clk{vlSymsp->TOP.Clk}
     , Rst{vlSymsp->TOP.Rst}
     , InstIn{vlSymsp->TOP.InstIn}
+    , raddr{vlSymsp->TOP.raddr}
+    , LoadData{vlSymsp->TOP.LoadData}
     , PcOut{vlSymsp->TOP.PcOut}
+    , RaddrOut{vlSymsp->TOP.RaddrOut}
+    , WaddrOut{vlSymsp->TOP.WaddrOut}
+    , MemDataOut{vlSymsp->TOP.MemDataOut}
+    , MemDataIn{vlSymsp->TOP.MemDataIn}
     , rootp{&(vlSymsp->TOP)}
 {
 }

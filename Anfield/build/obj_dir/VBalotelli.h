@@ -31,7 +31,13 @@ class VBalotelli VL_NOT_FINAL {
     VL_IN8(&Clk,0,0);
     VL_IN8(&Rst,0,0);
     VL_IN64(&InstIn,63,0);
+    VL_OUT64(&raddr,63,0);
+    VL_IN64(&LoadData,63,0);
     VL_OUT64(&PcOut,63,0);
+    VL_OUT64(&RaddrOut,63,0);
+    VL_OUT64(&WaddrOut,63,0);
+    VL_OUT64(&MemDataOut,63,0);
+    VL_IN64(&MemDataIn,63,0);
 
     // CELLS
     // Public to allow access to /* verilator public */ items.

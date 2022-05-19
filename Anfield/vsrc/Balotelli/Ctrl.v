@@ -1,9 +1,8 @@
 `include "./vsrc/defines.v"
 module Ctrl (
-//   input HoldFlagFromEx,
+  //input HoldFlagFromEx,
   input JumpFlagFromEx,
   input [`AddrBus] JumpAddrFromEx,
-
   //
   output [`AddrBus] JumpAddrToPc,
   output JumpFlagToPc,

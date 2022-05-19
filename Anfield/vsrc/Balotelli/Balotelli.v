@@ -3,7 +3,15 @@ module Balotelli (
   input Clk,
   input Rst,
   input [`InstBus] InstIn,
-  output [`AddrBus] PcOut
+  //to mem
+  output [`DataBus] raddr,
+  input [`DataBus] LoadData,
+  //test
+  output [`AddrBus] PcOut,
+  output [`AddrBus] RaddrOut,
+  output [`AddrBus] WaddrOut,
+  output [`DataBus] MemDataOut,
+  input [`DataBus] MemDataIn
 ); 
 
   //RegFile In
@@ -46,8 +54,19 @@ module Balotelli (
   wire [`DataBus] RdWriteData_ExOut;
   wire [`RegFileAddr] RdAddr_ExOut;
   wire RdWriteEnable_ExOut;
+  wire [`DataBus] Imm_ExOut;
+  wire [6:0] OpCode_ExOut;
+  wire [2:0] Funct3_ExOut;
+  wire [`DataBus] Rs1ReadData_ExOut;
+  wire [`DataBus] Rs2ReadData_ExOut;
+
 
   //Mem In
+  wire [`DataBus] Imm_MemIn;
+  wire [6:0] OpCode_MemIn;
+  wire [2:0] Funct3_MemIn;
+  wire [`DataBus] Rs1ReadData_MemIn;
+  wire [`DataBus] Rs2ReadData_MemIn;
   wire [`DataBus] RdWriteData_MemIn;
   wire [`RegFileAddr] RdAddr_MemIn;
   wire RdWriteEnable_MemIn;
@@ -58,7 +77,7 @@ module Balotelli (
 
   //Fwu in
   wire [`DataBus] Rs1ReadData_FwuIn;
-  wire [`DataBus] Rs1ReadData_FwuIn;
+  wire [`DataBus] Rs2ReadData_FwuIn;
   wire [`RegFileAddr] Rs1Addr_FwuIn;
   wire [`RegFileAddr] Rs2Addr_FwuIn;
   wire Rs1ReadEnable_FwuIn;
@@ -148,7 +167,7 @@ module Balotelli (
     .RdWriteEnableOut(RdWriteEnable_ExIn),
     //to Fwu
     .Rs1ReadDataOut(Rs1ReadData_FwuIn),
-    .Rs2ReadDataOut(Rs1ReadData_FwuIn),
+    .Rs2ReadDataOut(Rs2ReadData_FwuIn),
     .Rs1AddrOut(Rs1Addr_FwuIn),
     .Rs2AddrOut(Rs2Addr_FwuIn),
     .ImmOut(Imm_ExIn),
@@ -171,7 +190,12 @@ module Balotelli (
     .RdAddrOut(RdAddr_ExOut),
     .RdWriteEnableOut(RdWriteEnable_ExOut),
     .JumpFlagToCtrl(JumpFlag_ExOut),
-    .JumpAddrToCtrl(JumpAddr_ExOut)
+    .JumpAddrToCtrl(JumpAddr_ExOut),
+    .ImmOut(Imm_ExOut),
+    .OpCodeOut(OpCode_ExOut),
+    .Funct3Out(Funct3_ExOut),
+    .Rs1ReadDataOut(Rs1ReadData_ExOut),
+    .Rs2ReadDataOut(Rs2ReadData_ExOut)
   );
 
   Ex2Mem Balotelli_Ex2Mem (
@@ -180,18 +204,38 @@ module Balotelli (
     .RdWriteDataIn(RdWriteData_ExOut),
     .RdAddrIn(RdAddr_ExOut),
     .RdWriteEnableIn(RdWriteEnable_ExOut),
+    .ImmIn(Imm_ExOut),
+    .OpCodeIn(OpCode_ExOut),
+    .Funct3In(Funct3_ExOut),
+    .Rs1ReadDataIn(Rs1ReadData_ExOut),
+    .Rs2ReadDataIn(Rs2ReadData_ExOut), 
     .RdWriteDataOut(RdWriteData_MemIn),
     .RdAddrOut(RdAddr_MemIn),
-    .RdWriteEnableOut(RdWriteEnable_MemIn)
+    .RdWriteEnableOut(RdWriteEnable_MemIn),
+    .ImmOut(Imm_MemIn),
+    .OpCodeOut(OpCode_MemIn),
+    .Funct3Out(Funct3_MemIn),
+    .Rs1ReadDataOut(Rs1ReadData_MemIn),
+    .Rs2ReadDataOut(Rs2ReadData_MemIn)
   );
 
   Mem Balotelli_Mem (
     .RdWriteDataIn(RdWriteData_MemIn),
     .RdAddrIn(RdAddr_MemIn),
     .RdWriteEnableIn(RdWriteEnable_MemIn),
+    .ImmIn(Imm_MemIn),
+    .OpCodeIn(OpCode_MemIn),
+    .Funct3In(Funct3_MemIn),
+    .Rs1ReadDataIn(Rs1ReadData_MemIn),
+    .Rs2ReadDataIn(Rs2ReadData_MemIn), 
     .RdWriteDataOut(RdWriteData_MemOut),
     .RdAddrOut(RdAddr_MemOut),
-    .RdWriteEnableOut(RdWriteEnable_MemOut)
+    .RdWriteEnableOut(RdWriteEnable_MemOut),
+    //mem 
+    .RaddrOut(RaddrOut),
+    .WaddrOut(WaddrOut),
+    .MemDataOut(MemDataOut),
+    .MemDataIn(MemDataIn)
   );
 
   Mem2Wb Balotelli_Mem2Wb (
@@ -214,7 +258,7 @@ module Balotelli (
     .RdWriteEnableMem2WbIn(RdWriteEnable_RegFileIn),
 
     .Rs1ReadDataRegFileIn(Rs1ReadData_FwuIn),
-    .Rs2ReadDataRegFileIn(Rs1ReadData_FwuIn),
+    .Rs2ReadDataRegFileIn(Rs2ReadData_FwuIn),
     .Rs1AddrRegFileIn(Rs1Addr_FwuIn),
     .Rs2AddrRegFileIn(Rs2Addr_FwuIn),
     .Rs1ReadDataFwuOut(Rs1ReadData_FwuOut),
