@@ -37,6 +37,7 @@ class VBalotelli VL_NOT_FINAL {
     VL_OUT64(&RaddrOut,63,0);
     VL_OUT64(&WaddrOut,63,0);
     VL_OUT64(&MemDataOut,63,0);
+    VL_OUT8(&Wmask,3,0);
     VL_IN64(&MemDataIn,63,0);
 
     // CELLS

@@ -20,6 +20,7 @@ VBalotelli::VBalotelli(VerilatedContext* _vcontextp__, const char* _vcname__)
     , RaddrOut{vlSymsp->TOP.RaddrOut}
     , WaddrOut{vlSymsp->TOP.WaddrOut}
     , MemDataOut{vlSymsp->TOP.MemDataOut}
+    , Wmask{vlSymsp->TOP.Wmask}
     , MemDataIn{vlSymsp->TOP.MemDataIn}
     , rootp{&(vlSymsp->TOP)}
 {

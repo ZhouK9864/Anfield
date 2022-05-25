@@ -11,6 +11,7 @@ module Balotelli (
   output [`AddrBus] RaddrOut,
   output [`AddrBus] WaddrOut,
   output [`DataBus] MemDataOut,
+  output [3:0] Wmask,
   input [`DataBus] MemDataIn
 ); 
 
@@ -235,7 +236,8 @@ module Balotelli (
     .RaddrOut(RaddrOut),
     .WaddrOut(WaddrOut),
     .MemDataOut(MemDataOut),
-    .MemDataIn(MemDataIn)
+    .MemDataIn(MemDataIn),
+    .Wmask(Wmask)
   );
 
   Mem2Wb Balotelli_Mem2Wb (
@@ -256,7 +258,6 @@ module Balotelli (
     .RdWriteDataMem2WbIn(RdWriteData_RegFileIn),
     .RdAddrMem2WbIn(RdAddr_RegFileIn),
     .RdWriteEnableMem2WbIn(RdWriteEnable_RegFileIn),
-
     .Rs1ReadDataRegFileIn(Rs1ReadData_FwuIn),
     .Rs2ReadDataRegFileIn(Rs2ReadData_FwuIn),
     .Rs1AddrRegFileIn(Rs1Addr_FwuIn),

@@ -29,7 +29,7 @@ module RegFile (
     end else if (RdWriteEnable) rf[RdWriteAddr] <= RdWriteData;
   end
 
-  //rs1异步读
+  //rs1异步读，数据前推全部放入FWU模块
   always @( * ) begin
     if(Rs1ReadEnable) Rs1ReadData = rf[Rs1AddrIn];
     else Rs1ReadData = `RegZero;

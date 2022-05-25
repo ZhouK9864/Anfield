@@ -1,3 +1,4 @@
+fileName = 
 TOPNAME = Balotelli 
 NXDC_FILES = constr/top.nxdc
 INC_PATH ?=
@@ -18,6 +19,8 @@ $(shell mkdir -p $(BUILD_DIR))
 SRC_AUTO_BIND = $(abspath $(BUILD_DIR)/auto_bind.cpp)
 $(SRC_AUTO_BIND): $(NXDC_FILES)
 	python $(NVBOARD_HOME)/scripts/auto_pin_bind.py $^ $@
+	cd ././../am-kernels/tests/cpu-tests && make ARCH=riscv64-nemu ALL=$(fileName)
+	python ./scripts/txt2hex.py --fileName $(fileName)
 
 # project source
 VSRCS = $(shell find $(abspath ./vsrc/Balotelli) -name "*.v")
@@ -39,7 +42,7 @@ $(BIN): $(VSRCS) $(CSRCS) $(NVBOARD_ARCHIVE)
 		$(addprefix -CFLAGS , $(CFLAGS)) $(addprefix -LDFLAGS , $(LDFLAGS)) \
 		--Mdir $(OBJ_DIR) --exe -o $(abspath $(BIN))
 
-run: $(BIN)
+run:	$(BIN)
 	@$^
 
 clean:

@@ -73,28 +73,42 @@ module Ex (
   wire [1:0] RaiseException;
 
   //ALU
-    //ADDI
+    //Addi
     wire [`DataBus] ImmAddRs1ReadData = ImmIn + Rs1ReadDataIn;
-    //ADD
+    //Add
     wire [`DataBus] Rs1ReadDataAddRs2ReadData = Rs1ReadDataIn + Rs2ReadDataIn;
-    //SUB
+    //Sub
     wire [`DataBus] Rs1ReadDataSubRs2ReadData = Rs1ReadDataIn - Rs2ReadDataIn;
-    //AND
+    //And
     wire [`DataBus] Rs1ReadDataAndRs2ReadData = Rs1ReadDataIn & Rs2ReadDataIn;
-    //ANDI
+    //Andi
     wire [`DataBus] Rs1ReadDataAndImm = Rs1ReadDataIn & ImmIn;
-    //OR
+    //Or
     wire [`DataBus] Rs1ReadDataOrRs2ReadData = Rs1ReadDataIn | Rs2ReadDataIn;
-    //XOR
+    //Ori
+    wire [`DataBus] Rs1ReadDataOrImm = Rs1ReadDataIn | ImmIn;
+    //Xor
     wire [`DataBus] Rs1ReadDataXorRs2ReadData = Rs1ReadDataIn ^ Rs2ReadDataIn;
+    //Sll
+    wire [`DataBus] Rs1ReadDataSllRs2ReadData = Rs1ReadDataIn << Rs2ReadDataIn[5:0];
+    //Slli
+    
 
   //RV32I
     //I类型执行模块
-    MuxKeyWithDefault #(2, 3, 64) Funct3_RV32_I_Type (Funct3_RV32_I_TypeOut, Funct3In, 64'b0, {
-      //ADDI
-      3'b000, {{32{1'b0}}, ImmAddRs1ReadData[31:0]},
-      //ANDI
-      3'b111, {{32{1'b0}}, Rs1ReadDataAndImm[31:0]}
+    MuxKeyWithDefault #(5, 3, 64) Funct3_RV32_I_Type (Funct3_RV32_I_TypeOut, Funct3In, 64'b0, {
+      //Addi
+      3'b000, ImmAddRs1ReadData,
+      //Andi
+      3'b111, Rs1ReadDataAndImm,
+      //Ori
+      3'b110, Rs1ReadDataOrImm,
+      //Slti
+      3'b010, (((Rs1ReadDataIn[63] == 1'b1) && (ImmIn[63] == 1'b0)) ? 64'b1 :
+              ((Rs1ReadDataIn[63] == 1'b0) && (ImmIn[63] == 1'b1)) ? 64'b0 :
+              (Rs1ReadDataAddRs2ReadData[63] == Rs1ReadDataIn[63]) ? 64'b1 : 64'b0),
+      //Sltiu
+      3'b011, ((Rs1ReadDataSubRs2ReadData[63] == 1'b1) ? 64'b1 : 64'b0)
     });
     
     //R类型执行模块
@@ -103,20 +117,28 @@ module Ex (
       7'b0100000, Funct3_RV32_R_Type_OneOut
     }); 
       //Funct7为7'b0000000
-      MuxKeyWithDefault #(4, 3, 64) Funct3_RV32_R_Type_Zero (Funct3_RV32_R_Type_ZeroOut, Funct3In, 64'b0, {
-        //ADD
-        3'b000, {{32{1'b0}}, Rs1ReadDataAddRs2ReadData[31:0]},
-        //XOR
+      MuxKeyWithDefault #(6, 3, 64) Funct3_RV32_R_Type_Zero (Funct3_RV32_R_Type_ZeroOut, Funct3In, 64'b0, {
+        //Add
+        3'b000, Rs1ReadDataAddRs2ReadData,
+        //Xor
         3'b100, Rs1ReadDataXorRs2ReadData,
-        //OR
+        //Or
         3'b110, Rs1ReadDataOrRs2ReadData,
-        //AND
-        3'b111, Rs1ReadDataAndRs2ReadData
+        //And
+        3'b111, Rs1ReadDataAndRs2ReadData,
+        //Slt
+        3'b010, (((Rs1ReadDataIn[63] == 1'b1) && (Rs2ReadDataIn[63] == 1'b0)) ? 64'b1 :
+                ((Rs1ReadDataIn[63] == 1'b0) && (Rs2ReadDataIn[63] == 1'b1)) ? 64'b0 :
+                (Rs1ReadDataAddRs2ReadData[63] == Rs1ReadDataIn[63]) ? 64'b1 : 64'b0),
+        //Sltu
+        3'b011, ((Rs1ReadDataSubRs2ReadData[63] == 1'b1) ? 64'b1 : 64'b0)
       });
       //Funct7为7'b0100000
-      MuxKeyWithDefault #(1, 3, 64) Funct3_RV32_R_Type_One (Funct3_RV32_R_Type_OneOut, Funct3In, 64'b0, {
-        //SUB
-        3'b000, {{32{1'b0}}, Rs1ReadDataSubRs2ReadData[31:0]}
+      MuxKeyWithDefault #(2, 3, 64) Funct3_RV32_R_Type_One (Funct3_RV32_R_Type_OneOut, Funct3In, 64'b0, {
+        //Sub
+        3'b000, Rs1ReadDataSubRs2ReadData,
+        //Sll
+        3'b001, Rs1ReadDataSllRs2ReadData
       });
 
   //RV64I
@@ -143,13 +165,14 @@ module Ex (
       });
 
   //Output
-  MuxKeyWithDefault #(7, 7, 64) OpOcde_RdWriteDataOut (RdWriteDataOut, OpCodeIn, 64'b0, {
+  MuxKeyWithDefault #(8, 7, 64) OpOcde_RdWriteDataOut (RdWriteDataOut, OpCodeIn, 64'b0, {
     //RV32I
     7'b0010011, Funct3_RV32_I_TypeOut,
     7'b0110011, Funct7_RV32_R_TypeOut,
     7'b0010111, (InstAddrIn + (ImmIn << 12)),  //Auipc
     7'b1101111, (InstAddrIn + 4),              //Jar
     7'b1100111, (InstAddrIn + 4),              //Jalr
+    7'b0110111, (ImmIn << 12),                 //Lui
     //RV64I
     7'b0011011, Funct3_RV64_I_TypeOut,
     7'b0111011, Funct7_RV64_R_TypeOut
@@ -188,14 +211,14 @@ module Ex (
     //Beq
     3'b000, ((Rs1ReadDataIn == Rs2ReadDataIn) ? 1'b1 : 1'b0),
     //Bge
-    3'b101, (((Rs1ReadDataIn[63] == 1'b1) && (Rs1ReadDataIn[63] == 1'b0)) ? 1'b0 :
-            ((Rs1ReadDataIn[63] == 1'b0) && (Rs1ReadDataIn[63] == 1'b1)) ? 1'b1 :
+    3'b101, (((Rs1ReadDataIn[63] == 1'b1) && (Rs2ReadDataIn[63] == 1'b0)) ? 1'b0 :
+            ((Rs1ReadDataIn[63] == 1'b0) && (Rs2ReadDataIn[63] == 1'b1)) ? 1'b1 :
             (Rs1ReadDataAddRs2ReadData[63] == Rs1ReadDataIn[63]) ? 1'b1 : 1'b0),
     //Bgeu
     3'b111, ((Rs1ReadDataSubRs2ReadData[63] == 1'b1) ? 1'b0 : 1'b1),
     //Blt
-    3'b100, (((Rs1ReadDataIn[63] == 1'b1) && (Rs1ReadDataIn[63] == 1'b0)) ? 1'b1 :
-            ((Rs1ReadDataIn[63] == 1'b0) && (Rs1ReadDataIn[63] == 1'b1)) ? 1'b0 :
+    3'b100, (((Rs1ReadDataIn[63] == 1'b1) && (Rs2ReadDataIn[63] == 1'b0)) ? 1'b1 :
+            ((Rs1ReadDataIn[63] == 1'b0) && (Rs2ReadDataIn[63] == 1'b1)) ? 1'b0 :
             (Rs1ReadDataAddRs2ReadData[63] == Rs1ReadDataIn[63]) ? 1'b1 : 1'b0),
     //Bltu
     3'b110, ((Rs1ReadDataSubRs2ReadData[63] == 1'b1) ? 1'b1 : 1'b0),

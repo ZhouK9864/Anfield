@@ -28,9 +28,9 @@ module Id (
   //S-Type译码
   wire [11:0] Imm_S_Type = {InstIn[31:25], InstIn[11:7]};
   //B-Type译码
-  wire [11:0] Imm_B_Type = {InstIn[31], InstIn[7], InstIn[30:25], InstIn[11:8]};
+  wire [12:1] Imm_B_Type = {InstIn[31], InstIn[7], InstIn[30:25], InstIn[11:8]};
   //U-Type译码
-  wire [19:0] Imm_U_Type = InstIn[31:12];
+  wire [31:12] Imm_U_Type = InstIn[31:12];
   //J-Type译码
   wire [20:1] Imm_J_Type = {InstIn[31], InstIn[19:12], InstIn[20], InstIn[30:21]};
 
@@ -47,7 +47,7 @@ module Id (
     7'b1100111, 1'b1,
     7'b1100011, 1'b1,
     7'b0000011, 1'b1,
-    7'b0100011, 1'b0,
+    7'b0100011, 1'b1,
     7'b0010011, 1'b1,
     7'b0110011, 1'b1,
     7'b0001111, 1'b1,
@@ -159,7 +159,7 @@ module Id (
     7'b0010111, {{44{Imm_U_Type[19]}}, Imm_U_Type},
     7'b1101111, {{43{Imm_J_Type[20]}}, Imm_J_Type, {1'b0}},
     7'b1100111, {{52{Imm_I_Type[11]}}, Imm_I_Type},
-    7'b1100011, {{52{Imm_B_Type[11]}}, Imm_B_Type},
+    7'b1100011, {{51{Imm_B_Type[12]}}, Imm_B_Type, {1'b0}},
     7'b0000011, {{52{Imm_I_Type[11]}}, Imm_I_Type},
     7'b0100011, {{52{Imm_S_Type[11]}}, Imm_S_Type},
     7'b0010011, {{52{Imm_I_Type[11]}}, Imm_I_Type},

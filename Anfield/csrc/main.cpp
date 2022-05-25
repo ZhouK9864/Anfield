@@ -7,7 +7,9 @@
 #include "svdpi.h"
 #include "nvboard.h"
 #include "stdlib.h"
-#define N 10000
+#define N 1000000
+#define BITMASK(bits) ((1ull << (bits)) - 1)
+#define BITS(x, hi, lo) (((x) >> (lo)) & BITMASK((hi) - (lo) + 1)) // similar to x[hi:lo] in verilog
 
 VBalotelli *top;
 VerilatedVcdC *tfp;
@@ -44,24 +46,33 @@ static void mem_open() {
 }
 
 static long int pmem_read(long int PcOut) {
-	int InstAddr = (PcOut - 2147483648) / 4;
+	//printf("Inst Addr is : %lx", PcOut);
+	int InstAddr = (PcOut - 0x80000000) / 4;
+	//printf("inst addr is : %d", InstAddr);
 	return InstList[InstAddr];
 }
 
 static long int pmem_load(long int Raddr) {
-	if(Raddr - 2147483648 < 0) {
+	if(Raddr - 0x80000000 < 0) {
 	  return 0;
 	} else {
-      	  printf("%d\n", Raddr);
-	  int InstAddr = (Raddr - 2147483648) / 4;
+	  int InstAddr = (Raddr - 0x80000000) / 4;
 	  printf("inst addr is : %d\n", InstAddr);
+	  printf("load data is : %lx\n", InstList[InstAddr]);
 	  return InstList[InstAddr];
 	}
 }
 
-static void pmem_store(long int Waddr, long int Wdata) {
-	if(Waddr - 2147483646 > 0) {
- 	  InstList[(Waddr - 2147483646) / 4] = Wdata;
+static void pmem_store(long long Waddr, long int Wdata, int Wmask) {
+	if(Waddr - 0x80000000 > 0) {
+	  printf("Waddr is : %llx\t\t", Waddr);
+	  printf("Wmask is : %d\n", Wmask);
+	  switch (Wmask){
+	    case 8: InstList[(Waddr - 0x80000000) / 4] = Wdata; printf("xxxxxxxxxx is :%lx\n", Wdata); break;
+	    case 4: InstList[(Waddr - 0x80000000) / 4] = (InstList[(Waddr - 0x80000000) / 4] & ~0xFFFF) | BITS(Wdata, 31, 0); printf("xxxxxxxxx is :%lx\n", Wdata); break;
+	    case 2: InstList[(Waddr - 0x80000000) / 4] = (InstList[(Waddr - 0x80000000) / 4] & ~0xFFFFFF) | BITS(Wdata, 15, 0); printf("xxxxxxxxx is :%lx\n", Wdata); break;
+	    case 0: InstList[(Waddr - 0x80000000) / 4] = (InstList[(Waddr - 0x80000000) / 4] & ~0xFFFFFFF) | BITS(Wdata, 7, 0); printf("xxxxxxxxx is :%lx\n", Wdata); break;
+	  }
 	}
 }
 
@@ -84,9 +95,9 @@ int main( int argc, char **argv ){
 		if(i > 190) { top->Rst = 0; }
 	        else { top->Rst = 1; }
 		top->InstIn = pmem_read(top->PcOut);
-		printf("load addr is : %d\n", top->RaddrOut);
+		printf("RaddrOut is : %lx\n", top->RaddrOut);
 		top->MemDataIn = pmem_load(top->RaddrOut);
-		pmem_store(top->WaddrOut, top->MemDataOut);	
+		pmem_store(top->WaddrOut, top->MemDataOut, top->Wmask);	
 		top->eval();
 		tfp->dump(main_time);
 		main_time++;
