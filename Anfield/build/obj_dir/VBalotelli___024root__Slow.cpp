@@ -43,8 +43,8 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     VlWide<3>/*95:0*/ __Vtemp44;
     VlWide<3>/*95:0*/ __Vtemp45;
     VlWide<6>/*191:0*/ __Vtemp49;
-    VlWide<6>/*191:0*/ __Vtemp55;
-    VlWide<3>/*95:0*/ __Vtemp62;
+    VlWide<3>/*95:0*/ __Vtemp56;
+    VlWide<6>/*191:0*/ __Vtemp60;
     VlWide<6>/*191:0*/ __Vtemp66;
     VlWide<3>/*95:0*/ __Vtemp67;
     VlWide<3>/*95:0*/ __Vtemp72;
@@ -61,37 +61,41 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     VlWide<3>/*95:0*/ __Vtemp623;
     VlWide<3>/*95:0*/ __Vtemp624;
     VlWide<3>/*95:0*/ __Vtemp625;
-    VlWide<5>/*159:0*/ __Vtemp627;
-    VlWide<7>/*223:0*/ __Vtemp629;
+    VlWide<3>/*95:0*/ __Vtemp628;
+    VlWide<3>/*95:0*/ __Vtemp631;
     VlWide<3>/*95:0*/ __Vtemp634;
-    VlWide<3>/*95:0*/ __Vtemp635;
-    VlWide<3>/*95:0*/ __Vtemp638;
-    VlWide<5>/*159:0*/ __Vtemp640;
-    VlWide<7>/*223:0*/ __Vtemp642;
-    VlWide<3>/*95:0*/ __Vtemp760;
-    VlWide<3>/*95:0*/ __Vtemp781;
+    VlWide<3>/*95:0*/ __Vtemp637;
+    VlWide<3>/*95:0*/ __Vtemp642;
+    VlWide<9>/*287:0*/ __Vtemp648;
+    VlWide<11>/*351:0*/ __Vtemp650;
+    VlWide<3>/*95:0*/ __Vtemp816;
+    VlWide<3>/*95:0*/ __Vtemp821;
+    VlWide<9>/*287:0*/ __Vtemp827;
+    VlWide<11>/*351:0*/ __Vtemp829;
+    VlWide<3>/*95:0*/ __Vtemp834;
+    VlWide<3>/*95:0*/ __Vtemp837;
     // Body
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__pair_list[0U] = 0U;
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__pair_list[1U] = 3U;
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list[0U] = 0U;
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list[1U] = 3U;
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__pair_list[0U] = 2U;
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__pair_list[1U] = 5U;
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__pair_list[1U] = 0xcfU;
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__pair_list[2U] = 0xdfU;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[0U] = 0xa7U;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[1U] = 0x5fU;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[2U] = 0x77U;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[3U] = 0x37U;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[4U] = 0xe7U;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[5U] = 0x1fU;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[6U] = 0x67U;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[7U] = 0x27U;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[8U] = 0x47U;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[9U] = 7U;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[0xaU] = 0xc7U;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[0xbU] = 0xcfU;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[0xcU] = 0xdeU;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[0xdU] = 0x2eU;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list[0xeU] = 0x6eU;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[0U] = 0xa7U;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[1U] = 0x5fU;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[2U] = 0x77U;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[3U] = 0x37U;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[4U] = 0xe7U;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[5U] = 0x1fU;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[6U] = 0x67U;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[7U] = 0x27U;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[8U] = 0x47U;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[9U] = 7U;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[0xaU] = 0xc7U;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[0xbU] = 0xcfU;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[0xcU] = 0xdeU;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[0xdU] = 0x2eU;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list[0xeU] = 0x6eU;
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2ReadEnable__DOT__i0__DOT__pair_list[0U] = 0xa7U;
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2ReadEnable__DOT__i0__DOT__pair_list[1U] = 0x5fU;
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2ReadEnable__DOT__i0__DOT__pair_list[2U] = 0x77U;
@@ -720,7 +724,203 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs1AddrOut____pinNumber4[4U] 
         = (0xde00000U | (__Vtemp44[1U] >> 0xcU));
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs1AddrOut____pinNumber4[5U] = 0x6e02eU;
-    __Vtemp55[3U] = (0x60000000U | (((IData)((0x60000000ULL 
+    __Vtemp56[1U] = (((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                               >> 7U)) << 0x1cU) | (IData)(
+                                                           ((0xe60360760000000ULL 
+                                                             | (((QData)((IData)(
+                                                                                (0x1fU 
+                                                                                & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U))))) 
+                                                                 << 0x30U) 
+                                                                | (((QData)((IData)(
+                                                                                (0x1fU 
+                                                                                & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U))))) 
+                                                                    << 0x24U) 
+                                                                   | (QData)((IData)(
+                                                                                (0x5e0a60U 
+                                                                                | ((0x1f000000U 
+                                                                                & ((IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U)) 
+                                                                                << 0x18U)) 
+                                                                                | ((0x1f000U 
+                                                                                & ((IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U)) 
+                                                                                << 0xcU)) 
+                                                                                | (0x1fU 
+                                                                                & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U))))))))))) 
+                                                            >> 0x20U)));
+    __Vtemp60[2U] = (0x6601eU | (((IData)((0xce0c60060000000ULL 
+                                           | (((QData)((IData)(
+                                                               (0x1fU 
+                                                                & (IData)(
+                                                                          (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                           >> 7U))))) 
+                                               << 0x30U) 
+                                              | (QData)((IData)(
+                                                                (0x460260U 
+                                                                 | ((0x1f000000U 
+                                                                     & ((IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U)) 
+                                                                        << 0x18U)) 
+                                                                    | (0x1fU 
+                                                                       & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U)))))))))) 
+                                  << 0x14U) | ((0x1f00U 
+                                                & ((IData)(
+                                                           (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                            >> 7U)) 
+                                                   << 8U)) 
+                                               | (1U 
+                                                  & ((IData)(
+                                                             (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                              >> 7U)) 
+                                                     >> 4U)))));
+    __Vtemp60[3U] = (((IData)((0xce0c60060000000ULL 
+                               | (((QData)((IData)(
+                                                   (0x1fU 
+                                                    & (IData)(
+                                                              (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                               >> 7U))))) 
+                                   << 0x30U) | (QData)((IData)(
+                                                               (0x460260U 
+                                                                | ((0x1f000000U 
+                                                                    & ((IData)(
+                                                                               (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U)) 
+                                                                       << 0x18U)) 
+                                                                   | (0x1fU 
+                                                                      & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U)))))))))) 
+                      >> 0xcU) | ((IData)(((0xce0c60060000000ULL 
+                                            | (((QData)((IData)(
+                                                                (0x1fU 
+                                                                 & (IData)(
+                                                                           (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                            >> 7U))))) 
+                                                << 0x30U) 
+                                               | (QData)((IData)(
+                                                                 (0x460260U 
+                                                                  | ((0x1f000000U 
+                                                                      & ((IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U)) 
+                                                                         << 0x18U)) 
+                                                                     | (0x1fU 
+                                                                        & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U))))))))) 
+                                           >> 0x20U)) 
+                                  << 0x14U));
+    __Vtemp60[4U] = (0xde00000U | (((0xf0000U & ((IData)(
+                                                         (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                          >> 7U)) 
+                                                 << 0x10U)) 
+                                    | ((IData)(((0xce0c60060000000ULL 
+                                                 | (((QData)((IData)(
+                                                                     (0x1fU 
+                                                                      & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U))))) 
+                                                     << 0x30U) 
+                                                    | (QData)((IData)(
+                                                                      (0x460260U 
+                                                                       | ((0x1f000000U 
+                                                                           & ((IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U)) 
+                                                                              << 0x18U)) 
+                                                                          | (0x1fU 
+                                                                             & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U))))))))) 
+                                                >> 0x20U)) 
+                                       >> 0xcU)) | 
+                                   (((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                              >> 7U)) 
+                                     << 0x1cU) | (0x100000U 
+                                                  & ((IData)(
+                                                             (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                              >> 7U)) 
+                                                     << 0x10U)))));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[0U] 
+        = (IData)((0xe60360760000000ULL | (((QData)((IData)(
+                                                            (0x1fU 
+                                                             & (IData)(
+                                                                       (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                        >> 7U))))) 
+                                            << 0x30U) 
+                                           | (((QData)((IData)(
+                                                               (0x1fU 
+                                                                & (IData)(
+                                                                          (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                           >> 7U))))) 
+                                               << 0x24U) 
+                                              | (QData)((IData)(
+                                                                (0x5e0a60U 
+                                                                 | ((0x1f000000U 
+                                                                     & ((IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U)) 
+                                                                        << 0x18U)) 
+                                                                    | ((0x1f000U 
+                                                                        & ((IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U)) 
+                                                                           << 0xcU)) 
+                                                                       | (0x1fU 
+                                                                          & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 7U))))))))))));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[1U] 
+        = __Vtemp56[1U];
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[2U] 
+        = __Vtemp60[2U];
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[3U] 
+        = __Vtemp60[3U];
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[4U] 
+        = __Vtemp60[4U];
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[5U] 
+        = (0x6e02eU | ((0x1f00U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                            >> 7U)) 
+                                   << 8U)) | (1U & 
+                                              ((IData)(
+                                                       (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                        >> 7U)) 
+                                               >> 4U))));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Imm_S_Type 
+        = ((0xfe0U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                               >> 0x19U)) << 5U)) | 
+           (0x1fU & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                             >> 7U))));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Imm_B_Type 
+        = ((0x800U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                               >> 0x1fU)) << 0xbU)) 
+           | ((0x400U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                  >> 7U)) << 0xaU)) 
+              | ((0x3f0U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                     >> 0x19U)) << 4U)) 
+                 | (0xfU & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                    >> 8U))))));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Imm_J_Type 
+        = ((0x80000U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                 >> 0x1fU)) << 0x13U)) 
+           | ((0x7f800U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                    >> 0xcU)) << 0xbU)) 
+              | ((0x400U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                     >> 0x14U)) << 0xaU)) 
+                 | (0x3ffU & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                      >> 0x15U))))));
+    __Vtemp66[3U] = (0x60000000U | (((IData)((0x60000000ULL 
                                               | (((QData)((IData)(
                                                                   (0x1fU 
                                                                    & (IData)(
@@ -812,7 +1012,7 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
                                                        >> 0x14U)) 
                                               >> 4U)))));
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[3U] 
-        = __Vtemp55[3U];
+        = __Vtemp66[3U];
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[4U] 
         = (0xde0ce0cU | ((IData)(((0x60000000ULL | 
                                    (((QData)((IData)(
@@ -829,202 +1029,6 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
                                                                         << 0xcU))))))) 
                                   >> 0x20U)) >> 0xcU));
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[5U] = 0x6e02eU;
-    __Vtemp62[1U] = (((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                               >> 7U)) << 0x1cU) | (IData)(
-                                                           ((0xe60360760000000ULL 
-                                                             | (((QData)((IData)(
-                                                                                (0x1fU 
-                                                                                & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U))))) 
-                                                                 << 0x30U) 
-                                                                | (((QData)((IData)(
-                                                                                (0x1fU 
-                                                                                & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U))))) 
-                                                                    << 0x24U) 
-                                                                   | (QData)((IData)(
-                                                                                (0x5e0a60U 
-                                                                                | ((0x1f000000U 
-                                                                                & ((IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U)) 
-                                                                                << 0x18U)) 
-                                                                                | ((0x1f000U 
-                                                                                & ((IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U)) 
-                                                                                << 0xcU)) 
-                                                                                | (0x1fU 
-                                                                                & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U))))))))))) 
-                                                            >> 0x20U)));
-    __Vtemp66[2U] = (0x6601eU | (((IData)((0xce0c60060000000ULL 
-                                           | (((QData)((IData)(
-                                                               (0x1fU 
-                                                                & (IData)(
-                                                                          (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                           >> 7U))))) 
-                                               << 0x30U) 
-                                              | (QData)((IData)(
-                                                                (0x460260U 
-                                                                 | ((0x1f000000U 
-                                                                     & ((IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U)) 
-                                                                        << 0x18U)) 
-                                                                    | (0x1fU 
-                                                                       & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U)))))))))) 
-                                  << 0x14U) | ((0x1f00U 
-                                                & ((IData)(
-                                                           (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                            >> 7U)) 
-                                                   << 8U)) 
-                                               | (1U 
-                                                  & ((IData)(
-                                                             (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                              >> 7U)) 
-                                                     >> 4U)))));
-    __Vtemp66[3U] = (((IData)((0xce0c60060000000ULL 
-                               | (((QData)((IData)(
-                                                   (0x1fU 
-                                                    & (IData)(
-                                                              (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                               >> 7U))))) 
-                                   << 0x30U) | (QData)((IData)(
-                                                               (0x460260U 
-                                                                | ((0x1f000000U 
-                                                                    & ((IData)(
-                                                                               (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U)) 
-                                                                       << 0x18U)) 
-                                                                   | (0x1fU 
-                                                                      & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U)))))))))) 
-                      >> 0xcU) | ((IData)(((0xce0c60060000000ULL 
-                                            | (((QData)((IData)(
-                                                                (0x1fU 
-                                                                 & (IData)(
-                                                                           (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                            >> 7U))))) 
-                                                << 0x30U) 
-                                               | (QData)((IData)(
-                                                                 (0x460260U 
-                                                                  | ((0x1f000000U 
-                                                                      & ((IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U)) 
-                                                                         << 0x18U)) 
-                                                                     | (0x1fU 
-                                                                        & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U))))))))) 
-                                           >> 0x20U)) 
-                                  << 0x14U));
-    __Vtemp66[4U] = (0xde00000U | (((0xf0000U & ((IData)(
-                                                         (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                          >> 7U)) 
-                                                 << 0x10U)) 
-                                    | ((IData)(((0xce0c60060000000ULL 
-                                                 | (((QData)((IData)(
-                                                                     (0x1fU 
-                                                                      & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U))))) 
-                                                     << 0x30U) 
-                                                    | (QData)((IData)(
-                                                                      (0x460260U 
-                                                                       | ((0x1f000000U 
-                                                                           & ((IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U)) 
-                                                                              << 0x18U)) 
-                                                                          | (0x1fU 
-                                                                             & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U))))))))) 
-                                                >> 0x20U)) 
-                                       >> 0xcU)) | 
-                                   (((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                                              >> 7U)) 
-                                     << 0x1cU) | (0x100000U 
-                                                  & ((IData)(
-                                                             (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                              >> 7U)) 
-                                                     << 0x10U)))));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[0U] 
-        = (IData)((0xe60360760000000ULL | (((QData)((IData)(
-                                                            (0x1fU 
-                                                             & (IData)(
-                                                                       (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                        >> 7U))))) 
-                                            << 0x30U) 
-                                           | (((QData)((IData)(
-                                                               (0x1fU 
-                                                                & (IData)(
-                                                                          (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                           >> 7U))))) 
-                                               << 0x24U) 
-                                              | (QData)((IData)(
-                                                                (0x5e0a60U 
-                                                                 | ((0x1f000000U 
-                                                                     & ((IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U)) 
-                                                                        << 0x18U)) 
-                                                                    | ((0x1f000U 
-                                                                        & ((IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U)) 
-                                                                           << 0xcU)) 
-                                                                       | (0x1fU 
-                                                                          & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 7U))))))))))));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[1U] 
-        = __Vtemp62[1U];
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[2U] 
-        = __Vtemp66[2U];
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[3U] 
-        = __Vtemp66[3U];
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[4U] 
-        = __Vtemp66[4U];
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[5U] 
-        = (0x6e02eU | ((0x1f00U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                                            >> 7U)) 
-                                   << 8U)) | (1U & 
-                                              ((IData)(
-                                                       (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                        >> 7U)) 
-                                               >> 4U))));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Imm_S_Type 
-        = ((0xfe0U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                               >> 0x19U)) << 5U)) | 
-           (0x1fU & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                             >> 7U))));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Imm_B_Type 
-        = ((0x800U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                               >> 0x1fU)) << 0xbU)) 
-           | ((0x400U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                                  >> 7U)) << 0xaU)) 
-              | ((0x3f0U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                                     >> 0x19U)) << 4U)) 
-                 | (0xfU & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                                    >> 8U))))));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Imm_J_Type 
-        = ((0x80000U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                                 >> 0x1fU)) << 0x13U)) 
-           | ((0x7f800U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                                    >> 0xcU)) << 0xbU)) 
-              | ((0x400U & ((IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                                     >> 0x14U)) << 0xaU)) 
-                 | (0x3ffU & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
-                                      >> 0x15U))))));
     VL_EXTEND_WQ(66,64, __Vtemp67, vlSelf->Balotelli__DOT__Rs2ReadData_FwuIn);
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[0U] 
         = (IData)(vlSelf->Balotelli__DOT__RdWriteData_MemIn);
@@ -1087,29 +1091,29 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
                       == (IData)(vlSelf->Balotelli__DOT__Rs1Addr_FwuIn)) 
                      & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_RegFileIn))
                      ? 1U : 0U));
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__data_list[0U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__data_list[0U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__key_list[0U] 
-        = (1U & (vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__key_list[0U] 
+        = (1U & (vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list
                  [0U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__data_list[1U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__data_list[1U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list
            [1U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__key_list[1U] 
-        = (1U & (vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__key_list[1U] 
+        = (1U & (vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list
                  [1U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__data_list[0U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__data_list[0U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__key_list[0U] 
-        = (1U & (vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__key_list[0U] 
+        = (1U & (vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list
                  [0U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__data_list[1U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__data_list[1U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list
            [1U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__key_list[1U] 
-        = (1U & (vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__key_list[1U] 
+        = (1U & (vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list
                  [1U] >> 1U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__data_list[0U] 
         = (3U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__pair_list
@@ -1135,185 +1139,185 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__key_list[1U] 
         = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__pair_list
                      [1U] >> 2U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[1U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[1U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [1U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[1U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[1U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [1U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[2U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[2U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[2U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[2U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [2U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[3U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[3U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [3U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[3U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[3U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [3U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[4U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[4U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [4U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[4U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[4U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [4U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[5U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[5U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [5U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[5U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[5U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [5U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[6U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[6U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [6U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[6U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[6U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [6U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[7U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[7U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [7U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[7U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[7U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [7U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[8U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[8U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [8U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[8U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[8U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [8U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[9U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[9U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [9U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[9U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[9U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [9U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0xaU] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0xaU] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0xaU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0xaU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0xaU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0xaU] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0xbU] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0xbU] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0xbU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0xbU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0xbU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0xbU] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0xcU] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0xcU] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0xcU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0xcU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0xcU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0xcU] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0xdU] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0xdU] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0xdU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0xdU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0xdU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0xdU] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0xeU] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0xeU] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0xeU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0xeU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0xeU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0xeU] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[1U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[1U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [1U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[1U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[1U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [1U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[2U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[2U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[2U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[2U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [2U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[3U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[3U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [3U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[3U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[3U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [3U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[4U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[4U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [4U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[4U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[4U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [4U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[5U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[5U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [5U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[5U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[5U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [5U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[6U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[6U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [6U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[6U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[6U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [6U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[7U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[7U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [7U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[7U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[7U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [7U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[8U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[8U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [8U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[8U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[8U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [8U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[9U] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[9U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [9U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[9U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[9U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [9U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0xaU] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0xaU] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0xaU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0xaU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0xaU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0xaU] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0xbU] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0xbU] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0xbU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0xbU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0xbU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0xbU] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0xcU] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0xcU] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0xcU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0xcU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0xcU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0xcU] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0xdU] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0xdU] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0xdU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0xdU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0xdU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0xdU] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list[0xeU] 
-        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list[0xeU] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
            [0xeU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list[0xeU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list[0xeU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list
                     [0xeU] >> 1U));
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2ReadEnable__DOT__i0__DOT__data_list[0U] 
         = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2ReadEnable__DOT__i0__DOT__pair_list
@@ -2018,53 +2022,6 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
                                 >> 0x1cU)));
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1AddrOut__DOT__i0__DOT__pair_list[0xeU] 
         = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs1AddrOut____pinNumber4[5U] 
-                     >> 8U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0U] 
-        = (0xfffU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[1U] 
-        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[0U] 
-                     >> 0xcU));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[2U] 
-        = (0xfffU & ((vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[1U] 
-                      << 8U) | (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[0U] 
-                                >> 0x18U)));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[3U] 
-        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[1U] 
-                     >> 4U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[4U] 
-        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[1U] 
-                     >> 0x10U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[5U] 
-        = (0xfffU & ((vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[2U] 
-                      << 4U) | (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[1U] 
-                                >> 0x1cU)));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[6U] 
-        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[2U] 
-                     >> 8U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[7U] 
-        = (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[2U] 
-           >> 0x14U);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[8U] 
-        = (0xfffU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[3U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[9U] 
-        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[3U] 
-                     >> 0xcU));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0xaU] 
-        = (0xfffU & ((vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[4U] 
-                      << 8U) | (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[3U] 
-                                >> 0x18U)));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0xbU] 
-        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[4U] 
-                     >> 4U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0xcU] 
-        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[4U] 
-                     >> 0x10U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0xdU] 
-        = (0xfffU & ((vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[5U] 
-                      << 4U) | (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[4U] 
-                                >> 0x1cU)));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0xeU] 
-        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[5U] 
                      >> 8U));
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdAddrOut__DOT__i0__DOT__pair_list[0U] 
         = (0xfffU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[0U]);
@@ -3210,6 +3167,53 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
         = ((__Vtemp164[0x13U] >> 0x1dU) | (0x1fff8U 
                                            & (__Vtemp159[0xdU] 
                                               >> 8U)));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0U] 
+        = (0xfffU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[1U] 
+        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[0U] 
+                     >> 0xcU));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[2U] 
+        = (0xfffU & ((vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[1U] 
+                      << 8U) | (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[0U] 
+                                >> 0x18U)));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[3U] 
+        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[1U] 
+                     >> 4U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[4U] 
+        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[1U] 
+                     >> 0x10U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[5U] 
+        = (0xfffU & ((vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[2U] 
+                      << 4U) | (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[1U] 
+                                >> 0x1cU)));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[6U] 
+        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[2U] 
+                     >> 8U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[7U] 
+        = (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[2U] 
+           >> 0x14U);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[8U] 
+        = (0xfffU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[3U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[9U] 
+        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[3U] 
+                     >> 0xcU));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0xaU] 
+        = (0xfffU & ((vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[4U] 
+                      << 8U) | (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[3U] 
+                                >> 0x18U)));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0xbU] 
+        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[4U] 
+                     >> 4U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0xcU] 
+        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[4U] 
+                     >> 0x10U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0xdU] 
+        = (0xfffU & ((vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[5U] 
+                      << 4U) | (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[4U] 
+                                >> 0x1cU)));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list[0xeU] 
+        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Rs2AddrOut____pinNumber4[5U] 
+                     >> 8U));
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[0U];
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[0U][1U] 
@@ -3290,171 +3294,171 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
         = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__hit)
             ? (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__lut_out)
             : 0U);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
         = (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-            == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-            [0U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+            == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+            [0U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
         = ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-           == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+           == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [1U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [1U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [1U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [1U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [2U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [2U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [2U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [2U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [3U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [3U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [3U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [3U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [4U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [4U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [4U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [4U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [5U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [5U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [5U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [5U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [6U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [6U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [6U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [6U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [7U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [7U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [7U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [7U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [8U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [8U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [8U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [8U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [9U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [9U]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [9U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [9U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [0xaU]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [0xaU]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [0xaU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [0xaU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [0xbU]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [0xbU]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [0xbU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [0xbU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [0xcU]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [0xcU]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [0xcU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [0xcU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [0xdU]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [0xdU]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [0xdU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [0xdU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out) 
            | (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
-               [0xeU]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__data_list
+               == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
+               [0xeU]) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list
               [0xeU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
            | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list
               [0xeU]));
-    vlSelf->Balotelli__DOT__Rs1ReadEnable_IdOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__hit) 
-                                                   & (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable__DOT__i0__DOT__lut_out));
+    vlSelf->Balotelli__DOT__Rs1ReadEnable_IdOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__hit) 
+                                                   & (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__lut_out));
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2ReadEnable__DOT__i0__DOT__lut_out 
         = (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
             == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2ReadEnable__DOT__i0__DOT__key_list
@@ -4137,96 +4141,6 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1AddrOut__DOT__i0__DOT__key_list[0xeU] 
         = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1AddrOut__DOT__i0__DOT__pair_list
                     [0xeU] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0U] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [0U] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[1U] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [1U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[1U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [1U] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[2U] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[2U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [2U] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[3U] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [3U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[3U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [3U] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[4U] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [4U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[4U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [4U] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[5U] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [5U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[5U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [5U] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[6U] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [6U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[6U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [6U] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[7U] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [7U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[7U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [7U] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[8U] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [8U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[8U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [8U] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[9U] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [9U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[9U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [9U] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0xaU] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [0xaU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0xaU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [0xaU] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0xbU] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [0xbU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0xbU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [0xbU] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0xcU] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [0xcU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0xcU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [0xcU] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0xdU] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [0xdU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0xdU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [0xdU] >> 5U));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0xeU] 
-        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-           [0xeU]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0xeU] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
-                    [0xeU] >> 5U));
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdAddrOut__DOT__i0__DOT__data_list[0U] 
         = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdAddrOut__DOT__i0__DOT__pair_list
            [0U]);
@@ -4480,6 +4394,96 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Imm__DOT__i0__DOT__pair_list[0xeU][2U] 
         = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_Imm____pinNumber4[0x21U] 
                     >> 2U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [0U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[1U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [1U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[1U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [1U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[2U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[2U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [2U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[3U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [3U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[3U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [3U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[4U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [4U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[4U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [4U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[5U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [5U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[5U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [5U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[6U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [6U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[6U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [6U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[7U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [7U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[7U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [7U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[8U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [8U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[8U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [8U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[9U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [9U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[9U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [9U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0xaU] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [0xaU]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0xaU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [0xaU] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0xbU] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [0xbU]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0xbU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [0xbU] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0xcU] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [0xcU]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0xcU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [0xcU] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0xdU] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [0xdU]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0xdU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [0xdU] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list[0xeU] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+           [0xeU]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list[0xeU] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__pair_list
+                    [0xeU] >> 5U));
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__data_list[0U] 
         = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
                             [0U][1U])) << 0x20U) | (QData)((IData)(
@@ -5021,172 +5025,6 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Rs1Addr_IdOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1AddrOut__DOT__i0__DOT__hit)
                                               ? (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1AddrOut__DOT__i0__DOT__lut_out)
                                               : 0U);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                       == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                       [0U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-           [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-           == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-           [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [1U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [1U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [1U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [2U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [2U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [2U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [3U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [3U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [3U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [4U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [4U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [4U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [5U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [5U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [5U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [6U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [6U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [6U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [7U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [7U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [7U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [8U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [8U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [8U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [9U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [9U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [9U]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [0xaU]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [0xaU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [0xaU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [0xbU]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [0xbU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [0xbU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [0xcU]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [0xcU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [0xcU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [0xdU]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [0xdU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [0xdU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
-           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-                          [0xeU]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
-              [0xeU]));
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
-           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
-              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
-              [0xeU]));
-    vlSelf->Balotelli__DOT__Rs2Addr_IdOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit)
-                                              ? (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out)
-                                              : 0U);
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdAddrOut__DOT__i0__DOT__lut_out 
         = ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
                        == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdAddrOut__DOT__i0__DOT__key_list
@@ -5473,6 +5311,172 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Imm__DOT__i0__DOT__key_list[0xeU] 
         = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Imm__DOT__i0__DOT__pair_list
            [0xeU][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                       == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                       [0U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+           == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [1U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [2U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [2U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [2U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [3U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [3U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [3U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [4U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [4U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [4U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [5U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [5U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [5U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [6U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [6U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [6U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [7U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [7U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [7U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [8U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [8U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [8U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [9U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [9U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [9U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [0xaU]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [0xaU]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [0xaU]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [0xbU]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [0xbU]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [0xbU]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [0xcU]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [0xcU]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [0xcU]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [0xdU]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [0xdU]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [0xdU]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+                          [0xeU]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__data_list
+              [0xeU]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+              == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__key_list
+              [0xeU]));
+    vlSelf->Balotelli__DOT__Rs2Addr_IdOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__hit)
+                                              ? (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Rs2AddrOut__DOT__i0__DOT__lut_out)
+                                              : 0U);
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__lut_out 
         = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB) 
                                == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list
@@ -5737,6 +5741,11 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Imm_IdOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Imm__DOT__i0__DOT__hit)
                                           ? vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Imm__DOT__i0__DOT__lut_out
                                           : 0ULL);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__pair_list[0U] 
+        = (0xa0U | (IData)(vlSelf->Balotelli__DOT__Rs2Addr_IdOut));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__ShamtFunct3_00_mux____pinNumber4 
+        = (0x20a0U | (((IData)(vlSelf->Balotelli__DOT__Rs2Addr_IdOut) 
+                       << 8U) | (IData)(vlSelf->Balotelli__DOT__Rs2Addr_IdOut)));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Rs2ReadData_mux____pinNumber4[0U] 
         = (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Rs2ReadData_mux____pinNumber4[1U] 
@@ -5806,12 +5815,30 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
                                  >> 0x20U)) >> 0x12U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__ImmAddRs1ReadData 
         = (vlSelf->Balotelli__DOT__Imm_ExIn + vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrawRs2ReadData 
+        = ((IData)(vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut) 
+           >> (0x1fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllImm 
         = (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-           + vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut);
+           << (IData)(vlSelf->Balotelli__DOT__Shamt_ExIn));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllwRs2ReadData 
+        = ((IData)(vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut) 
+           << (0x1fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrlwRs2ReadData 
+        = ((IData)(vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut) 
+           >> (0x1fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSraImm 
+        = (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+           >> (IData)(vlSelf->Balotelli__DOT__Shamt_ExIn));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrlImm 
+        = (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+           >> (IData)(vlSelf->Balotelli__DOT__Shamt_ExIn));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
         = (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
            - vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
+        = (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+           + vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut);
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__MemMask_mux__DOT__i0__DOT__lut_out 
         = ((- (IData)(((IData)(vlSelf->Balotelli__DOT__OpCode_MemIn) 
                        == vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__MemMask_mux__DOT__i0__DOT__key_list
@@ -5856,6 +5883,17 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__MemRAddr_mux__DOT__i0__DOT__key_list[0U] 
         = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__MemRAddr_mux__DOT__i0__DOT__pair_list
            [0U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__data_list[0U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__pair_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__key_list[0U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__pair_list
+                 [0U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__pair_list[0U] 
+        = (0xffU & (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__ShamtFunct3_00_mux____pinNumber4));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__pair_list[1U] 
+        = (0xffU & ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__ShamtFunct3_00_mux____pinNumber4) 
+                    >> 8U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs2ReadData_mux__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Rs2ReadData_mux____pinNumber4[0U];
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs2ReadData_mux__DOT__i0__DOT__pair_list[0U][1U] 
@@ -5918,32 +5956,88 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpAddr__DOT__i0__DOT__pair_list[2U][2U] 
         = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__JumpAddr____pinNumber4[6U] 
                     >> 0xeU));
-    VL_EXTEND_WQ(67,64, __Vtemp623, (((QData)((IData)(
-                                                      (- (IData)(
-                                                                 (1U 
-                                                                  & (IData)(
-                                                                            (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__ImmAddRs1ReadData 
-                                                                             >> 0x1fU))))))) 
-                                      << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__ImmAddRs1ReadData))));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[0U][0U] 
+    VL_EXTEND_WQ(71,64, __Vtemp623, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllImm);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__pair_list[0U][0U] 
         = __Vtemp623[0U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[0U][1U] 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__pair_list[0U][1U] 
         = __Vtemp623[1U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[0U][2U] 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__pair_list[0U][2U] 
         = __Vtemp623[2U];
-    VL_EXTEND_WQ(67,64, __Vtemp624, (((QData)((IData)(
+    VL_EXTEND_WQ(71,64, __Vtemp624, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllImm);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__pair_list[0U][0U] 
+        = __Vtemp624[0U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__pair_list[0U][1U] 
+        = __Vtemp624[1U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__pair_list[0U][2U] 
+        = __Vtemp624[2U];
+    VL_EXTEND_WQ(71,64, __Vtemp625, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrlImm);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[0U] 
+        = (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSraImm);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[1U] 
+        = (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSraImm 
+                   >> 0x20U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[2U] 
+        = (0x20U | (__Vtemp625[0U] << 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[3U] 
+        = ((__Vtemp625[0U] >> 0x19U) | (__Vtemp625[1U] 
+                                        << 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[4U] 
+        = ((__Vtemp625[1U] >> 0x19U) | (__Vtemp625[2U] 
+                                        << 7U));
+    VL_EXTEND_WQ(71,64, __Vtemp628, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrlImm);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[0U] 
+        = (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSraImm);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[1U] 
+        = (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSraImm 
+                   >> 0x20U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[2U] 
+        = (0x20U | (__Vtemp628[0U] << 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[3U] 
+        = ((__Vtemp628[0U] >> 0x19U) | (__Vtemp628[1U] 
+                                        << 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[4U] 
+        = ((__Vtemp628[1U] >> 0x19U) | (__Vtemp628[2U] 
+                                        << 7U));
+    VL_EXTEND_WQ(67,64, __Vtemp631, (((QData)((IData)(
                                                       (- (IData)(
                                                                  (1U 
                                                                   & (IData)(
-                                                                            (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
+                                                                            (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
                                                                              >> 0x1fU))))))) 
-                                      << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData))));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[0U][0U] 
-        = __Vtemp624[0U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[0U][1U] 
-        = __Vtemp624[1U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[0U][2U] 
-        = __Vtemp624[2U];
+                                      << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData))));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[0U] 
+        = (IData)((((QData)((IData)((- (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrawRs2ReadData 
+                                                >> 0x1fU))))) 
+                    << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrawRs2ReadData))));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[1U] 
+        = (IData)(((((QData)((IData)((- (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrawRs2ReadData 
+                                                 >> 0x1fU))))) 
+                     << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrawRs2ReadData))) 
+                   >> 0x20U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[2U] 
+        = (5U | (__Vtemp631[0U] << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[3U] 
+        = ((__Vtemp631[0U] >> 0x1dU) | (__Vtemp631[1U] 
+                                        << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[4U] 
+        = ((__Vtemp631[1U] >> 0x1dU) | (__Vtemp631[2U] 
+                                        << 3U));
+    VL_EXTEND_WQ(67,64, __Vtemp634, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[0U] 
+        = (IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                   << (0x3fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut))));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[1U] 
+        = (IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                    << (0x3fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut))) 
+                   >> 0x20U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[2U] 
+        = (5U | (__Vtemp634[0U] << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[3U] 
+        = ((__Vtemp634[0U] >> 0x1dU) | (__Vtemp634[1U] 
+                                        << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[4U] 
+        = ((__Vtemp634[1U] >> 0x1dU) | (__Vtemp634[2U] 
+                                        << 3U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4 
         = (0xae8c2U | (((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
                          == vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
@@ -6007,189 +6101,93 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
                                                   << 4U)) 
                                               | (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
                                                  != vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)))))));
-    VL_EXTEND_WQ(67,64, __Vtemp625, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__ImmAddRs1ReadData);
-    __Vtemp627[3U] = (((IData)(((1U & ((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                >> 0x3fU)) 
-                                       & (~ (IData)(
-                                                    (vlSelf->Balotelli__DOT__Imm_ExIn 
-                                                     >> 0x3fU)))))
-                                 ? 1ULL : ((1U & ((~ (IData)(
-                                                             (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                              >> 0x3fU))) 
-                                                  & (IData)(
-                                                            (vlSelf->Balotelli__DOT__Imm_ExIn 
-                                                             >> 0x3fU))))
-                                            ? 0ULL : 
-                                           (((1U & (IData)(
-                                                           (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
-                                                            >> 0x3fU))) 
-                                             == (1U 
-                                                 & (IData)(
-                                                           (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                            >> 0x3fU))))
-                                             ? 1ULL
-                                             : 0ULL)))) 
-                       >> 0x1dU) | ((IData)((((1U & 
-                                               ((IData)(
-                                                        (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                         >> 0x3fU)) 
-                                                & (~ (IData)(
-                                                             (vlSelf->Balotelli__DOT__Imm_ExIn 
-                                                              >> 0x3fU)))))
-                                               ? 1ULL
-                                               : ((1U 
-                                                   & ((~ (IData)(
-                                                                 (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                                  >> 0x3fU))) 
-                                                      & (IData)(
-                                                                (vlSelf->Balotelli__DOT__Imm_ExIn 
-                                                                 >> 0x3fU))))
-                                                   ? 0ULL
-                                                   : 
-                                                  (((1U 
-                                                     & (IData)(
-                                                               (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
-                                                                >> 0x3fU))) 
-                                                    == 
-                                                    (1U 
-                                                     & (IData)(
-                                                               (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                                >> 0x3fU))))
-                                                    ? 1ULL
-                                                    : 0ULL))) 
-                                             >> 0x20U)) 
-                                    << 3U));
-    __Vtemp629[4U] = (0x10U | (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                         | vlSelf->Balotelli__DOT__Imm_ExIn)) 
-                                << 6U) | ((IData)((
-                                                   ((1U 
-                                                     & ((IData)(
-                                                                (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                                 >> 0x3fU)) 
-                                                        & (~ (IData)(
-                                                                     (vlSelf->Balotelli__DOT__Imm_ExIn 
-                                                                      >> 0x3fU)))))
-                                                     ? 1ULL
-                                                     : 
-                                                    ((1U 
-                                                      & ((~ (IData)(
-                                                                    (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                                     >> 0x3fU))) 
-                                                         & (IData)(
-                                                                   (vlSelf->Balotelli__DOT__Imm_ExIn 
-                                                                    >> 0x3fU))))
-                                                      ? 0ULL
-                                                      : 
-                                                     (((1U 
-                                                        & (IData)(
-                                                                  (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
-                                                                   >> 0x3fU))) 
-                                                       == 
-                                                       (1U 
-                                                        & (IData)(
-                                                                  (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                                   >> 0x3fU))))
-                                                       ? 1ULL
-                                                       : 0ULL))) 
-                                                   >> 0x20U)) 
-                                          >> 0x1dU)));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0U] 
-        = (IData)(((1U & (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
-                                  >> 0x3fU))) ? 1ULL
-                    : 0ULL));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[1U] 
-        = (IData)((((1U & (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
-                                   >> 0x3fU))) ? 1ULL
-                     : 0ULL) >> 0x20U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[2U] 
-        = (3U | ((IData)(((1U & ((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                          >> 0x3fU)) 
-                                 & (~ (IData)((vlSelf->Balotelli__DOT__Imm_ExIn 
-                                               >> 0x3fU)))))
-                           ? 1ULL : ((1U & ((~ (IData)(
-                                                       (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                        >> 0x3fU))) 
-                                            & (IData)(
-                                                      (vlSelf->Balotelli__DOT__Imm_ExIn 
-                                                       >> 0x3fU))))
-                                      ? 0ULL : (((1U 
-                                                  & (IData)(
-                                                            (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
-                                                             >> 0x3fU))) 
-                                                 == 
-                                                 (1U 
-                                                  & (IData)(
-                                                            (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                             >> 0x3fU))))
-                                                 ? 1ULL
-                                                 : 0ULL)))) 
-                 << 3U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[3U] 
-        = __Vtemp627[3U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[4U] 
-        = __Vtemp629[4U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[5U] 
-        = (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                     | vlSelf->Balotelli__DOT__Imm_ExIn)) 
-            >> 0x1aU) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                   | vlSelf->Balotelli__DOT__Imm_ExIn) 
-                                  >> 0x20U)) << 6U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[6U] 
-        = (0x180U | (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                               & vlSelf->Balotelli__DOT__Imm_ExIn)) 
-                      << 9U) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                          | vlSelf->Balotelli__DOT__Imm_ExIn) 
-                                         >> 0x20U)) 
-                                >> 0x1aU)));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[7U] 
-        = (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                     & vlSelf->Balotelli__DOT__Imm_ExIn)) 
-            >> 0x17U) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                   & vlSelf->Balotelli__DOT__Imm_ExIn) 
-                                  >> 0x20U)) << 9U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[8U] 
-        = (0xe00U | ((__Vtemp625[0U] << 0xcU) | ((IData)(
-                                                         ((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                           & vlSelf->Balotelli__DOT__Imm_ExIn) 
-                                                          >> 0x20U)) 
-                                                 >> 0x17U)));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[9U] 
-        = ((__Vtemp625[0U] >> 0x14U) | (__Vtemp625[1U] 
-                                        << 0xcU));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xaU] 
-        = ((__Vtemp625[1U] >> 0x14U) | (__Vtemp625[2U] 
-                                        << 0xcU));
-    VL_EXTEND_WQ(67,64, __Vtemp634, (((QData)((IData)(
+    VL_EXTEND_WQ(67,64, __Vtemp637, (((QData)((IData)(
                                                       (- (IData)(
                                                                  (1U 
                                                                   & (IData)(
-                                                                            (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
+                                                                            (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
                                                                              >> 0x1fU))))))) 
-                                      << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData))));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list[0U][0U] 
-        = __Vtemp634[0U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list[0U][1U] 
-        = __Vtemp634[1U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list[0U][2U] 
-        = __Vtemp634[2U];
-    VL_EXTEND_WQ(67,64, __Vtemp635, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[0U] 
-        = (IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                   << (0x3fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut))));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[1U] 
-        = (IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                    << (0x3fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut))) 
+                                      << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData))));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[0U] 
+        = (IData)((((QData)((IData)((- (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrlwRs2ReadData 
+                                                >> 0x1fU))))) 
+                    << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrlwRs2ReadData))));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[1U] 
+        = (IData)(((((QData)((IData)((- (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrlwRs2ReadData 
+                                                 >> 0x1fU))))) 
+                     << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSrlwRs2ReadData))) 
                    >> 0x20U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[2U] 
-        = (1U | (__Vtemp635[0U] << 3U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[3U] 
-        = ((__Vtemp635[0U] >> 0x1dU) | (__Vtemp635[1U] 
-                                        << 3U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[4U] 
-        = ((__Vtemp635[1U] >> 0x1dU) | (__Vtemp635[2U] 
-                                        << 3U));
-    VL_EXTEND_WQ(67,64, __Vtemp638, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData);
-    __Vtemp640[3U] = (((IData)(((1U & ((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[2U] 
+        = (5U | ((IData)((((QData)((IData)((- (IData)(
+                                                      (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllwRs2ReadData 
+                                                       >> 0x1fU))))) 
+                           << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllwRs2ReadData)))) 
+                 << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[3U] 
+        = (((IData)((((QData)((IData)((- (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllwRs2ReadData 
+                                                  >> 0x1fU))))) 
+                      << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllwRs2ReadData)))) 
+            >> 0x1dU) | ((IData)(((((QData)((IData)(
+                                                    (- (IData)(
+                                                               (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllwRs2ReadData 
+                                                                >> 0x1fU))))) 
+                                    << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllwRs2ReadData))) 
+                                  >> 0x20U)) << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[4U] 
+        = (8U | ((__Vtemp637[0U] << 6U) | ((IData)(
+                                                   ((((QData)((IData)(
+                                                                      (- (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllwRs2ReadData 
+                                                                                >> 0x1fU))))) 
+                                                      << 0x20U) 
+                                                     | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSllwRs2ReadData))) 
+                                                    >> 0x20U)) 
+                                           >> 0x1dU)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[5U] 
+        = ((7U & (__Vtemp637[0U] >> 0x1aU)) | ((0x38U 
+                                                & (__Vtemp637[0U] 
+                                                   >> 0x1aU)) 
+                                               | (__Vtemp637[1U] 
+                                                  << 6U)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[6U] 
+        = ((7U & (__Vtemp637[1U] >> 0x1aU)) | ((0x38U 
+                                                & (__Vtemp637[1U] 
+                                                   >> 0x1aU)) 
+                                               | (__Vtemp637[2U] 
+                                                  << 6U)));
+    VL_EXTEND_WQ(67,64, __Vtemp642, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData);
+    __Vtemp648[6U] = (0xc0U | (((IData)(((1U & ((IData)(
+                                                        (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                         >> 0x3fU)) 
+                                                & (~ (IData)(
+                                                             (vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut 
+                                                              >> 0x3fU)))))
+                                          ? 1ULL : 
+                                         ((1U & ((~ (IData)(
+                                                            (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                             >> 0x3fU))) 
+                                                 & (IData)(
+                                                           (vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut 
+                                                            >> 0x3fU))))
+                                           ? 0ULL : 
+                                          (((1U & (IData)(
+                                                          (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
+                                                           >> 0x3fU))) 
+                                            == (1U 
+                                                & (IData)(
+                                                          (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                           >> 0x3fU))))
+                                            ? 1ULL : 0ULL)))) 
+                                << 9U) | ((IData)((
+                                                   ((1U 
+                                                     & (IData)(
+                                                               (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
+                                                                >> 0x3fU)))
+                                                     ? 1ULL
+                                                     : 0ULL) 
+                                                   >> 0x20U)) 
+                                          >> 0x1aU)));
+    __Vtemp648[7U] = (((IData)(((1U & ((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
                                                 >> 0x3fU)) 
                                        & (~ (IData)(
                                                     (vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut 
@@ -6210,7 +6208,7 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
                                                             >> 0x3fU))))
                                              ? 1ULL
                                              : 0ULL)))) 
-                       >> 0x1dU) | ((IData)((((1U & 
+                       >> 0x17U) | ((IData)((((1U & 
                                                ((IData)(
                                                         (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
                                                          >> 0x3fU)) 
@@ -6239,120 +6237,126 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
                                                     ? 1ULL
                                                     : 0ULL))) 
                                              >> 0x20U)) 
-                                    << 3U));
-    __Vtemp642[4U] = (0x10U | (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                         & vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
-                                << 6U) | ((IData)((
-                                                   ((1U 
-                                                     & ((IData)(
-                                                                (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                                 >> 0x3fU)) 
-                                                        & (~ (IData)(
-                                                                     (vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut 
-                                                                      >> 0x3fU)))))
-                                                     ? 1ULL
-                                                     : 
-                                                    ((1U 
-                                                      & ((~ (IData)(
-                                                                    (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                                     >> 0x3fU))) 
-                                                         & (IData)(
-                                                                   (vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut 
-                                                                    >> 0x3fU))))
-                                                      ? 0ULL
-                                                      : 
+                                    << 9U));
+    __Vtemp650[8U] = (0x400U | (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                          & vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
+                                 << 0xcU) | ((IData)(
                                                      (((1U 
-                                                        & (IData)(
-                                                                  (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
-                                                                   >> 0x3fU))) 
-                                                       == 
-                                                       (1U 
-                                                        & (IData)(
-                                                                  (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                                   >> 0x3fU))))
-                                                       ? 1ULL
-                                                       : 0ULL))) 
-                                                   >> 0x20U)) 
-                                          >> 0x1dU)));
+                                                        & ((IData)(
+                                                                   (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                                    >> 0x3fU)) 
+                                                           & (~ (IData)(
+                                                                        (vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut 
+                                                                         >> 0x3fU)))))
+                                                        ? 1ULL
+                                                        : 
+                                                       ((1U 
+                                                         & ((~ (IData)(
+                                                                       (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                                        >> 0x3fU))) 
+                                                            & (IData)(
+                                                                      (vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut 
+                                                                       >> 0x3fU))))
+                                                         ? 0ULL
+                                                         : 
+                                                        (((1U 
+                                                           & (IData)(
+                                                                     (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
+                                                                      >> 0x3fU))) 
+                                                          == 
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                                      >> 0x3fU))))
+                                                          ? 1ULL
+                                                          : 0ULL))) 
+                                                      >> 0x20U)) 
+                                             >> 0x17U)));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0U] 
-        = (IData)(((1U & (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
-                                  >> 0x3fU))) ? 1ULL
-                    : 0ULL));
+        = (IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                   >> (0x3fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut))));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[1U] 
-        = (IData)((((1U & (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
-                                   >> 0x3fU))) ? 1ULL
-                     : 0ULL) >> 0x20U));
+        = (IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                    >> (0x3fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut))) 
+                   >> 0x20U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[2U] 
-        = (3U | ((IData)(((1U & ((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                          >> 0x3fU)) 
-                                 & (~ (IData)((vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut 
-                                               >> 0x3fU)))))
-                           ? 1ULL : ((1U & ((~ (IData)(
-                                                       (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                        >> 0x3fU))) 
-                                            & (IData)(
-                                                      (vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut 
-                                                       >> 0x3fU))))
-                                      ? 0ULL : (((1U 
-                                                  & (IData)(
-                                                            (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
-                                                             >> 0x3fU))) 
-                                                 == 
-                                                 (1U 
-                                                  & (IData)(
-                                                            (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                             >> 0x3fU))))
-                                                 ? 1ULL
-                                                 : 0ULL)))) 
+        = (5U | ((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                          << (0x3fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)))) 
                  << 3U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[3U] 
-        = __Vtemp640[3U];
+        = (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                     << (0x3fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)))) 
+            >> 0x1dU) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                   << (0x3fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut))) 
+                                  >> 0x20U)) << 3U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[4U] 
-        = __Vtemp642[4U];
+        = (8U | (((IData)(((1U & (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
+                                          >> 0x3fU)))
+                            ? 1ULL : 0ULL)) << 6U) 
+                 | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                              << (0x3fU & (IData)(vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut))) 
+                             >> 0x20U)) >> 0x1dU)));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[5U] 
-        = (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                     & vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
-            >> 0x1aU) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                   & vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
-                                  >> 0x20U)) << 6U));
+        = (((IData)(((1U & (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
+                                    >> 0x3fU))) ? 1ULL
+                      : 0ULL)) >> 0x1aU) | ((IData)(
+                                                    (((1U 
+                                                       & (IData)(
+                                                                 (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
+                                                                  >> 0x3fU)))
+                                                       ? 1ULL
+                                                       : 0ULL) 
+                                                     >> 0x20U)) 
+                                            << 6U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[6U] 
-        = (0x1c0U | (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                               | vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
-                      << 9U) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                          & vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
-                                         >> 0x20U)) 
-                                >> 0x1aU)));
+        = __Vtemp648[6U];
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[7U] 
-        = (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                     | vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
-            >> 0x17U) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                   | vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
-                                  >> 0x20U)) << 9U));
+        = __Vtemp648[7U];
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[8U] 
-        = (0xc00U | (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                               ^ vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
-                      << 0xcU) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                            | vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
-                                           >> 0x20U)) 
-                                  >> 0x17U)));
+        = __Vtemp650[8U];
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[9U] 
         = (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                     ^ vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
+                     & vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
             >> 0x14U) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                   ^ vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
+                                   & vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
                                   >> 0x20U)) << 0xcU));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xaU] 
-        = (0x4000U | ((__Vtemp638[0U] << 0xfU) | ((IData)(
-                                                          ((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
-                                                            ^ vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
-                                                           >> 0x20U)) 
-                                                  >> 0x14U)));
+        = (0x7000U | (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                | vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
+                       << 0xfU) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                             & vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
+                                            >> 0x20U)) 
+                                   >> 0x14U)));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xbU] 
-        = ((__Vtemp638[0U] >> 0x11U) | (__Vtemp638[1U] 
-                                        << 0xfU));
+        = (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                     | vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
+            >> 0x11U) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                   | vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
+                                  >> 0x20U)) << 0xfU));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xcU] 
-        = ((__Vtemp638[1U] >> 0x11U) | (__Vtemp638[2U] 
-                                        << 0xfU));
+        = (0x30000U | (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                 ^ vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
+                        << 0x12U) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                               | vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
+                                              >> 0x20U)) 
+                                     >> 0x11U)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xdU] 
+        = (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                     ^ vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut)) 
+            >> 0xeU) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                  ^ vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
+                                 >> 0x20U)) << 0x12U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xeU] 
+        = (0x100000U | ((__Vtemp642[0U] << 0x15U) | 
+                        ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                   ^ vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut) 
+                                  >> 0x20U)) >> 0xeU)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xfU] 
+        = ((__Vtemp642[0U] >> 0xbU) | (__Vtemp642[1U] 
+                                       << 0x15U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0x10U] 
+        = ((__Vtemp642[1U] >> 0xbU) | (__Vtemp642[2U] 
+                                       << 0x15U));
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteData_mux__DOT__i0__DOT__lut_out 
         = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__OpCode_MemIn) 
                                == vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteData_mux__DOT__i0__DOT__key_list
@@ -6401,6 +6405,32 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->RaddrOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__MemRAddr_mux__DOT__i0__DOT__hit)
                          ? vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__MemRAddr_mux__DOT__i0__DOT__lut_out
                          : 0ULL);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__lut_out 
+        = ((- (IData)(((7U & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                      >> 0xcU))) == 
+                       vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__key_list
+                       [0U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__hit 
+        = ((7U & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                          >> 0xcU))) == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__hit)
+            ? (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__lut_out)
+            : 0U);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__data_list[0U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__pair_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__key_list[0U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__pair_list
+                 [0U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__data_list[1U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__pair_list
+           [1U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__key_list[1U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__pair_list
+                 [1U] >> 5U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs2ReadData_mux__DOT__i0__DOT__data_list[0U] 
         = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs2ReadData_mux__DOT__i0__DOT__pair_list
                             [0U][1U])) << 0x20U) | (QData)((IData)(
@@ -6457,97 +6487,73 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpAddr__DOT__i0__DOT__key_list[2U] 
         = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpAddr__DOT__i0__DOT__pair_list
            [2U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__data_list[0U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__pair_list
                             [0U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__pair_list
                                                                    [0U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list[0U] 
-        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__pair_list
            [0U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__data_list[0U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__pair_list
                             [0U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__pair_list
                                                                    [0U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list[0U] 
-        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__pair_list
            [0U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[0U] 
-        = (0xfU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[1U] 
-        = (0xfU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4 
-                   >> 4U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[2U] 
-        = (0xfU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4 
-                   >> 8U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[3U] 
-        = (0xfU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4 
-                   >> 0xcU));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[4U] 
-        = (0xfU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4 
-                   >> 0x10U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[5U] 
-        = (0xfU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4 
-                   >> 0x14U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[0U][0U] 
-        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[0U][1U] 
-        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[1U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[0U][2U] 
-        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[1U][0U] 
-        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[3U] 
-            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[2U] 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list[0U][0U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[0U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list[0U][1U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[1U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list[0U][2U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list[1U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[3U] 
+            << 0x19U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[2U] 
+                         >> 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list[1U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[4U] 
+            << 0x19U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[3U] 
+                         >> 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list[1U][2U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV64_Right_mux____pinNumber4[4U] 
+                    >> 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list[0U][0U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[0U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list[0U][1U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[1U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list[0U][2U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list[1U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[3U] 
+            << 0x19U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[2U] 
+                         >> 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list[1U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[4U] 
+            << 0x19U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[3U] 
+                         >> 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list[1U][2U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Shift_RV32_Right_mux____pinNumber4[4U] 
+                    >> 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list[0U][0U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[0U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list[0U][1U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[1U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list[0U][2U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list[1U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[3U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[2U] 
                          >> 3U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[1U][1U] 
-        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[4U] 
-            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[3U] 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list[1U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[4U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[3U] 
                          >> 3U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[1U][2U] 
-        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[4U] 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list[1U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_One____pinNumber4[4U] 
                  >> 3U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[2U][0U] 
-        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[5U] 
-            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[4U] 
-                         >> 6U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[2U][1U] 
-        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[6U] 
-            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[5U] 
-                         >> 6U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[2U][2U] 
-        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[6U] 
-                 >> 6U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[3U][0U] 
-        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[7U] 
-            << 0x17U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[6U] 
-                         >> 9U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[3U][1U] 
-        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[8U] 
-            << 0x17U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[7U] 
-                         >> 9U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[3U][2U] 
-        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[8U] 
-                 >> 9U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[4U][0U] 
-        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[9U] 
-            << 0x14U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[8U] 
-                         >> 0xcU));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[4U][1U] 
-        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xaU] 
-            << 0x14U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[9U] 
-                         >> 0xcU));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[4U][2U] 
-        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xaU] 
-                 >> 0xcU));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__data_list[0U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list
-                            [0U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list
-                                                                   [0U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__key_list[0U] 
-        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list
-           [0U][2U]);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[0U];
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list[0U][1U] 
@@ -6565,6 +6571,51 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list[1U][2U] 
         = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_One____pinNumber4[4U] 
                  >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[0U] 
+        = (0xfU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[1U] 
+        = (0xfU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4 
+                   >> 4U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[2U] 
+        = (0xfU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4 
+                   >> 8U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[3U] 
+        = (0xfU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4 
+                   >> 0xcU));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[4U] 
+        = (0xfU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4 
+                   >> 0x10U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list[5U] 
+        = (0xfU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__BranchFlag_mux____pinNumber4 
+                   >> 0x14U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[0U][0U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[0U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[0U][1U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[1U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[0U][2U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[1U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[3U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[2U] 
+                         >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[1U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[4U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[3U] 
+                         >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[1U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[4U] 
+                 >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[2U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[5U] 
+            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[4U] 
+                         >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[2U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[6U] 
+            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[5U] 
+                         >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list[2U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_R_Type_Zero____pinNumber4[6U] 
+                 >> 6U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0U];
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list[0U][1U] 
@@ -6626,6 +6677,54 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list[5U][2U] 
         = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xcU] 
                  >> 0xfU));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list[6U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xdU] 
+            << 0xeU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xcU] 
+                        >> 0x12U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list[6U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xeU] 
+            << 0xeU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xdU] 
+                        >> 0x12U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list[6U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xeU] 
+                 >> 0x12U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list[7U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xfU] 
+            << 0xbU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xeU] 
+                        >> 0x15U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list[7U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0x10U] 
+            << 0xbU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0xfU] 
+                        >> 0x15U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list[7U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_R_Type_Zero____pinNumber4[0x10U] 
+                 >> 0x15U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__lut_out 
+        = ((- (IData)(((7U & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                      >> 0xcU))) == 
+                       vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__key_list
+                       [0U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__hit 
+        = ((7U & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                          >> 0xcU))) == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((7U & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                         >> 0xcU))) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__key_list
+                          [1U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__hit) 
+           | ((7U & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                             >> 0xcU))) == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__hit)
+            ? (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__lut_out)
+            : 0U);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs2ReadData_mux__DOT__i0__DOT__lut_out 
         = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__OpCode_ExIn) 
                                == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs2ReadData_mux__DOT__i0__DOT__key_list
@@ -6706,32 +6805,96 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__JumpAddr_ExOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpAddr__DOT__i0__DOT__hit)
                                                ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpAddr__DOT__i0__DOT__lut_out
                                                : 0ULL);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__lut_out 
-        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list
-                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__data_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__lut_out 
+        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__key_list
+                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__data_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__key_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_TypeOut 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__hit)
-            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__lut_out
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__hit)
+            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__lut_out
             : 0ULL);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__lut_out 
-        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list
-                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__data_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__lut_out 
+        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__key_list
+                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__data_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__key_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_ZeroOut 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__hit)
-            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__lut_out
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__hit)
+            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__lut_out
             : 0ULL);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list
+                            [0U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list
+                                                                   [0U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list
+           [0U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__data_list[1U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list
+                            [1U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list
+                                                                   [1U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__key_list[1U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list
+           [1U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list
+                            [0U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list
+                                                                   [0U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list
+           [0U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__data_list[1U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list
+                            [1U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list
+                                                                   [1U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__key_list[1U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__pair_list
+           [1U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list
+                            [0U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list
+                                                                   [0U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__key_list[0U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list
+           [0U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__data_list[1U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list
+                            [1U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list
+                                                                   [1U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__key_list[1U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__pair_list
+           [1U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
+                            [0U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
+                                                                   [0U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list[0U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
+           [0U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__data_list[1U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
+                            [1U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
+                                                                   [1U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list[1U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
+           [1U][2U]);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__data_list[0U] 
         = (1U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list
            [0U]);
@@ -6768,75 +6931,30 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__key_list[5U] 
         = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__pair_list
                  [5U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[0U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
                             [0U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
                                                                    [0U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[0U] 
-        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list[0U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
            [0U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[1U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__data_list[1U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
                             [1U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
                                                                    [1U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[1U] 
-        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list[1U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
            [1U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[2U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__data_list[2U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
                             [2U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
                                                                    [2U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[2U] 
-        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list[2U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__pair_list
            [2U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[3U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
-                            [3U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
-                                                                   [3U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[3U] 
-        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
-           [3U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[4U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
-                            [4U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
-                                                                   [4U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[4U] 
-        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
-           [4U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__lut_out 
-        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__key_list
-                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__data_list
-           [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__key_list
-           [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_OneOut 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__hit)
-            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__lut_out
-            : 0ULL);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__data_list[0U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
-                            [0U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
-                                                                   [0U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list[0U] 
-        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
-           [0U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__data_list[1U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
-                            [1U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
-                                                                   [1U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list[1U] 
-        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__pair_list
-           [1U][2U]);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__data_list[0U] 
         = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list
                             [0U][1U])) << 0x20U) | (QData)((IData)(
@@ -6885,6 +7003,121 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__key_list[5U] 
         = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list
            [5U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__data_list[6U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list
+                            [6U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list
+                                                                   [6U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__key_list[6U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list
+           [6U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__data_list[7U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list
+                            [7U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list
+                                                                   [7U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__key_list[7U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__pair_list
+           [7U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__ShamtFunct7_mux____pinNumber4 
+        = (0x400U | (((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00) 
+                      << 0xcU) | (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__lut_out 
+        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__key_list
+                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__key_list
+                                  [1U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__hit)
+            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__lut_out
+            : 0ULL);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__lut_out 
+        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__key_list
+                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__key_list
+                                  [1U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__hit)
+            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__lut_out
+            : 0ULL);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__lut_out 
+        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__key_list
+                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__key_list
+                                  [1U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_OneOut 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__hit)
+            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_One__DOT__i0__DOT__lut_out
+            : 0ULL);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__lut_out 
+        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list
+                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list
+                                  [1U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_OneOut 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__hit)
+            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__lut_out
+            : 0ULL);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__lut_out 
         = (((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
             == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__key_list
@@ -6952,100 +7185,40 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag 
         = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__hit) 
            & (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__lut_out));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__lut_out 
         = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
-                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
+                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list
+                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__data_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__hit 
         = ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list
            [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
-        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__lut_out 
            | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
-                                  [1U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list
+                                  [1U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__data_list
               [1U]));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__hit) 
            | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list
               [1U]));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
-        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__lut_out 
            | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
-                                  [2U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list
+                                  [2U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__data_list
               [2U]));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit) 
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__hit) 
            | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__key_list
               [2U]));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
-        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
-           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
-                                  [3U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
-              [3U]));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit) 
-           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
-              [3U]));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
-        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
-           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
-                                  [4U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
-              [4U]));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit) 
-           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
-              [4U]));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_TypeOut 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit)
-            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out
-            : 0ULL);
-    VL_EXTEND_WQ(71,64, __Vtemp760, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_ZeroOut);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[0U] 
-        = (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_OneOut);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[1U] 
-        = (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_OneOut 
-                   >> 0x20U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[2U] 
-        = (0x20U | (__Vtemp760[0U] << 7U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[3U] 
-        = ((__Vtemp760[0U] >> 0x19U) | (__Vtemp760[1U] 
-                                        << 7U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[4U] 
-        = ((__Vtemp760[1U] >> 0x19U) | (__Vtemp760[2U] 
-                                        << 7U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__lut_out 
-        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list
-                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__data_list
-           [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list
-           [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__lut_out 
-        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__lut_out 
-           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list
-                                  [1U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__data_list
-              [1U]));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__hit) 
-           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
-              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__key_list
-              [1U]));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_OneOut 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__hit)
-            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__lut_out
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_ZeroOut 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__hit)
+            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_Zero__DOT__i0__DOT__lut_out
             : 0ULL);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__lut_out 
         = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
@@ -7111,43 +7284,428 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
            | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__key_list
               [5U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__key_list
+                                  [6U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__data_list
+              [6U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__key_list
+              [6U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__key_list
+                                  [7U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__data_list
+              [7U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__key_list
+              [7U]));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_ZeroOut 
         = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__hit)
             ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__lut_out
             : 0ULL);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__pair_list[0U] 
+        = (0xfffU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__ShamtFunct7_mux____pinNumber4);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__pair_list[1U] 
+        = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__ShamtFunct7_mux____pinNumber4 
+                     >> 0xcU));
+    VL_EXTEND_WQ(67,64, __Vtemp816, (((QData)((IData)(
+                                                      (- (IData)(
+                                                                 (1U 
+                                                                  & (IData)(
+                                                                            (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__ImmAddRs1ReadData 
+                                                                             >> 0x1fU))))))) 
+                                      << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__ImmAddRs1ReadData))));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[0U] 
+        = (IData)((((QData)((IData)((- (IData)((1U 
+                                                & (IData)(
+                                                          (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right 
+                                                           >> 0x1fU))))))) 
+                    << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right))));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[1U] 
+        = (IData)(((((QData)((IData)((- (IData)((1U 
+                                                 & (IData)(
+                                                           (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right 
+                                                            >> 0x1fU))))))) 
+                     << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right))) 
+                   >> 0x20U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[2U] 
+        = (5U | ((IData)((((QData)((IData)((- (IData)(
+                                                      (1U 
+                                                       & (IData)(
+                                                                 (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left 
+                                                                  >> 0x1fU))))))) 
+                           << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left)))) 
+                 << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[3U] 
+        = (((IData)((((QData)((IData)((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left 
+                                                             >> 0x1fU))))))) 
+                      << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left)))) 
+            >> 0x1dU) | ((IData)(((((QData)((IData)(
+                                                    (- (IData)(
+                                                               (1U 
+                                                                & (IData)(
+                                                                          (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left 
+                                                                           >> 0x1fU))))))) 
+                                    << 0x20U) | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left))) 
+                                  >> 0x20U)) << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[4U] 
+        = (8U | ((__Vtemp816[0U] << 6U) | ((IData)(
+                                                   ((((QData)((IData)(
+                                                                      (- (IData)(
+                                                                                (1U 
+                                                                                & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left 
+                                                                                >> 0x1fU))))))) 
+                                                      << 0x20U) 
+                                                     | (QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left))) 
+                                                    >> 0x20U)) 
+                                           >> 0x1dU)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[5U] 
+        = ((7U & (__Vtemp816[0U] >> 0x1aU)) | ((0x38U 
+                                                & (__Vtemp816[0U] 
+                                                   >> 0x1aU)) 
+                                               | (__Vtemp816[1U] 
+                                                  << 6U)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[6U] 
+        = ((7U & (__Vtemp816[1U] >> 0x1aU)) | ((0x38U 
+                                                & (__Vtemp816[1U] 
+                                                   >> 0x1aU)) 
+                                               | (__Vtemp816[2U] 
+                                                  << 6U)));
+    VL_EXTEND_WQ(67,64, __Vtemp821, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__ImmAddRs1ReadData);
+    __Vtemp827[6U] = (0xc0U | (((IData)(((1U & ((IData)(
+                                                        (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                         >> 0x3fU)) 
+                                                & (~ (IData)(
+                                                             (vlSelf->Balotelli__DOT__Imm_ExIn 
+                                                              >> 0x3fU)))))
+                                          ? 1ULL : 
+                                         ((1U & ((~ (IData)(
+                                                            (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                             >> 0x3fU))) 
+                                                 & (IData)(
+                                                           (vlSelf->Balotelli__DOT__Imm_ExIn 
+                                                            >> 0x3fU))))
+                                           ? 0ULL : 
+                                          (((1U & (IData)(
+                                                          (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
+                                                           >> 0x3fU))) 
+                                            == (1U 
+                                                & (IData)(
+                                                          (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                           >> 0x3fU))))
+                                            ? 1ULL : 0ULL)))) 
+                                << 9U) | ((IData)((
+                                                   ((1U 
+                                                     & (IData)(
+                                                               (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
+                                                                >> 0x3fU)))
+                                                     ? 1ULL
+                                                     : 0ULL) 
+                                                   >> 0x20U)) 
+                                          >> 0x1aU)));
+    __Vtemp827[7U] = (((IData)(((1U & ((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                >> 0x3fU)) 
+                                       & (~ (IData)(
+                                                    (vlSelf->Balotelli__DOT__Imm_ExIn 
+                                                     >> 0x3fU)))))
+                                 ? 1ULL : ((1U & ((~ (IData)(
+                                                             (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                              >> 0x3fU))) 
+                                                  & (IData)(
+                                                            (vlSelf->Balotelli__DOT__Imm_ExIn 
+                                                             >> 0x3fU))))
+                                            ? 0ULL : 
+                                           (((1U & (IData)(
+                                                           (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
+                                                            >> 0x3fU))) 
+                                             == (1U 
+                                                 & (IData)(
+                                                           (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                            >> 0x3fU))))
+                                             ? 1ULL
+                                             : 0ULL)))) 
+                       >> 0x17U) | ((IData)((((1U & 
+                                               ((IData)(
+                                                        (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                         >> 0x3fU)) 
+                                                & (~ (IData)(
+                                                             (vlSelf->Balotelli__DOT__Imm_ExIn 
+                                                              >> 0x3fU)))))
+                                               ? 1ULL
+                                               : ((1U 
+                                                   & ((~ (IData)(
+                                                                 (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                                  >> 0x3fU))) 
+                                                      & (IData)(
+                                                                (vlSelf->Balotelli__DOT__Imm_ExIn 
+                                                                 >> 0x3fU))))
+                                                   ? 0ULL
+                                                   : 
+                                                  (((1U 
+                                                     & (IData)(
+                                                               (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
+                                                                >> 0x3fU))) 
+                                                    == 
+                                                    (1U 
+                                                     & (IData)(
+                                                               (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                                >> 0x3fU))))
+                                                    ? 1ULL
+                                                    : 0ULL))) 
+                                             >> 0x20U)) 
+                                    << 9U));
+    __Vtemp829[8U] = (0x400U | (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                          | vlSelf->Balotelli__DOT__Imm_ExIn)) 
+                                 << 0xcU) | ((IData)(
+                                                     (((1U 
+                                                        & ((IData)(
+                                                                   (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                                    >> 0x3fU)) 
+                                                           & (~ (IData)(
+                                                                        (vlSelf->Balotelli__DOT__Imm_ExIn 
+                                                                         >> 0x3fU)))))
+                                                        ? 1ULL
+                                                        : 
+                                                       ((1U 
+                                                         & ((~ (IData)(
+                                                                       (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                                        >> 0x3fU))) 
+                                                            & (IData)(
+                                                                      (vlSelf->Balotelli__DOT__Imm_ExIn 
+                                                                       >> 0x3fU))))
+                                                         ? 0ULL
+                                                         : 
+                                                        (((1U 
+                                                           & (IData)(
+                                                                     (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
+                                                                      >> 0x3fU))) 
+                                                          == 
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                                                      >> 0x3fU))))
+                                                          ? 1ULL
+                                                          : 0ULL))) 
+                                                      >> 0x20U)) 
+                                             >> 0x17U)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0U] 
+        = (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[1U] 
+        = (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right 
+                   >> 0x20U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[2U] 
+        = (5U | ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left) 
+                 << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[3U] 
+        = (((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left) 
+            >> 0x1dU) | ((IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left 
+                                  >> 0x20U)) << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[4U] 
+        = (8U | (((IData)(((1U & (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
+                                          >> 0x3fU)))
+                            ? 1ULL : 0ULL)) << 6U) 
+                 | ((IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left 
+                             >> 0x20U)) >> 0x1dU)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[5U] 
+        = (((IData)(((1U & (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
+                                    >> 0x3fU))) ? 1ULL
+                      : 0ULL)) >> 0x1aU) | ((IData)(
+                                                    (((1U 
+                                                       & (IData)(
+                                                                 (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
+                                                                  >> 0x3fU)))
+                                                       ? 1ULL
+                                                       : 0ULL) 
+                                                     >> 0x20U)) 
+                                            << 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[6U] 
+        = __Vtemp827[6U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[7U] 
+        = __Vtemp827[7U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[8U] 
+        = __Vtemp829[8U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[9U] 
+        = (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                     | vlSelf->Balotelli__DOT__Imm_ExIn)) 
+            >> 0x14U) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                   | vlSelf->Balotelli__DOT__Imm_ExIn) 
+                                  >> 0x20U)) << 0xcU));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xaU] 
+        = (0x6000U | (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                & vlSelf->Balotelli__DOT__Imm_ExIn)) 
+                       << 0xfU) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                             | vlSelf->Balotelli__DOT__Imm_ExIn) 
+                                            >> 0x20U)) 
+                                   >> 0x14U)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xbU] 
+        = (((IData)((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                     & vlSelf->Balotelli__DOT__Imm_ExIn)) 
+            >> 0x11U) | ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                   & vlSelf->Balotelli__DOT__Imm_ExIn) 
+                                  >> 0x20U)) << 0xfU));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xcU] 
+        = (0x38000U | ((__Vtemp821[0U] << 0x12U) | 
+                       ((IData)(((vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut 
+                                  & vlSelf->Balotelli__DOT__Imm_ExIn) 
+                                 >> 0x20U)) >> 0x11U)));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xdU] 
+        = ((__Vtemp821[0U] >> 0xeU) | (__Vtemp821[1U] 
+                                       << 0x12U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xeU] 
+        = ((__Vtemp821[1U] >> 0xeU) | (__Vtemp821[2U] 
+                                       << 0x12U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__pair_list[0U] 
         = (0xc6U | (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[0U][0U] 
-        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[0U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[0U][1U] 
-        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[1U];
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[0U][2U] 
-        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[1U][0U] 
-        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[3U] 
-            << 0x19U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[2U] 
-                         >> 7U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[1U][1U] 
-        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[4U] 
-            << 0x19U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[3U] 
-                         >> 7U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[1U][2U] 
-        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[4U] 
-                    >> 7U));
-    VL_EXTEND_WQ(71,64, __Vtemp781, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_ZeroOut);
+    VL_EXTEND_WQ(71,64, __Vtemp834, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_ZeroOut);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[0U] 
+        = (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_OneOut);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[1U] 
+        = (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_R_Type_OneOut 
+                   >> 0x20U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[2U] 
+        = (0x20U | (__Vtemp834[0U] << 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[3U] 
+        = ((__Vtemp834[0U] >> 0x19U) | (__Vtemp834[1U] 
+                                        << 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[4U] 
+        = ((__Vtemp834[1U] >> 0x19U) | (__Vtemp834[2U] 
+                                        << 7U));
+    VL_EXTEND_WQ(71,64, __Vtemp837, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_ZeroOut);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV32_R_Type____pinNumber4[0U] 
         = (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_OneOut);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV32_R_Type____pinNumber4[1U] 
         = (IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_OneOut 
                    >> 0x20U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV32_R_Type____pinNumber4[2U] 
-        = (0x20U | (__Vtemp781[0U] << 7U));
+        = (0x20U | (__Vtemp837[0U] << 7U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV32_R_Type____pinNumber4[3U] 
-        = ((__Vtemp781[0U] >> 0x19U) | (__Vtemp781[1U] 
+        = ((__Vtemp837[0U] >> 0x19U) | (__Vtemp837[1U] 
                                         << 7U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV32_R_Type____pinNumber4[4U] 
-        = ((__Vtemp781[1U] >> 0x19U) | (__Vtemp781[2U] 
+        = ((__Vtemp837[1U] >> 0x19U) | (__Vtemp837[2U] 
                                         << 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__data_list[0U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__pair_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__pair_list
+                    [0U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__data_list[1U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__pair_list
+           [1U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__key_list[1U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__pair_list
+                    [1U] >> 5U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[0U][0U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[0U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[0U][1U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[1U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[0U][2U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[1U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[3U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[2U] 
+                         >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[1U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[4U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[3U] 
+                         >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[1U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[4U] 
+                 >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[2U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[5U] 
+            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[4U] 
+                         >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[2U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[6U] 
+            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[5U] 
+                         >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list[2U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV64_I_Type____pinNumber4[6U] 
+                 >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[0U][0U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[0U][1U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[1U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[0U][2U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[1U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[3U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[2U] 
+                         >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[1U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[4U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[3U] 
+                         >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[1U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[4U] 
+                 >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[2U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[5U] 
+            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[4U] 
+                         >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[2U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[6U] 
+            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[5U] 
+                         >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[2U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[6U] 
+                 >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[3U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[7U] 
+            << 0x17U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[6U] 
+                         >> 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[3U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[8U] 
+            << 0x17U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[7U] 
+                         >> 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[3U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[8U] 
+                 >> 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[4U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[9U] 
+            << 0x14U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[8U] 
+                         >> 0xcU));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[4U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xaU] 
+            << 0x14U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[9U] 
+                         >> 0xcU));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[4U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xaU] 
+                 >> 0xcU));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[5U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xbU] 
+            << 0x11U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xaU] 
+                         >> 0xfU));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[5U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xcU] 
+            << 0x11U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xbU] 
+                         >> 0xfU));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[5U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xcU] 
+                 >> 0xfU));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[6U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xdU] 
+            << 0xeU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xcU] 
+                        >> 0x12U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[6U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xeU] 
+            << 0xeU) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xdU] 
+                        >> 0x12U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list[6U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct3_RV32_I_Type____pinNumber4[0xeU] 
+                 >> 0x12U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__data_list[0U] 
         = (1U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__pair_list
            [0U]);
@@ -7166,22 +7724,23 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__key_list[2U] 
         = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__pair_list
                     [2U] >> 1U));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__data_list[0U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
-                            [0U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
-                                                                   [0U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__key_list[0U] 
-        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
-           [0U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__data_list[1U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
-                            [1U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
-                                                                   [1U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__key_list[1U] 
-        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
-           [1U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[0U][0U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[0U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[0U][1U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[1U];
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[0U][2U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[1U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[3U] 
+            << 0x19U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[2U] 
+                         >> 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[1U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[4U] 
+            << 0x19U) | (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[3U] 
+                         >> 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list[1U][2U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV64_R_Type____pinNumber4[4U] 
+                    >> 7U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV32_R_Type____pinNumber4[0U];
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list[0U][1U] 
@@ -7199,6 +7758,112 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list[1U][2U] 
         = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Funct7_RV32_R_Type____pinNumber4[4U] 
                     >> 7U));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__lut_out 
+        = ((- (IData)(((0x7fU & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                         >> 0x19U))) 
+                       == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__key_list
+                       [0U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__hit 
+        = ((0x7fU & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                             >> 0x19U))) == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__lut_out) 
+           | ((- (IData)(((0x7fU & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                            >> 0x19U))) 
+                          == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__key_list
+                          [1U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__hit) 
+           | ((0x7fU & (IData)((vlSelf->Balotelli__DOT__Inst_IdIn 
+                                >> 0x19U))) == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__hit)
+            ? (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7_mux__DOT__i0__DOT__lut_out)
+            : 0U);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+                            [0U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+                                                                   [0U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list[0U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+           [0U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__data_list[1U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+                            [1U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+                                                                   [1U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list[1U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+           [1U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__data_list[2U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+                            [2U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+                                                                   [2U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list[2U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__pair_list
+           [2U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                            [0U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                                                                   [0U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[0U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+           [0U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[1U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                            [1U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                                                                   [1U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[1U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+           [1U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[2U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                            [2U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                                                                   [2U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[2U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+           [2U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[3U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                            [3U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                                                                   [3U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[3U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+           [3U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[4U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                            [4U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                                                                   [4U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[4U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+           [4U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[5U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                            [5U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                                                                   [5U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[5U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+           [5U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list[6U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                            [6U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+                                                                   [6U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list[6U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__pair_list
+           [6U][2U]);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__lut_out 
         = (((IData)(vlSelf->Balotelli__DOT__OpCode_ExIn) 
             == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__key_list
@@ -7232,6 +7897,180 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
               [2U]));
     vlSelf->Balotelli__DOT__JumpFlag_ExOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__hit) 
                                               & (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__lut_out));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
+                            [0U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
+                                                                   [0U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
+           [0U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__data_list[1U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
+                            [1U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
+                                                                   [1U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__key_list[1U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list
+           [1U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
+                            [0U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
+                                                                   [0U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
+           [0U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__data_list[1U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
+                            [1U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
+                                                                   [1U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__key_list[1U] 
+        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
+           [1U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__pair_list[0U] 
+        = (0x260U | (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct7));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__lut_out 
+        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list
+                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list
+                                  [1U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list
+                                  [2U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__data_list
+              [2U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__key_list
+              [2U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_TypeOut 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__hit)
+            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__lut_out
+            : 0ULL);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                               == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+           == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+                                  [1U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+                                  [2U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
+              [2U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+              [2U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+                                  [3U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
+              [3U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+              [3U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+                                  [4U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
+              [4U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+              [4U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+                                  [5U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
+              [5U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+              [5U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+                                  [6U])))) & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__data_list
+              [6U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Funct3_ExIn) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__key_list
+              [6U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_TypeOut 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit)
+            ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__lut_out
+            : 0ULL);
+    vlSelf->Balotelli__DOT__Balotelli_Pc__DOT__PcIn 
+        = ((IData)(vlSelf->Balotelli__DOT__JumpFlag_ExOut)
+            ? vlSelf->Balotelli__DOT__JumpAddr_ExOut
+            : (4ULL + vlSelf->PcOut));
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__lut_out 
+        = (((IData)(vlSelf->Balotelli__DOT__JumpFlag_ExOut) 
+            == vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__key_list
+            [0U]) & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__JumpFlag_ExOut) 
+           == vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__lut_out 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__lut_out) 
+           | (((IData)(vlSelf->Balotelli__DOT__JumpFlag_ExOut) 
+               == vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__key_list
+               [1U]) & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__JumpFlag_ExOut) 
+              == vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__HoldFlag = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__hit) 
+                                        & (IData)(vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__lut_out));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__lut_out 
         = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
                                == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__key_list
@@ -7256,48 +8095,6 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
         = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__hit)
             ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__lut_out
             : 0ULL);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__data_list[0U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
-                            [0U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
-                                                                   [0U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__key_list[0U] 
-        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
-           [0U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__data_list[1U] 
-        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
-                            [1U][1U])) << 0x20U) | (QData)((IData)(
-                                                                   vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
-                                                                   [1U][0U])));
-    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__key_list[1U] 
-        = (0x7fU & vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__pair_list
-           [1U][2U]);
-    vlSelf->Balotelli__DOT__Balotelli_Pc__DOT__PcIn 
-        = ((IData)(vlSelf->Balotelli__DOT__JumpFlag_ExOut)
-            ? vlSelf->Balotelli__DOT__JumpAddr_ExOut
-            : (4ULL + vlSelf->PcOut));
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__lut_out 
-        = (((IData)(vlSelf->Balotelli__DOT__JumpFlag_ExOut) 
-            == vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__key_list
-            [0U]) & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__data_list
-           [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__JumpFlag_ExOut) 
-           == vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__key_list
-           [0U]);
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__lut_out 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__lut_out) 
-           | (((IData)(vlSelf->Balotelli__DOT__JumpFlag_ExOut) 
-               == vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__key_list
-               [1U]) & vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__data_list
-              [1U]));
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__hit 
-        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__hit) 
-           | ((IData)(vlSelf->Balotelli__DOT__JumpFlag_ExOut) 
-              == vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__key_list
-              [1U]));
-    vlSelf->Balotelli__DOT__HoldFlag = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__hit) 
-                                        & (IData)(vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag__DOT__i0__DOT__lut_out));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__lut_out 
         = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Funct7_ExIn) 
                                == vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__key_list
@@ -7322,6 +8119,12 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
         = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__hit)
             ? vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__lut_out
             : 0ULL);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__data_list[0U] 
+        = (0x1fU & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__pair_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__pair_list
+                    [0U] >> 5U));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__OpOcde_RdWriteDataOut____pinNumber4[0U] 
         = (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_TypeOut);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__OpOcde_RdWriteDataOut____pinNumber4[1U] 
@@ -7406,6 +8209,18 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__OpOcde_RdWriteDataOut____pinNumber4[0x11U] 
         = (0x260000U | ((IData)((vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_TypeOut 
                                  >> 0x20U)) >> 0xfU));
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__lut_out 
+        = ((- (IData)(((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+                       == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__key_list
+                       [0U]))) & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__hit 
+        = ((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
+           == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Shamt_IdOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__hit)
+                                            ? (IData)(vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Shamt_mux__DOT__i0__DOT__lut_out)
+                                            : 0U);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__OpOcde_RdWriteDataOut__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__OpOcde_RdWriteDataOut____pinNumber4[0U];
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__OpOcde_RdWriteDataOut__DOT__i0__DOT__pair_list[0U][1U] 

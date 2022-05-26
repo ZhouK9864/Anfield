@@ -40,6 +40,7 @@ module Balotelli (
   wire [6:0] OpCode_IdOut;
   wire [2:0] Funct3_IdOut;
   wire [6:0] Funct7_IdOut;
+  wire [4:0] Shamt_IdOut;
 
   //Ex In
   wire [`AddrBus] InstAddr_ExIn;
@@ -51,6 +52,7 @@ module Balotelli (
   wire [6:0] OpCode_ExIn;
   wire [2:0] Funct3_ExIn;
   wire [6:0] Funct7_ExIn;
+  wire [4:0] Shamt_ExIn;
   //Ex Out
   wire [`DataBus] RdWriteData_ExOut;
   wire [`RegFileAddr] RdAddr_ExOut;
@@ -131,7 +133,8 @@ module Balotelli (
     .Imm(Imm_IdOut),
     .OpCode(OpCode_IdOut),
     .Funct3(Funct3_IdOut),
-    .Funct7(Funct7_IdOut)
+    .Funct7(Funct7_IdOut),
+    .Shamt(Shamt_IdOut)
   );
 
   RegFile Balotelli_RegFile (
@@ -162,6 +165,7 @@ module Balotelli (
     .OpCodeIn(OpCode_IdOut),
     .Funct3In(Funct3_IdOut),
     .Funct7In(Funct7_IdOut),
+    .ShamtIn(Shamt_IdOut),
     .HoldFlagFromCtrl(HoldFlag),
     .InstAddrOut(InstAddr_ExIn),
     .RdAddrOut(RdAddr_ExIn),
@@ -174,7 +178,8 @@ module Balotelli (
     .ImmOut(Imm_ExIn),
     .OpCodeOut(OpCode_ExIn),
     .Funct3Out(Funct3_ExIn),
-    .Funct7Out(Funct7_ExIn) 
+    .Funct7Out(Funct7_ExIn),
+    .ShamtOut(Shamt_ExIn)
   );
 
   Ex Balotelli_Ex (
@@ -187,6 +192,7 @@ module Balotelli (
     .OpCodeIn(OpCode_ExIn),
     .Funct3In(Funct3_ExIn),
     .Funct7In(Funct7_ExIn),
+    .ShamtIn(Shamt_ExIn),
     .RdWriteDataOut(RdWriteData_ExOut),
     .RdAddrOut(RdAddr_ExOut),
     .RdWriteEnableOut(RdWriteEnable_ExOut),

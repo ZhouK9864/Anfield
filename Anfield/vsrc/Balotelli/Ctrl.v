@@ -13,7 +13,7 @@ module Ctrl (
   assign JumpFlagToPc = JumpFlagFromEx;
   
   //HoldFlag can be externed to 3 bit
-  MuxKeyWithDefault #(2, 1, 1) HoldFlag (HoldFlagOut, JumpFlagFromEx, 1'b0, {
+  MuxKeyWithDefault #(2, 1, 1) HoldFlag_mux (HoldFlagOut, JumpFlagFromEx, 1'b0, {
     //Jar
     1'b1, 1'b1,
     1'b0, 1'b0

@@ -3,6 +3,7 @@
 `define DataBus 63:0
 `define InstBus 63:0
 `define AluBus 31:0
+`define HalfDataBus 31:0
 
 //
 `define AddrRegWidth 64

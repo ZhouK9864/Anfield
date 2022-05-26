@@ -13,19 +13,21 @@ module Id2Ex (
   input [6:0] OpCodeIn,
   input [2:0] Funct3In,
   input [6:0] Funct7In,
+  input [4:0] ShamtIn,
   //Jump
   input HoldFlagFromCtrl,
-  output reg [`AddrBus] InstAddrOut,
-  output reg [`RegFileAddr] RdAddrOut,
-  output reg RdWriteEnableOut,
-  output reg [`DataBus] Rs1ReadDataOut,
-  output reg [`DataBus] Rs2ReadDataOut,
-  output reg [`RegFileAddr] Rs1AddrOut,
-  output reg [`RegFileAddr] Rs2AddrOut,
-  output reg [`DataBus] ImmOut,
-  output reg [6:0] OpCodeOut,
-  output reg [2:0] Funct3Out,
-  output reg [6:0] Funct7Out
+  output [`AddrBus] InstAddrOut,
+  output [`RegFileAddr] RdAddrOut,
+  output RdWriteEnableOut,
+  output [`DataBus] Rs1ReadDataOut,
+  output [`DataBus] Rs2ReadDataOut,
+  output [`RegFileAddr] Rs1AddrOut,
+  output [`RegFileAddr] Rs2AddrOut,
+  output [`DataBus] ImmOut,
+  output [6:0] OpCodeOut,
+  output [2:0] Funct3Out,
+  output [6:0] Funct7Out,
+  output [4:0] ShamtOut
 );
 
   RegWithEn #(`InstRegWidth, `PcInit) InstAddr_reg (Clk, Rst, InstAddrIn, HoldFlagFromCtrl, InstAddrOut, 1'b1);
@@ -49,5 +51,7 @@ module Id2Ex (
   RegWithEn #(3, 3'b0) Funct3_reg (Clk, Rst, Funct3In, HoldFlagFromCtrl, Funct3Out, 1'b1);
 
   RegWithEn #(7, 7'b0) Funct7_reg (Clk, Rst, Funct7In, HoldFlagFromCtrl, Funct7Out, 1'b1);
+  
+  RegWithEn #(5, 5'b0) Shamt_reg (Clk, Rst, ShamtIn, HoldFlagFromCtrl, ShamtOut, 1'b1);
 
 endmodule

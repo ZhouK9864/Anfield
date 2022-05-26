@@ -5,7 +5,7 @@ import argparse
 parser = argparse.ArgumentParser(description='Test for argparse')
 parser.add_argument('--fileName', '-fn', help='属性，必要参数', required=True, type=str)
 args = parser.parse_args()
-TXTtemp = open('././../am-kernels/tests/cpu-tests/build/' + args.fileName + '-riscv64-nemu.txt', "r+")
+TXTtemp = open('./../am-kernels/tests/cpu-tests/build/' + args.fileName + '-riscv64-nemu.txt', "r+")
 txtbuffer = TXTtemp.readlines()
 linData = []
 saveData = []

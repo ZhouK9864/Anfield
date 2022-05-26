@@ -9,6 +9,7 @@ module Ex (
   input [6:0] OpCodeIn,
   input [2:0] Funct3In,
   input [6:0] Funct7In,
+  input [4:0] ShamtIn,
   output reg [`DataBus] RdWriteDataOut,
   output [`RegFileAddr] RdAddrOut,
   output RdWriteEnableOut,
@@ -53,6 +54,8 @@ module Ex (
   });
 
   wire [`DataBus] Funct3_RV32_I_TypeOut;
+  wire [`DataBus] Shift_RV32_Right;
+  wire [`DataBus] Shift_RV32_Left;
 
   wire [`DataBus] Funct7_RV32_R_TypeOut;
     //Funct7为7'b0000000
@@ -61,6 +64,9 @@ module Ex (
     wire [`DataBus] Funct3_RV32_R_Type_OneOut;
 
   wire [`DataBus] Funct3_RV64_I_TypeOut;
+  wire [`DataBus] Shift_RV64_Right;
+  wire [`DataBus] Shift_RV64_Left;
+
   wire [`DataBus] Funct7_RV64_R_TypeOut;
     //Funct7为7'b0000000
     wire [`DataBus] Funct3_RV64_R_Type_ZeroOut;
@@ -92,11 +98,25 @@ module Ex (
     //Sll
     wire [`DataBus] Rs1ReadDataSllRs2ReadData = Rs1ReadDataIn << Rs2ReadDataIn[5:0];
     //Slli
-    
+    wire [`DataBus] Rs1ReadDataSllImm = Rs1ReadDataIn << ShamtIn;
+    //Sra
+    wire [`DataBus] Rs1ReadDataSraRs2ReadData = Rs1ReadDataIn <<< Rs2ReadDataIn[5:0];
+    //Srai
+    wire [`DataBus] Rs1ReadDataSraImm = Rs1ReadDataIn >>> ShamtIn;
+    //Srl
+    wire [`DataBus] Rs1ReadDataSrlRs2ReadData = Rs1ReadDataIn >> Rs2ReadDataIn[5:0];
+    //Srli
+    wire [`DataBus] Rs1ReadDataSrlImm = Rs1ReadDataIn >> ShamtIn;
+    //Sllw
+    wire [`HalfDataBus] Rs1ReadDataSllwRs2ReadData = Rs1ReadDataIn[31:0] << Rs2ReadDataIn[4:0];
+    //Sraw
+    wire [`HalfDataBus] Rs1ReadDataSrawRs2ReadData = Rs1ReadDataIn[31:0] >>> Rs2ReadDataIn[4:0];
+    //Srlw
+    wire [`HalfDataBus] Rs1ReadDataSrlwRs2ReadData = Rs1ReadDataIn[31:0] >> Rs2ReadDataIn[4:0];
 
   //RV32I
     //I类型执行模块
-    MuxKeyWithDefault #(5, 3, 64) Funct3_RV32_I_Type (Funct3_RV32_I_TypeOut, Funct3In, 64'b0, {
+    MuxKeyWithDefault #(7, 3, 64) Funct3_RV32_I_Type (Funct3_RV32_I_TypeOut, Funct3In, 64'b0, {
       //Addi
       3'b000, ImmAddRs1ReadData,
       //Andi
@@ -108,16 +128,30 @@ module Ex (
               ((Rs1ReadDataIn[63] == 1'b0) && (ImmIn[63] == 1'b1)) ? 64'b0 :
               (Rs1ReadDataAddRs2ReadData[63] == Rs1ReadDataIn[63]) ? 64'b1 : 64'b0),
       //Sltiu
-      3'b011, ((Rs1ReadDataSubRs2ReadData[63] == 1'b1) ? 64'b1 : 64'b0)
+      3'b011, ((Rs1ReadDataSubRs2ReadData[63] == 1'b1) ? 64'b1 : 64'b0),
+      //Slli
+      3'b001, Shift_RV32_Left,
+      //Srli or srai
+      3'b101, Shift_RV32_Right
     });
+      //这里由于译码特殊性，先对Funct3译码再对Funct7译码。 
+      MuxKeyWithDefault #(2, 7, 64) Shift_RV32_Right_mux (Shift_RV32_Right, Funct7In, 64'b0, {
+        7'b0000000, Rs1ReadDataSrlImm,
+        7'b0100000, Rs1ReadDataSraImm
+      }); 
+      MuxKeyWithDefault #(1, 7, 64) Shift_RV32_Left_mux (Shift_RV32_Left, Funct7In, 64'b0, {
+        7'b0000000, Rs1ReadDataSllImm
+      }); 
     
     //R类型执行模块
     MuxKeyWithDefault #(2, 7, 64) Funct7_RV32_R_Type (Funct7_RV32_R_TypeOut, Funct7In, 64'b0, {
+      //Add or Xor or Or or And or Slt or Sltu or Sll or Srl
       7'b0000000, Funct3_RV32_R_Type_ZeroOut,
+      //Sub or Sra
       7'b0100000, Funct3_RV32_R_Type_OneOut
     }); 
       //Funct7为7'b0000000
-      MuxKeyWithDefault #(6, 3, 64) Funct3_RV32_R_Type_Zero (Funct3_RV32_R_Type_ZeroOut, Funct3In, 64'b0, {
+      MuxKeyWithDefault #(8, 3, 64) Funct3_RV32_R_Type_Zero (Funct3_RV32_R_Type_ZeroOut, Funct3In, 64'b0, {
         //Add
         3'b000, Rs1ReadDataAddRs2ReadData,
         //Xor
@@ -131,37 +165,61 @@ module Ex (
                 ((Rs1ReadDataIn[63] == 1'b0) && (Rs2ReadDataIn[63] == 1'b1)) ? 64'b0 :
                 (Rs1ReadDataAddRs2ReadData[63] == Rs1ReadDataIn[63]) ? 64'b1 : 64'b0),
         //Sltu
-        3'b011, ((Rs1ReadDataSubRs2ReadData[63] == 1'b1) ? 64'b1 : 64'b0)
+        3'b011, ((Rs1ReadDataSubRs2ReadData[63] == 1'b1) ? 64'b1 : 64'b0),
+        //Sll
+        3'b001, Rs1ReadDataSllRs2ReadData,
+        //Srl
+        3'b101, Rs1ReadDataSrlRs2ReadData
       });
       //Funct7为7'b0100000
       MuxKeyWithDefault #(2, 3, 64) Funct3_RV32_R_Type_One (Funct3_RV32_R_Type_OneOut, Funct3In, 64'b0, {
         //Sub
         3'b000, Rs1ReadDataSubRs2ReadData,
-        //Sll
-        3'b001, Rs1ReadDataSllRs2ReadData
+        //Sra
+        3'b101, Rs1ReadDataSraRs2ReadData
       });
 
   //RV64I
     //I类型执行模块
-    MuxKeyWithDefault #(1, 3, 64) Funct3_RV64_I_Type (Funct3_RV64_I_TypeOut, Funct3In, 64'b0, {
-      //ADDIW
-      3'b000, {{32{ImmAddRs1ReadData[31]}}, ImmAddRs1ReadData[31:0]}
+    MuxKeyWithDefault #(3, 3, 64) Funct3_RV64_I_Type (Funct3_RV64_I_TypeOut, Funct3In, 64'b0, {
+      //Addiw
+      3'b000, {{32{ImmAddRs1ReadData[31]}}, ImmAddRs1ReadData[31:0]},
+      //Slliw
+      3'b001, {{32{Shift_RV64_Left[31]}}, Shift_RV64_Left[31:0]},
+      //Srliw or Sraiw
+      3'b101, {{32{Shift_RV64_Right[31]}}, Shift_RV64_Right[31:0]}
     });
+      //这里由于译码特殊性，先对Funct3译码再对Funct7译码。 
+      MuxKeyWithDefault #(2, 7, 64) Shift_RV64_Right_mux (Shift_RV64_Right, Funct7In, 64'b0, {
+        //Srliw
+        7'b0000000, Rs1ReadDataSrlImm,
+        //Sraiw
+        7'b0100000, Rs1ReadDataSraImm
+      }); 
+      MuxKeyWithDefault #(1, 7, 64) Shift_RV64_Left_mux (Shift_RV64_Left, Funct7In, 64'b0, {
+        7'b0000000, Rs1ReadDataSllImm
+      }); 
 
     //R类型执行模块 
     MuxKeyWithDefault #(2, 7, 64) Funct7_RV64_R_Type (Funct7_RV64_R_TypeOut, Funct7In, 64'b0, {
-      //ADDW
+      //Addw or Sllw or Srlw
       7'b0000000, Funct3_RV64_R_Type_ZeroOut,
-      //SUBW
+      //Subw or Sraw
       7'b0100000, Funct3_RV64_R_Type_OneOut
     });
-      
-      MuxKeyWithDefault #(1, 3, 64) Funct3_RV64_R_Type_Zero (Funct3_RV64_R_Type_ZeroOut, Funct3In, 64'b0, {
-        3'b000, {{32{Rs1ReadDataAddRs2ReadData[31]}}, Rs1ReadDataAddRs2ReadData[31:0]}
+      MuxKeyWithDefault #(3, 3, 64) Funct3_RV64_R_Type_Zero (Funct3_RV64_R_Type_ZeroOut, Funct3In, 64'b0, {
+        //Addw
+        3'b000, {{32{Rs1ReadDataAddRs2ReadData[31]}}, Rs1ReadDataAddRs2ReadData[31:0]},
+        //Sllw
+        3'b001, {{32{Rs1ReadDataSllwRs2ReadData[31]}}, Rs1ReadDataSllwRs2ReadData},
+        //Srlw
+        3'b101, {{32{Rs1ReadDataSrlwRs2ReadData[31]}}, Rs1ReadDataSrlwRs2ReadData}
       });
-
-      MuxKeyWithDefault #(1, 3, 64) Funct3_RV64_R_Type_One (Funct3_RV64_R_Type_OneOut, Funct3In, 64'b0, {
-        3'b000, {{32{Rs1ReadDataSubRs2ReadData[31]}}, Rs1ReadDataSubRs2ReadData[31:0]}
+      MuxKeyWithDefault #(2, 3, 64) Funct3_RV64_R_Type_One (Funct3_RV64_R_Type_OneOut, Funct3In, 64'b0, {
+        //Subw
+        3'b000, {{32{Rs1ReadDataSubRs2ReadData[31]}}, Rs1ReadDataSubRs2ReadData[31:0]},
+        //Sraw
+        3'b101, {{32{Rs1ReadDataSrawRs2ReadData[31]}}, Rs1ReadDataSrawRs2ReadData}
       });
 
   //Output

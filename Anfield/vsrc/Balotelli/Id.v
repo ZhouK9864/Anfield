@@ -16,9 +16,10 @@ module Id (
   output reg [`DataBus] Imm,
   output [6:0] OpCode,
   output [2:0] Funct3,
-  output [6:0] Funct7
+  output [6:0] Funct7,
+  output [4:0] Shamt
   );
-
+  
   //通用译码
   assign OpCode = InstIn[6:0];
   assign Funct3 = InstIn[14:12];
@@ -37,9 +38,33 @@ module Id (
   assign InstAddrOut = InstAddrIn;
   assign Rs1ReadDataOut = Rs1ReadDataIn;
   assign Rs2ReadDataOut = Rs2ReadDataIn;
+  
+  //wire of Shamt come out
+  wire [4:0] ShamtFunct3_00;
+  wire [4:0] ShamtFunct3_01; 
+  wire [4:0] ShamtFunct7;
+
+  //Shamt在移位操作时输出至ex
+  MuxKeyWithDefault #(1, 7, 5) Shamt_mux (Shamt, OpCode, 5'b0, {
+    7'b0010011, ShamtFunct7
+  });
+
+  MuxKeyWithDefault #(2, 7, 5) ShamtFunct7_mux (ShamtFunct7, Funct7, 5'b0, {
+    7'b0000000, ShamtFunct3_00,
+    7'b0100000, ShamtFunct3_01
+  });
+
+  MuxKeyWithDefault #(2, 3, 5) ShamtFunct3_00_mux (ShamtFunct3_00, Funct3, 5'b0, {
+    3'b001, Rs2AddrOut,
+    3'b101, Rs2AddrOut
+  });
+
+  MuxKeyWithDefault #(1, 3, 5) ShamtFunct3_01_mux (ShamtFunct3_01, Funct3, 5'b0, {
+    3'b101, Rs2AddrOut 
+  });
 
   //Warning!!!部分扩展指令集也做了译码实现，但是不一定正确！！！
-  MuxKeyWithDefault #(15, 7, 1) Id_Rs1ReadEnable (Rs1ReadEnable, OpCode, 1'b0, {
+  MuxKeyWithDefault #(15, 7, 1) Id_Rs1ReadEnable_mux (Rs1ReadEnable, OpCode, 1'b0, {
     //RV32
     7'b0110111, 1'b0,
     7'b0010111, 1'b0,
