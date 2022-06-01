@@ -246,13 +246,13 @@ module Ex (
   });
 
   import "DPI-C" function void SystemBreak (input int Ebreak);
-
   always @( * ) begin
     if(OpCodeIn == 7'b1110011 && RaiseException == RaiseException_Ebreak) 
       SystemBreak(1);
     else
       SystemBreak(0);
-  end           
+  end   
+          
   //Ebrack or Ecall
   wire BranchFlag;
   //Jump

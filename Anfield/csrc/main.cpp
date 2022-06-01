@@ -7,6 +7,7 @@
 #include "svdpi.h"
 #include "nvboard.h"
 #include "stdlib.h"
+#include "verilated_dpi.h"
 #define N 1000000
 #define BITMASK(bits) ((1ull << (bits)) - 1)
 #define BITS(x, hi, lo) (((x) >> (lo)) & BITMASK((hi) - (lo) + 1)) // similar to x[hi:lo] in verilog
@@ -20,6 +21,37 @@ void SystemBreak(int Ebreak);
 void SystemBreak(int Ebreak) {
 	if(Ebreak == 1) EbreakFlag = 1;
 	else EbreakFlag = 0;
+}
+
+uint64_t *cpu_gpr = NULL;
+extern "C" void set_gpr_ptr(const svOpenArrayHandle r) {
+  cpu_gpr = (uint64_t *)(((VerilatedDpiOpenVar*)r)->datap());
+}
+
+// 一个输出RTL中通用寄存器的值的示例
+void dump_gpr() {
+  int i;
+  for (i = 0; i < 32; i++) {
+    printf("gpr[%d] = 0x%lx\n", i, cpu_gpr[i]);
+  }
+}
+
+uint64_t *reg_gpr = NULL;
+extern "C" void get_when_commit(const svOpenArrayHandle r) {
+  reg_gpr = (uint64_t *)(((VerilatedDpiOpenVar*)r)->datap());
+}
+
+// 一个输出RTL中通用寄存器的值的示例
+void get_commit(FILE *fpWrite, FILE *AddrWrite) {
+  int i;
+  //for (i = 0; i < 3; i++) {
+    //printf("reg[%d] = 0x%lx\n", i, reg_gpr[i]); 
+  //}
+  if(reg_gpr[2] == 1) {
+    printf("trace success!\n");
+    fprintf(fpWrite,"%lx\n", reg_gpr[0]);  
+    fprintf(AddrWrite,"%lx\n", reg_gpr[1]); 
+  }
 }
 
 static void single_cycle() {
@@ -89,20 +121,31 @@ int main( int argc, char **argv ){
 	top->trace(tfp, 99);
 	tfp->open("Vtest.vcd");
 	mem_open();
+	FILE *fpWrite = fopen("./difftest/RegCommitData_Rtrace.txt","w"); 
+	FILE *AddrWrite = fopen("./difftest/RegCommitAddr_Rtrace.txt","w"); 
+	svLogicVecVal *GetData = NULL;
+	svLogicVecVal *GetAddr = NULL;
+	svLogic *EN = NULL;
 	while(!Verilated::gotFinish() && !EbreakFlag){
 	       	single_cycle();
 		nvboard_update();
 		if(i > 190) { top->Rst = 0; }
 	        else { top->Rst = 1; }
 		top->InstIn = pmem_read(top->PcOut);
-		printf("RaddrOut is : %lx\n", top->RaddrOut);
+		//printf("RaddrOut is : %lx\n", top->RaddrOut);
 		top->MemDataIn = pmem_load(top->RaddrOut);
+		printf("Load Addr is : %lx\n", top->RaddrOut);
+		printf("Load data is : %lx\n", top->MemDataIn);
+		printf("Store is : %lx\n", top->WaddrOut);
 		pmem_store(top->WaddrOut, top->MemDataOut, top->Wmask);	
+		//dump_gpr();
+		get_commit(fpWrite, AddrWrite);
 		top->eval();
 		tfp->dump(main_time);
 		main_time++;
 		i --;
 	}
+	fclose(fpWrite); 
 nvboard_quit();
 tfp->close();
 delete top;

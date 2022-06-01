@@ -15,6 +15,10 @@ extern "C" {
     // DPI IMPORTS
     // DPI import at /home/kaizhou/ysyx-workbench/Anfield/vsrc/Balotelli/Ex.v:248:32
     extern void SystemBreak(int Ebreak);
+    // DPI import at /home/kaizhou/ysyx-workbench/Anfield/vsrc/Balotelli/RegFile.v:31:34
+    extern void get_when_commit(const svOpenArrayHandle a);
+    // DPI import at /home/kaizhou/ysyx-workbench/Anfield/vsrc/Balotelli/RegFile.v:20:34
+    extern void set_gpr_ptr(const svOpenArrayHandle a);
 
 #ifdef __cplusplus
 }

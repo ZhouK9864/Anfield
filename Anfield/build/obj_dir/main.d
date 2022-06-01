@@ -15,4 +15,7 @@ main.o: /home/kaizhou/ysyx-workbench/Anfield/csrc/main.cpp VBalotelli.h \
  /home/kaizhou/ysyx-workbench/nvboard/include/vga.h \
  /home/kaizhou/ysyx-workbench/nvboard/include/keyboard.h \
  /home/kaizhou/ysyx-workbench/nvboard/include/at_scancode.h \
- /home/kaizhou/ysyx-workbench/nvboard/include/macro.h
+ /home/kaizhou/ysyx-workbench/nvboard/include/macro.h \
+ /usr/local/share/verilator/include/verilated_dpi.h \
+ /usr/local/share/verilator/include/verilated_heavy.h \
+ /usr/local/share/verilator/include/verilated_sym_props.h

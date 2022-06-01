@@ -41,7 +41,7 @@ module Mem (
     //Lbu
     3'b100, {{56{1'b0}}, MemDataIn[7:0]},
     //Lhu
-    3'b001, {{48{1'b0}}, MemDataIn[15:0]},
+    3'b101, {{48{1'b0}}, MemDataIn[15:0]},
     //Lwu
     3'b110, {{32{1'b0}}, MemDataIn[31:0]}
   });

@@ -15,6 +15,23 @@ module RegFile (
 
   reg [`DataBus] rf [0 : `RegNum - 1];
 
+  `ifdef DebugMode
+    //显示rf二进制
+    import "DPI-C" function void set_gpr_ptr(input logic [63:0] a []);
+    initial set_gpr_ptr(rf);  // rf为通用寄存器的二维数组变量
+    
+    //记录提交时数据及地址
+    reg [`DataBus] rf_en_set [0:2];
+    /* verilator lint_off WIDTH */
+    always @( * ) begin
+      rf_en_set[0] = RdWriteData;
+      rf_en_set[1] = RdWriteAddr;
+      rf_en_set[2] = RdWriteEnable;
+    end
+    import "DPI-C" function void get_when_commit(input logic [63:0] a []);
+    initial get_when_commit(rf_en_set);
+  `endif
+
   //0号寄存器始终为0
   always @( * ) begin
     rf[0] = `RegZero;
@@ -26,7 +43,8 @@ module RegFile (
       for (integer i = 1; i < `RegNum; i = i + 1) begin
         rf[i] <= `RegZero;
       end
-    end else if (RdWriteEnable) rf[RdWriteAddr] <= RdWriteData;
+    end else if (RdWriteEnable) 
+      rf[RdWriteAddr] <= RdWriteData;
   end
 
   //rs1异步读，数据前推全部放入FWU模块

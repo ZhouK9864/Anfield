@@ -1,4 +1,4 @@
-from icecream import ic
+#from icecream import ic
 import re
 import argparse
 
@@ -15,7 +15,7 @@ for i in range(0, len(txtbuffer)):
     if(re.match('    8', linData)) :
         #ic(linData)
         saveData = (linData[14:22])
-        ic(saveData)
+        #ic(saveData)
         f2.writelines(saveData)
         f2.write('\r\n')
 TXTtemp.close()

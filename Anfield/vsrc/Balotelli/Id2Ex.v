@@ -7,8 +7,8 @@ module Id2Ex (
   input RdWriteEnableIn,
   input [`DataBus] Rs1ReadDataIn,
   input [`DataBus] Rs2ReadDataIn,
-  input [`RegFileAddr] Rs1AddrIn,
-  input [`RegFileAddr] Rs2AddrIn,
+  // input [`RegFileAddr] Rs1AddrIn,
+  // input [`RegFileAddr] Rs2AddrIn,
   input [`DataBus] ImmIn,
   input [6:0] OpCodeIn,
   input [2:0] Funct3In,
@@ -21,8 +21,8 @@ module Id2Ex (
   output RdWriteEnableOut,
   output [`DataBus] Rs1ReadDataOut,
   output [`DataBus] Rs2ReadDataOut,
-  output [`RegFileAddr] Rs1AddrOut,
-  output [`RegFileAddr] Rs2AddrOut,
+  // output [`RegFileAddr] Rs1AddrOut,
+  // output [`RegFileAddr] Rs2AddrOut,
   output [`DataBus] ImmOut,
   output [6:0] OpCodeOut,
   output [2:0] Funct3Out,
@@ -32,9 +32,9 @@ module Id2Ex (
 
   RegWithEn #(`InstRegWidth, `PcInit) InstAddr_reg (Clk, Rst, InstAddrIn, HoldFlagFromCtrl, InstAddrOut, 1'b1);
   
-  RegWithEn #(`RegFileAddrWidth, `RegAddrInit) Rs1Addr_reg (Clk, Rst, Rs1AddrIn, HoldFlagFromCtrl, Rs1AddrOut, 1'b1);
+  // RegWithEn #(`RegFileAddrWidth, `RegAddrInit) Rs1Addr_reg (Clk, Rst, Rs1AddrIn, HoldFlagFromCtrl, Rs1AddrOut, 1'b1);
 
-  RegWithEn #(`RegFileAddrWidth, `RegAddrInit) Rs2Addr_reg (Clk, Rst, Rs2AddrIn, HoldFlagFromCtrl, Rs2AddrOut, 1'b1);
+  // RegWithEn #(`RegFileAddrWidth, `RegAddrInit) Rs2Addr_reg (Clk, Rst, Rs2AddrIn, HoldFlagFromCtrl, Rs2AddrOut, 1'b1);
 
   RegWithEn #(`RegFileAddrWidth, `RegAddrInit) RdAddr_reg (Clk, Rst, RdAddrIn, HoldFlagFromCtrl, RdAddrOut, 1'b1);
 

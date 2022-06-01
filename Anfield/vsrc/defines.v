@@ -25,5 +25,6 @@
 //RegFile
 `define RegNum 32
 
-
+//Modechoose
+`define DebugMode 1
 

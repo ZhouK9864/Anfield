@@ -1,6 +1,9 @@
 `include "./vsrc/defines.v"
 //Forwarding unit
 module Fwu (
+  input [`DataBus] RdWriteDataExIn,
+  input [`RegFileAddr] RdAddrExIn,
+  input RdWriteEnableExIn,
   input [`DataBus] RdWriteDataEx2MemIn,
   input [`RegFileAddr] RdAddrEx2MemIn,
   input RdWriteEnableEx2MemIn,
@@ -15,37 +18,43 @@ module Fwu (
   output [`DataBus] Rs2ReadDataFwuOut
 );
     //Rs1 Data
-    reg [1:0] ForwardA;
+    reg [2:0] ForwardA;
     always @( * ) begin
-      if((RdAddrEx2MemIn == Rs1AddrRegFileIn) && RdWriteEnableEx2MemIn) 
-        ForwardA = 2'b10;
+      if((RdAddrExIn == Rs1AddrRegFileIn) && RdWriteEnableExIn)
+        ForwardA = 3'b100;
+      else if((RdAddrEx2MemIn == Rs1AddrRegFileIn) && RdWriteEnableEx2MemIn) 
+        ForwardA = 3'b010;
       else if((RdAddrMem2WbIn == Rs1AddrRegFileIn) && RdWriteEnableMem2WbIn) 
-        ForwardA = 2'b01;
+        ForwardA = 3'b001;
       else 
-        ForwardA = 2'b00;
+        ForwardA = 3'b000;
     end
-    MuxKeyWithDefault #(3, 2, 64) ForwardAChooseDataSource (Rs1ReadDataFwuOut, ForwardA, 64'b0, {
-    //RV32
-    2'b00, Rs1ReadDataRegFileIn,
-    2'b01, RdWriteDataMem2WbIn,
-    2'b10, RdWriteDataEx2MemIn
+    MuxKeyWithDefault #(4, 3, 64) ForwardAChooseDataSource (Rs1ReadDataFwuOut, ForwardA, 64'b0, {
+      //RV32
+      3'b000, Rs1ReadDataRegFileIn,
+      3'b001, RdWriteDataMem2WbIn,
+      3'b010, RdWriteDataEx2MemIn,
+      3'b100, RdWriteDataExIn
     });
 
     //Rs2 Data
-    reg [1:0] ForwardB;
+    reg [2:0] ForwardB;
     always @( * ) begin
-      if((RdAddrEx2MemIn == Rs2AddrRegFileIn)  && RdWriteEnableEx2MemIn) 
-        ForwardB = 2'b10;
+      if((RdAddrExIn == Rs2AddrRegFileIn) && RdWriteEnableExIn)
+        ForwardB = 3'b100;
+      else if((RdAddrEx2MemIn == Rs2AddrRegFileIn)  && RdWriteEnableEx2MemIn) 
+        ForwardB = 3'b010;
       else if((RdAddrMem2WbIn == Rs2AddrRegFileIn) && RdWriteEnableMem2WbIn) 
-        ForwardB = 2'b01;
+        ForwardB = 3'b001;
       else 
-        ForwardB = 2'b00;
+        ForwardB = 3'b000;
     end
-    MuxKeyWithDefault #(3, 2, 64) ForwardBChooseDataSource (Rs2ReadDataFwuOut, ForwardB, 64'b0, {
-    //RV32
-    2'b00, Rs2ReadDataRegFileIn,
-    2'b01, RdWriteDataMem2WbIn,
-    2'b10, RdWriteDataEx2MemIn
+    MuxKeyWithDefault #(4, 3, 64) ForwardBChooseDataSource (Rs2ReadDataFwuOut, ForwardB, 64'b0, {
+      //RV32
+      3'b000, Rs2ReadDataRegFileIn,
+      3'b001, RdWriteDataMem2WbIn,
+      3'b010, RdWriteDataEx2MemIn,
+      3'b100, RdWriteDataExIn
     });
 
 endmodule

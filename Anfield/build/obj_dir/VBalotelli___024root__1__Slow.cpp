@@ -7,6 +7,18 @@
 
 #include "verilated_dpi.h"
 
+void VBalotelli___024root____Vdpiimwrap_Balotelli__DOT__Balotelli_RegFile__DOT__set_gpr_ptr__Vdpioc2_TOP(const VlUnpacked<QData/*63:0*/, 32> &a);
+void VBalotelli___024root____Vdpiimwrap_Balotelli__DOT__Balotelli_RegFile__DOT__get_when_commit__Vdpioc2_TOP(const VlUnpacked<QData/*63:0*/, 3> &a);
+
+void VBalotelli___024root___initial__TOP__4(VBalotelli___024root* vlSelf) {
+    if (false && vlSelf) {}  // Prevent unused
+    VBalotelli__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    VBalotelli___024root___initial__TOP__4\n"); );
+    // Body
+    VBalotelli___024root____Vdpiimwrap_Balotelli__DOT__Balotelli_RegFile__DOT__set_gpr_ptr__Vdpioc2_TOP(vlSelf->Balotelli__DOT__Balotelli_RegFile__DOT__rf);
+    VBalotelli___024root____Vdpiimwrap_Balotelli__DOT__Balotelli_RegFile__DOT__get_when_commit__Vdpioc2_TOP(vlSelf->Balotelli__DOT__Balotelli_RegFile__DOT__rf_en_set);
+}
+
 void VBalotelli___024root___eval_initial(VBalotelli___024root* vlSelf) {
     if (false && vlSelf) {}  // Prevent unused
     VBalotelli__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
@@ -14,6 +26,7 @@ void VBalotelli___024root___eval_initial(VBalotelli___024root* vlSelf) {
     // Body
     vlSelf->__Vclklast__TOP__Clk = vlSelf->Clk;
     vlSelf->__Vclklast__TOP__Rst = vlSelf->Rst;
+    VBalotelli___024root___initial__TOP__4(vlSelf);
 }
 
 void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) VL_ATTR_COLD;
@@ -236,6 +249,9 @@ void VBalotelli___024root___ctor_var_reset(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Imm__DOT__i0__DOT__hit = 0;
     for (int __Vi0=0; __Vi0<32; ++__Vi0) {
         vlSelf->Balotelli__DOT__Balotelli_RegFile__DOT__rf[__Vi0] = 0;
+    }
+    for (int __Vi0=0; __Vi0<3; ++__Vi0) {
+        vlSelf->Balotelli__DOT__Balotelli_RegFile__DOT__rf_en_set[__Vi0] = 0;
     }
     vlSelf->Balotelli__DOT__Balotelli_RegFile__DOT__unnamedblk1__DOT__i = 0;
     VL_ZERO_RESET_W(142, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT____Vcellinp__Imm_mux____pinNumber4);
@@ -641,27 +657,27 @@ void VBalotelli___024root___ctor_var_reset(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__StoreTypeMask_mux__DOT__i0__DOT__lut_out = 0;
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__StoreTypeMask_mux__DOT__i0__DOT__hit = 0;
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA = 0;
-    VL_ZERO_RESET_W(198, vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4);
+    VL_ZERO_RESET_W(268, vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4);
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB = 0;
-    VL_ZERO_RESET_W(198, vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4);
-    for (int __Vi0=0; __Vi0<3; ++__Vi0) {
-        VL_ZERO_RESET_W(66, vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[__Vi0]);
+    VL_ZERO_RESET_W(268, vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4);
+    for (int __Vi0=0; __Vi0<4; ++__Vi0) {
+        VL_ZERO_RESET_W(67, vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[__Vi0]);
     }
-    for (int __Vi0=0; __Vi0<3; ++__Vi0) {
+    for (int __Vi0=0; __Vi0<4; ++__Vi0) {
         vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list[__Vi0] = 0;
     }
-    for (int __Vi0=0; __Vi0<3; ++__Vi0) {
+    for (int __Vi0=0; __Vi0<4; ++__Vi0) {
         vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__data_list[__Vi0] = 0;
     }
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__lut_out = 0;
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__hit = 0;
-    for (int __Vi0=0; __Vi0<3; ++__Vi0) {
-        VL_ZERO_RESET_W(66, vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[__Vi0]);
+    for (int __Vi0=0; __Vi0<4; ++__Vi0) {
+        VL_ZERO_RESET_W(67, vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[__Vi0]);
     }
-    for (int __Vi0=0; __Vi0<3; ++__Vi0) {
+    for (int __Vi0=0; __Vi0<4; ++__Vi0) {
         vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list[__Vi0] = 0;
     }
-    for (int __Vi0=0; __Vi0<3; ++__Vi0) {
+    for (int __Vi0=0; __Vi0<4; ++__Vi0) {
         vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__data_list[__Vi0] = 0;
     }
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__lut_out = 0;
