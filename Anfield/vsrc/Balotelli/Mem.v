@@ -118,6 +118,11 @@ module Mem (
   });
 
   assign RdAddrOut = RdAddrIn;
-  assign RdWriteEnableOut = RdWriteEnableIn;
+
+  //避免数据前推时，将未load的数据前推
+  MuxKeyWithDefault #(1, 7, 1) RdWriteEnable_mux (RdWriteEnableOut, OpCodeIn, RdWriteEnableIn, {
+    //Load
+    7'b0000011, 1'b1
+  });
 
 endmodule

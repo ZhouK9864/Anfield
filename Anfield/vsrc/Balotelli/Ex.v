@@ -84,7 +84,7 @@ module Ex (
     //Add
     wire [`DataBus] Rs1ReadDataAddRs2ReadData = Rs1ReadDataIn + Rs2ReadDataIn;
     //Sub
-    wire [`DataBus] Rs1ReadDataSubRs2ReadData = Rs1ReadDataIn - Rs2ReadDataIn;
+    wire [`DataBus] Rs1ReadDataSubRs2ReadData = Rs1ReadDataIn + Rs2ReadDataIn;
     //And
     wire [`DataBus] Rs1ReadDataAndRs2ReadData = Rs1ReadDataIn & Rs2ReadDataIn;
     //Andi

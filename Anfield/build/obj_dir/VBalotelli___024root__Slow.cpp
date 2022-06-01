@@ -79,6 +79,7 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list[1U] = 3U;
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__pair_list[0U] = 2U;
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__pair_list[1U] = 5U;
+    vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__pair_list[0U] = 7U;
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__pair_list[1U] = 0xcfU;
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpFlag_mux__DOT__i0__DOT__pair_list[2U] = 0xdfU;
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__pair_list[0U] = 0xa7U;
@@ -90,7 +91,7 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__pair_list[6U] = 0x67U;
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__pair_list[7U] = 0x27U;
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__pair_list[8U] = 0x46U;
-    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__pair_list[9U] = 7U;
+    vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__pair_list[9U] = 6U;
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__pair_list[0xaU] = 0xc6U;
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__pair_list[0xbU] = 0xcfU;
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__pair_list[0xcU] = 0xdfU;
@@ -649,7 +650,7 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
            >> (IData)(vlSelf->Balotelli__DOT__Shamt_ExIn));
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataSubRs2ReadData 
         = (vlSelf->Balotelli__DOT__Rs1ReadData_ExIn 
-           - vlSelf->Balotelli__DOT__Rs2ReadData_ExIn);
+           + vlSelf->Balotelli__DOT__Rs2ReadData_ExIn);
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Rs1ReadDataAddRs2ReadData 
         = (vlSelf->Balotelli__DOT__Rs1ReadData_ExIn 
            + vlSelf->Balotelli__DOT__Rs2ReadData_ExIn);
@@ -1178,6 +1179,18 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__key_list[1U] 
         = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__pair_list
                      [1U] >> 2U));
+    vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__data_list[0U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__pair_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__pair_list
+                    [0U] >> 1U));
+    vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__data_list[0U] 
+        = (1U & vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__pair_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__key_list[0U] 
+        = (0x7fU & (vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__pair_list
+                    [0U] >> 1U));
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__data_list[0U] 
         = (1U & vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__pair_list
            [0U]);
@@ -2525,72 +2538,77 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdAddrOut__DOT__i0__DOT__pair_list[0xeU] 
         = (0xfffU & (vlSelf->Balotelli__DOT__Balotelli_Id__DOT____Vcellinp__Id_RdAddrOut____pinNumber4[5U] 
                      >> 8U));
-    __Vtemp208[4U] = ((0x3ffffU & ((IData)((((- (QData)((IData)(
-                                                                (1U 
-                                                                 & (IData)(
-                                                                           (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                            >> 0x13U)))))) 
-                                             << 0x14U) 
+    __Vtemp208[4U] = ((0x3ffffU & ((IData)((((QData)((IData)(
+                                                             (- (IData)(
+                                                                        (1U 
+                                                                         & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 0x13U))))))) 
+                                             << 0x20U) 
                                             | (QData)((IData)(
-                                                              (0xfffffU 
-                                                               & (IData)(
-                                                                         (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                          >> 0xcU))))))) 
+                                                              ((IData)(
+                                                                       (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                        >> 0xcU)) 
+                                                               << 0xcU))))) 
                                    >> 7U)) | ((0x1fc0000U 
                                                & ((IData)(
-                                                          (((- (QData)((IData)(
-                                                                               (1U 
-                                                                                & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 0x13U)))))) 
-                                                            << 0x14U) 
-                                                           | (QData)((IData)(
-                                                                             (0xfffffU 
-                                                                              & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 0xcU))))))) 
-                                                  >> 7U)) 
-                                              | ((IData)(
-                                                         ((((- (QData)((IData)(
-                                                                               (1U 
-                                                                                & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 0x13U)))))) 
-                                                            << 0x14U) 
-                                                           | (QData)((IData)(
-                                                                             (0xfffffU 
-                                                                              & (IData)(
-                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 0xcU)))))) 
-                                                          >> 0x20U)) 
-                                                 << 0x19U)));
-    __Vtemp208[5U] = (0x6e000000U | ((0x3ffffU & ((IData)(
-                                                          ((((- (QData)((IData)(
+                                                          (((QData)((IData)(
+                                                                            (- (IData)(
                                                                                 (1U 
                                                                                 & (IData)(
                                                                                 (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 0x13U)))))) 
-                                                             << 0x14U) 
-                                                            | (QData)((IData)(
-                                                                              (0xfffffU 
-                                                                               & (IData)(
+                                                                                >> 0x13U))))))) 
+                                                            << 0x20U) 
+                                                           | (QData)((IData)(
+                                                                             ((IData)(
                                                                                 (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 0xcU)))))) 
+                                                                                >> 0xcU)) 
+                                                                              << 0xcU))))) 
+                                                  >> 7U)) 
+                                              | ((IData)(
+                                                         ((((QData)((IData)(
+                                                                            (- (IData)(
+                                                                                (1U 
+                                                                                & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 0x13U))))))) 
+                                                            << 0x20U) 
+                                                           | (QData)((IData)(
+                                                                             ((IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 0xcU)) 
+                                                                              << 0xcU)))) 
+                                                          >> 0x20U)) 
+                                                 << 0x19U)));
+    __Vtemp208[5U] = (0x6e000000U | ((0x3ffffU & ((IData)(
+                                                          ((((QData)((IData)(
+                                                                             (- (IData)(
+                                                                                (1U 
+                                                                                & (IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 0x13U))))))) 
+                                                             << 0x20U) 
+                                                            | (QData)((IData)(
+                                                                              ((IData)(
+                                                                                (vlSelf->Balotelli__DOT__Inst_IdIn 
+                                                                                >> 0xcU)) 
+                                                                               << 0xcU)))) 
                                                            >> 0x20U)) 
                                                   >> 7U)) 
                                      | (0x1fc0000U 
                                         & ((IData)(
-                                                   ((((- (QData)((IData)(
-                                                                         (1U 
-                                                                          & (IData)(
+                                                   ((((QData)((IData)(
+                                                                      (- (IData)(
+                                                                                (1U 
+                                                                                & (IData)(
                                                                                 (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 0x13U)))))) 
-                                                      << 0x14U) 
+                                                                                >> 0x13U))))))) 
+                                                      << 0x20U) 
                                                      | (QData)((IData)(
-                                                                       (0xfffffU 
-                                                                        & (IData)(
+                                                                       ((IData)(
                                                                                 (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 0xcU)))))) 
+                                                                                >> 0xcU)) 
+                                                                        << 0xcU)))) 
                                                     >> 0x20U)) 
                                            >> 7U))));
     __Vtemp209[2U] = (((0xfffc000U & ((IData)((((- (QData)((IData)(
@@ -2664,17 +2682,18 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
                                                  >> 0x20U)) 
                                         << 0xeU)));
     __Vtemp209[4U] = (0x5c000U | (((0xfe00000U & ((IData)(
-                                                          (((- (QData)((IData)(
-                                                                               (1U 
+                                                          (((QData)((IData)(
+                                                                            (- (IData)(
+                                                                                (1U 
                                                                                 & (IData)(
                                                                                 (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 0x13U)))))) 
-                                                            << 0x14U) 
+                                                                                >> 0x13U))))))) 
+                                                            << 0x20U) 
                                                            | (QData)((IData)(
-                                                                             (0xfffffU 
-                                                                              & (IData)(
+                                                                             ((IData)(
                                                                                 (vlSelf->Balotelli__DOT__Inst_IdIn 
-                                                                                >> 0xcU))))))) 
+                                                                                >> 0xcU)) 
+                                                                              << 0xcU))))) 
                                                   << 0x15U)) 
                                    | ((IData)(((((- (QData)((IData)(
                                                                     (1U 
@@ -3740,6 +3759,19 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
         = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__hit)
             ? (IData)(vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__Funct_Environment__DOT__i0__DOT__lut_out)
             : 0U);
+    vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__lut_out 
+        = (((IData)(vlSelf->Balotelli__DOT__OpCode_MemIn) 
+            == vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__key_list
+            [0U]) & vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__OpCode_MemIn) 
+           == vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__RdWriteEnable_MemOut = 
+        ((IData)(vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__hit)
+          ? (IData)(vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__lut_out)
+          : (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_MemIn));
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__lut_out 
         = (((0x7fU & (IData)(vlSelf->Balotelli__DOT__Inst_IdIn)) 
             == vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_RdWriteEnable__DOT__i0__DOT__key_list
@@ -6922,26 +6954,32 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
                                           ? vlSelf->Balotelli__DOT__Balotelli_Id__DOT__Id_Imm__DOT__i0__DOT__lut_out
                                           : 0ULL);
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA 
-        = ((((IData)(vlSelf->Balotelli__DOT__RdAddr_ExIn) 
-             == (IData)(vlSelf->Balotelli__DOT__Rs1Addr_IdOut)) 
-            & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_ExIn))
-            ? 4U : ((((IData)(vlSelf->Balotelli__DOT__RdAddr_MemIn) 
-                      == (IData)(vlSelf->Balotelli__DOT__Rs1Addr_IdOut)) 
-                     & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_MemIn))
-                     ? 2U : ((((IData)(vlSelf->Balotelli__DOT__RdAddr_RegFileIn) 
-                               == (IData)(vlSelf->Balotelli__DOT__Rs1Addr_IdOut)) 
-                              & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_RegFileIn))
+        = (((((IData)(vlSelf->Balotelli__DOT__RdAddr_ExIn) 
+              == (IData)(vlSelf->Balotelli__DOT__Rs1Addr_IdOut)) 
+             & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_ExIn)) 
+            & (IData)(vlSelf->Balotelli__DOT__Rs1ReadEnable_IdOut))
+            ? 4U : (((((IData)(vlSelf->Balotelli__DOT__RdAddr_MemIn) 
+                       == (IData)(vlSelf->Balotelli__DOT__Rs1Addr_IdOut)) 
+                      & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_MemOut)) 
+                     & (IData)(vlSelf->Balotelli__DOT__Rs1ReadEnable_IdOut))
+                     ? 2U : (((((IData)(vlSelf->Balotelli__DOT__RdAddr_RegFileIn) 
+                                == (IData)(vlSelf->Balotelli__DOT__Rs1Addr_IdOut)) 
+                               & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_RegFileIn)) 
+                              & (IData)(vlSelf->Balotelli__DOT__Rs1ReadEnable_IdOut))
                               ? 1U : 0U)));
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB 
-        = ((((IData)(vlSelf->Balotelli__DOT__RdAddr_ExIn) 
-             == (IData)(vlSelf->Balotelli__DOT__Rs2Addr_IdOut)) 
-            & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_ExIn))
-            ? 4U : ((((IData)(vlSelf->Balotelli__DOT__RdAddr_MemIn) 
-                      == (IData)(vlSelf->Balotelli__DOT__Rs2Addr_IdOut)) 
-                     & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_MemIn))
-                     ? 2U : ((((IData)(vlSelf->Balotelli__DOT__RdAddr_RegFileIn) 
-                               == (IData)(vlSelf->Balotelli__DOT__Rs2Addr_IdOut)) 
-                              & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_RegFileIn))
+        = (((((IData)(vlSelf->Balotelli__DOT__RdAddr_ExIn) 
+              == (IData)(vlSelf->Balotelli__DOT__Rs2Addr_IdOut)) 
+             & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_ExIn)) 
+            & (IData)(vlSelf->Balotelli__DOT__Rs2ReadEnable_IdOut))
+            ? 4U : (((((IData)(vlSelf->Balotelli__DOT__RdAddr_MemIn) 
+                       == (IData)(vlSelf->Balotelli__DOT__Rs2Addr_IdOut)) 
+                      & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_MemOut)) 
+                     & (IData)(vlSelf->Balotelli__DOT__Rs2ReadEnable_IdOut))
+                     ? 2U : (((((IData)(vlSelf->Balotelli__DOT__RdAddr_RegFileIn) 
+                                == (IData)(vlSelf->Balotelli__DOT__Rs2Addr_IdOut)) 
+                               & (IData)(vlSelf->Balotelli__DOT__RdWriteEnable_RegFileIn)) 
+                              & (IData)(vlSelf->Balotelli__DOT__Rs2ReadEnable_IdOut))
                               ? 1U : 0U)));
     vlSelf->Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__pair_list[0U] 
         = (0xa0U | (IData)(vlSelf->Balotelli__DOT__Rs2Addr_IdOut));
@@ -8246,15 +8284,15 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
         = (IData)((vlSelf->Balotelli__DOT__RdWriteData_ExOut 
                    >> 0x20U));
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[2U] 
-        = (4U | ((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemIn) 
+        = (4U | ((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemOut) 
                  << 3U));
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[3U] 
-        = (((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemIn) 
-            >> 0x1dU) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemIn 
+        = (((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemOut) 
+            >> 0x1dU) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemOut 
                                   >> 0x20U)) << 3U));
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[4U] 
         = (0x10U | (((IData)(vlSelf->Balotelli__DOT__RdWriteData_RegFileIn) 
-                     << 6U) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemIn 
+                     << 6U) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemOut 
                                         >> 0x20U)) 
                                >> 0x1dU)));
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[5U] 
@@ -8282,15 +8320,15 @@ void VBalotelli___024root___settle__TOP__1(VBalotelli___024root* vlSelf) {
         = (IData)((vlSelf->Balotelli__DOT__RdWriteData_ExOut 
                    >> 0x20U));
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[2U] 
-        = (4U | ((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemIn) 
+        = (4U | ((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemOut) 
                  << 3U));
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[3U] 
-        = (((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemIn) 
-            >> 0x1dU) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemIn 
+        = (((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemOut) 
+            >> 0x1dU) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemOut 
                                   >> 0x20U)) << 3U));
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[4U] 
         = (0x10U | (((IData)(vlSelf->Balotelli__DOT__RdWriteData_RegFileIn) 
-                     << 6U) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemIn 
+                     << 6U) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemOut 
                                         >> 0x20U)) 
                                >> 0x1dU)));
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[5U] 

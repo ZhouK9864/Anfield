@@ -102,6 +102,7 @@ void VBalotelli___024root___ctor_var_reset(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__RdAddr_MemIn = 0;
     vlSelf->Balotelli__DOT__RdWriteEnable_MemIn = 0;
     vlSelf->Balotelli__DOT__RdWriteData_MemOut = 0;
+    vlSelf->Balotelli__DOT__RdWriteEnable_MemOut = 0;
     vlSelf->Balotelli__DOT__Rs1ReadData_FwuIn = 0;
     vlSelf->Balotelli__DOT__Rs2ReadData_FwuIn = 0;
     vlSelf->Balotelli__DOT__Rs1Addr_FwuIn = 0;
@@ -656,6 +657,17 @@ void VBalotelli___024root___ctor_var_reset(VBalotelli___024root* vlSelf) {
     }
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__StoreTypeMask_mux__DOT__i0__DOT__lut_out = 0;
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__StoreTypeMask_mux__DOT__i0__DOT__hit = 0;
+    for (int __Vi0=0; __Vi0<1; ++__Vi0) {
+        vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__pair_list[__Vi0] = 0;
+    }
+    for (int __Vi0=0; __Vi0<1; ++__Vi0) {
+        vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__key_list[__Vi0] = 0;
+    }
+    for (int __Vi0=0; __Vi0<1; ++__Vi0) {
+        vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__data_list[__Vi0] = 0;
+    }
+    vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__lut_out = 0;
+    vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__hit = 0;
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA = 0;
     VL_ZERO_RESET_W(268, vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4);
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB = 0;

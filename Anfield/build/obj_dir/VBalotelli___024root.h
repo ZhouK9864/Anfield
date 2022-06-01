@@ -55,6 +55,7 @@ VL_MODULE(VBalotelli___024root) {
         CData/*2:0*/ Balotelli__DOT__Funct3_MemIn;
         CData/*4:0*/ Balotelli__DOT__RdAddr_MemIn;
         CData/*0:0*/ Balotelli__DOT__RdWriteEnable_MemIn;
+        CData/*0:0*/ Balotelli__DOT__RdWriteEnable_MemOut;
         CData/*4:0*/ Balotelli__DOT__Rs1Addr_FwuIn;
         CData/*4:0*/ Balotelli__DOT__Rs2Addr_FwuIn;
         CData/*0:0*/ Balotelli__DOT__Rs1ReadEnable_FwuIn;
@@ -97,9 +98,9 @@ VL_MODULE(VBalotelli___024root) {
         CData/*0:0*/ Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_Type__DOT__i0__DOT__hit;
         CData/*0:0*/ Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Right_mux__DOT__i0__DOT__hit;
         CData/*0:0*/ Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV32_Left_mux__DOT__i0__DOT__hit;
-        CData/*0:0*/ Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__hit;
     };
     struct {
+        CData/*0:0*/ Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV32_R_Type__DOT__i0__DOT__hit;
         CData/*0:0*/ Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_Zero__DOT__i0__DOT__hit;
         CData/*0:0*/ Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_R_Type_One__DOT__i0__DOT__hit;
         CData/*0:0*/ Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV64_I_Type__DOT__i0__DOT__hit;
@@ -129,6 +130,8 @@ VL_MODULE(VBalotelli___024root) {
         CData/*0:0*/ Balotelli__DOT__Balotelli_Mem__DOT__MemMask_mux__DOT__i0__DOT__hit;
         CData/*3:0*/ Balotelli__DOT__Balotelli_Mem__DOT__StoreTypeMask_mux__DOT__i0__DOT__lut_out;
         CData/*0:0*/ Balotelli__DOT__Balotelli_Mem__DOT__StoreTypeMask_mux__DOT__i0__DOT__hit;
+        CData/*0:0*/ Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__lut_out;
+        CData/*0:0*/ Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__hit;
         CData/*2:0*/ Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA;
         CData/*2:0*/ Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB;
         CData/*0:0*/ Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__hit;
@@ -161,11 +164,11 @@ VL_MODULE(VBalotelli___024root) {
         QData/*63:0*/ Balotelli__DOT__RdWriteData_MemOut;
         QData/*63:0*/ Balotelli__DOT__Rs1ReadData_FwuIn;
         QData/*63:0*/ Balotelli__DOT__Rs2ReadData_FwuIn;
+    };
+    struct {
         QData/*63:0*/ Balotelli__DOT__Rs1ReadData_FwuOut;
         QData/*63:0*/ Balotelli__DOT__Rs2ReadData_FwuOut;
         QData/*63:0*/ Balotelli__DOT__JumpAddr_ExOut;
-    };
-    struct {
         QData/*63:0*/ Balotelli__DOT__Balotelli_Pc__DOT__PcIn;
         QData/*63:0*/ Balotelli__DOT__Balotelli_Id__DOT__Id_Imm__DOT__i0__DOT__lut_out;
         QData/*63:0*/ Balotelli__DOT__Balotelli_Ex__DOT__Funct3_RV32_I_TypeOut;
@@ -227,11 +230,11 @@ VL_MODULE(VBalotelli___024root) {
         VlUnpacked<CData/*2:0*/, 2> Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__key_list;
         VlUnpacked<CData/*4:0*/, 2> Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_00_mux__DOT__i0__DOT__data_list;
         VlUnpacked<CData/*7:0*/, 1> Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__pair_list;
+    };
+    struct {
         VlUnpacked<CData/*2:0*/, 1> Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__key_list;
         VlUnpacked<CData/*4:0*/, 1> Balotelli__DOT__Balotelli_Id__DOT__ShamtFunct3_01_mux__DOT__i0__DOT__data_list;
         VlUnpacked<CData/*7:0*/, 15> Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__pair_list;
-    };
-    struct {
         VlUnpacked<CData/*6:0*/, 15> Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__key_list;
         VlUnpacked<CData/*0:0*/, 15> Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1ReadEnable_mux__DOT__i0__DOT__data_list;
         VlUnpacked<SData/*11:0*/, 15> Balotelli__DOT__Balotelli_Id__DOT__Id_Rs1AddrOut__DOT__i0__DOT__pair_list;
@@ -293,11 +296,11 @@ VL_MODULE(VBalotelli___024root) {
         VlUnpacked<VlWide<3>/*70:0*/, 2> Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__pair_list;
         VlUnpacked<CData/*6:0*/, 2> Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__key_list;
         VlUnpacked<QData/*63:0*/, 2> Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Right_mux__DOT__i0__DOT__data_list;
+    };
+    struct {
         VlUnpacked<VlWide<3>/*70:0*/, 1> Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__pair_list;
         VlUnpacked<CData/*6:0*/, 1> Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__key_list;
         VlUnpacked<QData/*63:0*/, 1> Balotelli__DOT__Balotelli_Ex__DOT__Shift_RV64_Left_mux__DOT__i0__DOT__data_list;
-    };
-    struct {
         VlUnpacked<VlWide<3>/*70:0*/, 2> Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__pair_list;
         VlUnpacked<CData/*6:0*/, 2> Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__key_list;
         VlUnpacked<QData/*63:0*/, 2> Balotelli__DOT__Balotelli_Ex__DOT__Funct7_RV64_R_Type__DOT__i0__DOT__data_list;
@@ -352,10 +355,15 @@ VL_MODULE(VBalotelli___024root) {
         VlUnpacked<CData/*6:0*/, 4> Balotelli__DOT__Balotelli_Mem__DOT__StoreTypeMask_mux__DOT__i0__DOT__pair_list;
         VlUnpacked<CData/*2:0*/, 4> Balotelli__DOT__Balotelli_Mem__DOT__StoreTypeMask_mux__DOT__i0__DOT__key_list;
         VlUnpacked<CData/*3:0*/, 4> Balotelli__DOT__Balotelli_Mem__DOT__StoreTypeMask_mux__DOT__i0__DOT__data_list;
+        VlUnpacked<CData/*7:0*/, 1> Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__pair_list;
+        VlUnpacked<CData/*6:0*/, 1> Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__key_list;
+        VlUnpacked<CData/*0:0*/, 1> Balotelli__DOT__Balotelli_Mem__DOT__RdWriteEnable_mux__DOT__i0__DOT__data_list;
         VlUnpacked<VlWide<3>/*66:0*/, 4> Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list;
         VlUnpacked<CData/*2:0*/, 4> Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list;
         VlUnpacked<QData/*63:0*/, 4> Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__data_list;
         VlUnpacked<VlWide<3>/*66:0*/, 4> Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list;
+    };
+    struct {
         VlUnpacked<CData/*2:0*/, 4> Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list;
         VlUnpacked<QData/*63:0*/, 4> Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__data_list;
         VlUnpacked<CData/*1:0*/, 2> Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list;

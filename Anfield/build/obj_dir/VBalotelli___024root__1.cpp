@@ -12,10 +12,12 @@ VL_INLINE_OPT void VBalotelli___024root___combo__TOP__3(VBalotelli___024root* vl
     VBalotelli__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VBalotelli___024root___combo__TOP__3\n"); );
     // Variables
-    VlWide<7>/*223:0*/ __Vtemp1991;
-    VlWide<15>/*479:0*/ __Vtemp1998;
+    VlWide<7>/*223:0*/ __Vtemp1925;
+    VlWide<15>/*479:0*/ __Vtemp1932;
+    VlWide<3>/*95:0*/ __Vtemp1983;
+    VlWide<3>/*95:0*/ __Vtemp1990;
     // Body
-    __Vtemp1991[3U] = ((7U & ((IData)((((QData)((IData)(
+    __Vtemp1925[3U] = ((7U & ((IData)((((QData)((IData)(
                                                         (- (IData)(
                                                                    (1U 
                                                                     & (IData)(
@@ -44,7 +46,7 @@ VL_INLINE_OPT void VBalotelli___024root___combo__TOP__3(VBalotelli___024root* vl
                                                          | (QData)((IData)(vlSelf->MemDataIn))) 
                                                         >> 0x20U)) 
                                                << 6U)));
-    __Vtemp1991[4U] = (0x80U | ((7U & ((IData)(((((QData)((IData)(
+    __Vtemp1925[4U] = (0x80U | ((7U & ((IData)(((((QData)((IData)(
                                                                   (- (IData)(
                                                                              (1U 
                                                                               & (IData)(
@@ -67,7 +69,7 @@ VL_INLINE_OPT void VBalotelli___024root___combo__TOP__3(VBalotelli___024root* vl
                                                        | (QData)((IData)(vlSelf->MemDataIn))) 
                                                       >> 0x20U)) 
                                              >> 0x1aU)))));
-    __Vtemp1991[5U] = ((7U & ((IData)(vlSelf->MemDataIn) 
+    __Vtemp1925[5U] = ((7U & ((IData)(vlSelf->MemDataIn) 
                               >> 0x17U)) | ((0x38U 
                                              & ((IData)(vlSelf->MemDataIn) 
                                                 >> 0x17U)) 
@@ -78,7 +80,7 @@ VL_INLINE_OPT void VBalotelli___024root___combo__TOP__3(VBalotelli___024root* vl
                                                           (vlSelf->MemDataIn 
                                                            >> 0x20U)) 
                                                   << 9U))));
-    __Vtemp1998[9U] = ((0x1ffU & ((IData)((((- (QData)((IData)(
+    __Vtemp1932[9U] = ((0x1ffU & ((IData)((((- (QData)((IData)(
                                                                (1U 
                                                                 & (IData)(
                                                                           (vlSelf->MemDataIn 
@@ -111,7 +113,7 @@ VL_INLINE_OPT void VBalotelli___024root___combo__TOP__3(VBalotelli___024root* vl
                                                                                 & (IData)(vlSelf->MemDataIn))))) 
                                                             >> 0x20U)) 
                                                    << 0xcU)));
-    __Vtemp1998[0xaU] = (0x1000U | ((0x1ffU & ((IData)(
+    __Vtemp1932[0xaU] = (0x1000U | ((0x1ffU & ((IData)(
                                                        ((((- (QData)((IData)(
                                                                              (1U 
                                                                               & (IData)(
@@ -144,7 +146,7 @@ VL_INLINE_OPT void VBalotelli___024root___combo__TOP__3(VBalotelli___024root* vl
                                                                                & (IData)(vlSelf->MemDataIn))))) 
                                                            >> 0x20U)) 
                                                   >> 0x14U)))));
-    __Vtemp1998[0xeU] = (0xc0000U | ((__Vtemp1991[5U] 
+    __Vtemp1932[0xeU] = (0xc0000U | ((__Vtemp1925[5U] 
                                       >> 0x17U) | (
                                                    (0xe00U 
                                                     & ((IData)(
@@ -232,9 +234,9 @@ VL_INLINE_OPT void VBalotelli___024root___combo__TOP__3(VBalotelli___024root* vl
                                                              & (IData)(vlSelf->MemDataIn))))) 
                                  >> 0x20U)) >> 0x17U));
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT____Vcellinp__MemTypeData_mux____pinNumber4[9U] 
-        = __Vtemp1998[9U];
+        = __Vtemp1932[9U];
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT____Vcellinp__MemTypeData_mux____pinNumber4[0xaU] 
-        = __Vtemp1998[0xaU];
+        = __Vtemp1932[0xaU];
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT____Vcellinp__MemTypeData_mux____pinNumber4[0xbU] 
         = ((0x1ffU & ((IData)((((QData)((IData)((- (IData)(
                                                            (1U 
@@ -242,16 +244,16 @@ VL_INLINE_OPT void VBalotelli___024root___combo__TOP__3(VBalotelli___024root* vl
                                                                       (vlSelf->MemDataIn 
                                                                        >> 0x1fU))))))) 
                                 << 0x20U) | (QData)((IData)(vlSelf->MemDataIn)))) 
-                      >> 0x11U)) | (__Vtemp1991[3U] 
+                      >> 0x11U)) | (__Vtemp1925[3U] 
                                     << 9U));
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT____Vcellinp__MemTypeData_mux____pinNumber4[0xcU] 
-        = ((__Vtemp1991[3U] >> 0x17U) | (__Vtemp1991[4U] 
+        = ((__Vtemp1925[3U] >> 0x17U) | (__Vtemp1925[4U] 
                                          << 9U));
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT____Vcellinp__MemTypeData_mux____pinNumber4[0xdU] 
-        = ((__Vtemp1991[4U] >> 0x17U) | (__Vtemp1991[5U] 
+        = ((__Vtemp1925[4U] >> 0x17U) | (__Vtemp1925[5U] 
                                          << 9U));
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT____Vcellinp__MemTypeData_mux____pinNumber4[0xeU] 
-        = __Vtemp1998[0xeU];
+        = __Vtemp1932[0xeU];
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__MemTypeData_mux__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->Balotelli__DOT__Balotelli_Mem__DOT____Vcellinp__MemTypeData_mux____pinNumber4[0U];
     vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__MemTypeData_mux__DOT__i0__DOT__pair_list[0U][1U] 
@@ -485,6 +487,310 @@ VL_INLINE_OPT void VBalotelli___024root___combo__TOP__3(VBalotelli___024root* vl
     vlSelf->Balotelli__DOT__RdWriteData_MemOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteData_mux__DOT__i0__DOT__hit)
                                                    ? vlSelf->Balotelli__DOT__Balotelli_Mem__DOT__RdWriteData_mux__DOT__i0__DOT__lut_out
                                                    : vlSelf->Balotelli__DOT__RdWriteData_MemIn);
+    VL_EXTEND_WQ(67,64, __Vtemp1983, ((IData)(vlSelf->Balotelli__DOT__Rs1ReadEnable_IdOut)
+                                       ? vlSelf->Balotelli__DOT__Balotelli_RegFile__DOT__rf
+                                      [vlSelf->Balotelli__DOT__Rs1Addr_IdOut]
+                                       : 0ULL));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[0U] 
+        = (IData)(vlSelf->Balotelli__DOT__RdWriteData_ExOut);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[1U] 
+        = (IData)((vlSelf->Balotelli__DOT__RdWriteData_ExOut 
+                   >> 0x20U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[2U] 
+        = (4U | ((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemOut) 
+                 << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[3U] 
+        = (((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemOut) 
+            >> 0x1dU) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemOut 
+                                  >> 0x20U)) << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[4U] 
+        = (0x10U | (((IData)(vlSelf->Balotelli__DOT__RdWriteData_RegFileIn) 
+                     << 6U) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemOut 
+                                        >> 0x20U)) 
+                               >> 0x1dU)));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[5U] 
+        = (((IData)(vlSelf->Balotelli__DOT__RdWriteData_RegFileIn) 
+            >> 0x1aU) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_RegFileIn 
+                                  >> 0x20U)) << 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[6U] 
+        = (0x40U | ((__Vtemp1983[0U] << 9U) | ((IData)(
+                                                       (vlSelf->Balotelli__DOT__RdWriteData_RegFileIn 
+                                                        >> 0x20U)) 
+                                               >> 0x1aU)));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[7U] 
+        = ((__Vtemp1983[0U] >> 0x17U) | (__Vtemp1983[1U] 
+                                         << 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[8U] 
+        = ((__Vtemp1983[1U] >> 0x17U) | (__Vtemp1983[2U] 
+                                         << 9U));
+    VL_EXTEND_WQ(67,64, __Vtemp1990, ((IData)(vlSelf->Balotelli__DOT__Rs2ReadEnable_IdOut)
+                                       ? vlSelf->Balotelli__DOT__Balotelli_RegFile__DOT__rf
+                                      [vlSelf->Balotelli__DOT__Rs2Addr_IdOut]
+                                       : 0ULL));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[0U] 
+        = (IData)(vlSelf->Balotelli__DOT__RdWriteData_ExOut);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[1U] 
+        = (IData)((vlSelf->Balotelli__DOT__RdWriteData_ExOut 
+                   >> 0x20U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[2U] 
+        = (4U | ((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemOut) 
+                 << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[3U] 
+        = (((IData)(vlSelf->Balotelli__DOT__RdWriteData_MemOut) 
+            >> 0x1dU) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemOut 
+                                  >> 0x20U)) << 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[4U] 
+        = (0x10U | (((IData)(vlSelf->Balotelli__DOT__RdWriteData_RegFileIn) 
+                     << 6U) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_MemOut 
+                                        >> 0x20U)) 
+                               >> 0x1dU)));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[5U] 
+        = (((IData)(vlSelf->Balotelli__DOT__RdWriteData_RegFileIn) 
+            >> 0x1aU) | ((IData)((vlSelf->Balotelli__DOT__RdWriteData_RegFileIn 
+                                  >> 0x20U)) << 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[6U] 
+        = (0x40U | ((__Vtemp1990[0U] << 9U) | ((IData)(
+                                                       (vlSelf->Balotelli__DOT__RdWriteData_RegFileIn 
+                                                        >> 0x20U)) 
+                                               >> 0x1aU)));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[7U] 
+        = ((__Vtemp1990[0U] >> 0x17U) | (__Vtemp1990[1U] 
+                                         << 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[8U] 
+        = ((__Vtemp1990[1U] >> 0x17U) | (__Vtemp1990[2U] 
+                                         << 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[0U][0U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[0U];
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[0U][1U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[1U];
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[0U][2U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[1U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[3U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[2U] 
+                         >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[1U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[4U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[3U] 
+                         >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[1U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[4U] 
+                 >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[2U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[5U] 
+            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[4U] 
+                         >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[2U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[6U] 
+            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[5U] 
+                         >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[2U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[6U] 
+                 >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[3U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[7U] 
+            << 0x17U) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[6U] 
+                         >> 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[3U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[8U] 
+            << 0x17U) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[7U] 
+                         >> 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list[3U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardAChooseDataSource____pinNumber4[8U] 
+                 >> 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[0U][0U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[0U];
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[0U][1U] 
+        = vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[1U];
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[0U][2U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[1U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[3U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[2U] 
+                         >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[1U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[4U] 
+            << 0x1dU) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[3U] 
+                         >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[1U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[4U] 
+                 >> 3U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[2U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[5U] 
+            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[4U] 
+                         >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[2U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[6U] 
+            << 0x1aU) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[5U] 
+                         >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[2U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[6U] 
+                 >> 6U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[3U][0U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[7U] 
+            << 0x17U) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[6U] 
+                         >> 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[3U][1U] 
+        = ((vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[8U] 
+            << 0x17U) | (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[7U] 
+                         >> 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list[3U][2U] 
+        = (7U & (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT____Vcellinp__ForwardBChooseDataSource____pinNumber4[8U] 
+                 >> 9U));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+                            [0U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+                                                                   [0U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list[0U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+           [0U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__data_list[1U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+                            [1U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+                                                                   [1U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list[1U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+           [1U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__data_list[2U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+                            [2U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+                                                                   [2U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list[2U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+           [2U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__data_list[3U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+                            [3U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+                                                                   [3U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list[3U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__pair_list
+           [3U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__data_list[0U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+                            [0U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+                                                                   [0U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list[0U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+           [0U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__data_list[1U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+                            [1U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+                                                                   [1U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list[1U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+           [1U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__data_list[2U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+                            [2U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+                                                                   [2U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list[2U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+           [2U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__data_list[3U] 
+        = (((QData)((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+                            [3U][1U])) << 0x20U) | (QData)((IData)(
+                                                                   vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+                                                                   [3U][0U])));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list[3U] 
+        = (7U & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__pair_list
+           [3U][2U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__lut_out 
+        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA) 
+                               == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list
+                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA) 
+           == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list
+                                  [1U])))) & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA) 
+              == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list
+                                  [2U])))) & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__data_list
+              [2U]));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA) 
+              == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list
+              [2U]));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list
+                                  [3U])))) & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__data_list
+              [3U]));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardA) 
+              == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__key_list
+              [3U]));
+    vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__hit)
+                                                   ? vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardAChooseDataSource__DOT__i0__DOT__lut_out
+                                                   : 0ULL);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__lut_out 
+        = ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB) 
+                               == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list
+                               [0U])))) & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__data_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB) 
+           == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list
+           [0U]);
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list
+                                  [1U])))) & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__data_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB) 
+              == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list
+              [1U]));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list
+                                  [2U])))) & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__data_list
+              [2U]));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB) 
+              == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list
+              [2U]));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__lut_out 
+        = (vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__lut_out 
+           | ((- (QData)((IData)(((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB) 
+                                  == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list
+                                  [3U])))) & vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__data_list
+              [3U]));
+    vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__hit 
+        = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__hit) 
+           | ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardB) 
+              == vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__key_list
+              [3U]));
+    vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut = ((IData)(vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__hit)
+                                                   ? vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__lut_out
+                                                   : 0ULL);
 }
 
 void VBalotelli___024root___sequent__TOP__2(VBalotelli___024root* vlSelf);
