@@ -62,7 +62,7 @@ module Balotelli (
   wire [2:0] Funct3_ExOut;
   wire [`DataBus] Rs1ReadData_ExOut;
   wire [`DataBus] Rs2ReadData_ExOut;
-
+  wire HoldFlag_ExOut;
 
   //Mem In
   wire [`DataBus] Imm_MemIn;
@@ -94,14 +94,14 @@ module Balotelli (
   wire JumpFlag_PcIn;
   wire [`AddrBus] JumpAddr_ExOut;
   wire JumpFlag_ExOut;
-  wire HoldFlag;
+  wire [2:0] HoldFlag;
 
   Pc Balotelli_Pc (
     .Clk(Clk),
     .Rst(Rst),
     //Jump
     .JumpAddrFromCtrl(JumpAddr_PcIn),
-    .JumpFlagFromCtrl(JumpFlag_PcIn),
+    .HoldFlagFromCtrl(HoldFlag),
     .PcOut(PcOut)
   );
 
@@ -197,6 +197,7 @@ module Balotelli (
     .RdWriteDataOut(RdWriteData_ExOut),
     .RdAddrOut(RdAddr_ExOut),
     .RdWriteEnableOut(RdWriteEnable_ExOut),
+    .HoldFlagToCtrl(HoldFlag_ExOut),
     .JumpFlagToCtrl(JumpFlag_ExOut),
     .JumpAddrToCtrl(JumpAddr_ExOut),
     .ImmOut(Imm_ExOut),
@@ -259,6 +260,9 @@ module Balotelli (
   );
 
   Fwu Balotelli_Fwu (
+  `ifdef DebugMode
+    .PcAddr(InstAddr_IdOut),
+  `endif
     .RdWriteDataExIn(RdWriteData_ExOut),
     .RdAddrExIn(RdAddr_ExOut),
     .RdWriteEnableExIn(RdWriteEnable_ExOut),
@@ -279,10 +283,10 @@ module Balotelli (
   );
 
   Ctrl Balotelli_Ctrl (
+    .HoldFlagFromEx(HoldFlag_ExOut),
     .JumpFlagFromEx(JumpFlag_ExOut),
     .JumpAddrFromEx(JumpAddr_ExOut),
     .JumpAddrToPc(JumpAddr_PcIn),
-    .JumpFlagToPc(JumpFlag_PcIn),
     .HoldFlagOut(HoldFlag)
   );
 

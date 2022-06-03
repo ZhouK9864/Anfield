@@ -165,7 +165,8 @@ module Id (
     7'b0110111, InstIn[11:7],
     7'b0010111, InstIn[11:7],
     7'b1101111, InstIn[11:7],
-    7'b1100111, InstIn[11:7],
+    //Jalr rd默认1
+    7'b1100111, 5'b00001,
     7'b1100011, 5'b0,
     7'b0000011, InstIn[11:7],
     7'b0100011, 5'b0,
@@ -182,7 +183,7 @@ module Id (
 
   MuxKeyWithDefault #(15, 7, 64) Id_Imm (Imm, OpCode, 64'b0, {
     //??????????
-    7'b0110111, {{32{Imm_U_Type[19]}}, Imm_U_Type, {12{1'b0}}},
+    7'b0110111, {{44{Imm_U_Type[19]}}, Imm_U_Type},
     //??????????
     7'b0010111, {{44{Imm_U_Type[19]}}, Imm_U_Type},
     7'b1101111, {{43{Imm_J_Type[20]}}, Imm_J_Type, {1'b0}},

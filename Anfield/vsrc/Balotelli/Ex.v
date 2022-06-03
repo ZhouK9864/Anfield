@@ -14,7 +14,7 @@ module Ex (
   output [`RegFileAddr] RdAddrOut,
   output RdWriteEnableOut,
   //Jump
-  // output HoldFlagToCtrl,            
+  output HoldFlagToCtrl,            
   output JumpFlagToCtrl,                // 是否跳转标志
   output [`AddrBus] JumpAddrToCtrl,     // 跳转目的地址
   //Load or Store
@@ -84,7 +84,7 @@ module Ex (
     //Add
     wire [`DataBus] Rs1ReadDataAddRs2ReadData = Rs1ReadDataIn + Rs2ReadDataIn;
     //Sub
-    wire [`DataBus] Rs1ReadDataSubRs2ReadData = Rs1ReadDataIn + Rs2ReadDataIn;
+    wire [`DataBus] Rs1ReadDataSubRs2ReadData = Rs1ReadDataIn - Rs2ReadDataIn;
     //And
     wire [`DataBus] Rs1ReadDataAndRs2ReadData = Rs1ReadDataIn & Rs2ReadDataIn;
     //Andi
@@ -128,7 +128,7 @@ module Ex (
               ((Rs1ReadDataIn[63] == 1'b0) && (ImmIn[63] == 1'b1)) ? 64'b0 :
               (Rs1ReadDataAddRs2ReadData[63] == Rs1ReadDataIn[63]) ? 64'b1 : 64'b0),
       //Sltiu
-      3'b011, ((Rs1ReadDataSubRs2ReadData[63] == 1'b1) ? 64'b1 : 64'b0),
+      3'b011, ((Rs1ReadDataIn < ImmIn) ? 64'b1 : 64'b0),
       //Slli
       3'b001, Shift_RV32_Left,
       //Srli or srai
@@ -165,7 +165,7 @@ module Ex (
                 ((Rs1ReadDataIn[63] == 1'b0) && (Rs2ReadDataIn[63] == 1'b1)) ? 64'b0 :
                 (Rs1ReadDataAddRs2ReadData[63] == Rs1ReadDataIn[63]) ? 64'b1 : 64'b0),
         //Sltu
-        3'b011, ((Rs1ReadDataSubRs2ReadData[63] == 1'b1) ? 64'b1 : 64'b0),
+        3'b011, ((Rs1ReadDataIn < Rs1ReadDataIn) ? 64'b1 : 64'b0),
         //Sll
         3'b001, Rs1ReadDataSllRs2ReadData,
         //Srl
@@ -283,11 +283,11 @@ module Ex (
     //Bne
     3'b001, ((Rs1ReadDataIn != Rs2ReadDataIn) ? 1'b1 : 1'b0)
   });
-  //have not use
-  // MuxKeyWithDefault #(1, 7, 1) HoldFlag_mux (HoldFlagToCtrl, OpCodeIn, 1'b0, {
-  //   //Jar
-  //   7'b1101111, 1'b1
-  // });
+  
+  MuxKeyWithDefault #(1, 7, 1) HoldFlag_mux (HoldFlagToCtrl, OpCodeIn, 1'b0, {
+    //Load
+    7'b0000011, 1'b1
+  });
   
   MuxKeyWithDefault #(3, 7, 64) JumpAddr (JumpAddrToCtrl, OpCodeIn, 64'b0, {
     //Jar

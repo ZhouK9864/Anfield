@@ -1,6 +1,9 @@
 `include "./vsrc/defines.v"
 //Forwarding unit
 module Fwu (
+  `ifdef DebugMode
+    input [`AddrBus] PcAddr,
+  `endif
   input [`DataBus] RdWriteDataExIn,
   input [`RegFileAddr] RdAddrExIn,
   input RdWriteEnableExIn,

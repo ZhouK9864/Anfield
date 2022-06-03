@@ -93,6 +93,7 @@ void VBalotelli___024root___ctor_var_reset(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Funct3_ExOut = 0;
     vlSelf->Balotelli__DOT__Rs1ReadData_ExOut = 0;
     vlSelf->Balotelli__DOT__Rs2ReadData_ExOut = 0;
+    vlSelf->Balotelli__DOT__HoldFlag_ExOut = 0;
     vlSelf->Balotelli__DOT__Imm_MemIn = 0;
     vlSelf->Balotelli__DOT__OpCode_MemIn = 0;
     vlSelf->Balotelli__DOT__Funct3_MemIn = 0;
@@ -111,6 +112,7 @@ void VBalotelli___024root___ctor_var_reset(VBalotelli___024root* vlSelf) {
     vlSelf->Balotelli__DOT__Rs2ReadEnable_FwuIn = 0;
     vlSelf->Balotelli__DOT__Rs1ReadData_FwuOut = 0;
     vlSelf->Balotelli__DOT__Rs2ReadData_FwuOut = 0;
+    vlSelf->Balotelli__DOT__JumpFlag_PcIn = 0;
     vlSelf->Balotelli__DOT__JumpAddr_ExOut = 0;
     vlSelf->Balotelli__DOT__JumpFlag_ExOut = 0;
     vlSelf->Balotelli__DOT__HoldFlag = 0;
@@ -527,6 +529,17 @@ void VBalotelli___024root___ctor_var_reset(VBalotelli___024root* vlSelf) {
     }
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__lut_out = 0;
     vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__BranchFlag_mux__DOT__i0__DOT__hit = 0;
+    for (int __Vi0=0; __Vi0<1; ++__Vi0) {
+        vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list[__Vi0] = 0;
+    }
+    for (int __Vi0=0; __Vi0<1; ++__Vi0) {
+        vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__HoldFlag_mux__DOT__i0__DOT__key_list[__Vi0] = 0;
+    }
+    for (int __Vi0=0; __Vi0<1; ++__Vi0) {
+        vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__HoldFlag_mux__DOT__i0__DOT__data_list[__Vi0] = 0;
+    }
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__HoldFlag_mux__DOT__i0__DOT__lut_out = 0;
+    vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__HoldFlag_mux__DOT__i0__DOT__hit = 0;
     for (int __Vi0=0; __Vi0<3; ++__Vi0) {
         VL_ZERO_RESET_W(71, vlSelf->Balotelli__DOT__Balotelli_Ex__DOT__JumpAddr__DOT__i0__DOT__pair_list[__Vi0]);
     }
@@ -694,17 +707,6 @@ void VBalotelli___024root___ctor_var_reset(VBalotelli___024root* vlSelf) {
     }
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__lut_out = 0;
     vlSelf->Balotelli__DOT__Balotelli_Fwu__DOT__ForwardBChooseDataSource__DOT__i0__DOT__hit = 0;
-    for (int __Vi0=0; __Vi0<2; ++__Vi0) {
-        vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__pair_list[__Vi0] = 0;
-    }
-    for (int __Vi0=0; __Vi0<2; ++__Vi0) {
-        vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__key_list[__Vi0] = 0;
-    }
-    for (int __Vi0=0; __Vi0<2; ++__Vi0) {
-        vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__data_list[__Vi0] = 0;
-    }
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__lut_out = 0;
-    vlSelf->Balotelli__DOT__Balotelli_Ctrl__DOT__HoldFlag_mux__DOT__i0__DOT__hit = 0;
     for (int __Vi0=0; __Vi0<3; ++__Vi0) {
         vlSelf->__Vm_traceActivity[__Vi0] = 0;
     }
